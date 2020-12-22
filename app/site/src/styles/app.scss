@@ -1,7 +1,5 @@
-$font-size: 1rem;
-$font-color: lch(53 105 40);
+// default
+@import "./bootstrap/bootstrap.min.css";
 
-html {
-  font-size: $font-size;
-  color: $font-color;
+body {
 }

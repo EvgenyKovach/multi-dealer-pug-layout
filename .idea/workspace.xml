@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/styles/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/template/components/head.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/template/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CHERY/resources/api/static/dist/img/map_icon.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/../CHERY/resources/api/static/dist/img/map_icon.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CHERY/resources/api/static/src/img/map_icon.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/../CHERY/resources/api/static/src/img/map_icon.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/dist/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/layout/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +33,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="kovach" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -33,10 +50,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/site/src/template" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.files.pattern" value="{**/*,*}.{js,ts,jsx,tsx,vue, pug}" />
     <property name="prettier.import.notification.dismissed" value="true" />
@@ -44,6 +62,21 @@
     <property name="run.prettier.on.save" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\project\app\site\src\template" />
+      <recent name="C:\Projects\project\app\site\src\template\components" />
+      <recent name="C:\Projects\project\app\site\src" />
+      <recent name="C:\Projects\project\app\site" />
+      <recent name="C:\Projects\project\app\site\dist" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\project\app\site\src\template" />
+      <recent name="C:\Projects\project" />
+      <recent name="C:\Projects\project\app\site\src" />
+      <recent name="C:\Projects\project\app\site\src\styles\bootstrap" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,7 +90,8 @@
       <workItem from="1608197381770" duration="5786000" />
       <workItem from="1608270055464" duration="1196000" />
       <workItem from="1608274556144" duration="2080000" />
-      <workItem from="1608284022153" duration="229000" />
+      <workItem from="1608284022153" duration="3615000" />
+      <workItem from="1608523553680" duration="38772000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace">
       <created>1608284195775</created>
@@ -66,40 +100,63 @@
       <option name="project" value="LOCAL" />
       <updated>1608284195775</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change gitignore">
+      <created>1608284307648</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608284307648</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.pug" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="init workspace" />
+    <MESSAGE value="change gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="change gitignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="496" y="107" key="CommitChangelistDialog2" timestamp="1608284154421">
+    <state x="552" y="178" key="#Deployment" timestamp="1608529973773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="496" y="107" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608284154421" />
-    <state x="740" y="261" width="679" height="517" key="FileChooserDialogImpl" timestamp="1608182638048">
+    <state x="552" y="178" key="#Deployment/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608529973773" />
+    <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608637553720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" width="679" height="517" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608182638048" />
+    <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608637553720" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608523577747">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608523577747" />
+    <state x="496" y="107" key="CommitChangelistDialog2" timestamp="1608284306835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="496" y="107" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608284306835" />
+    <state x="740" y="261" width="679" height="517" key="FileChooserDialogImpl" timestamp="1608529902141">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" width="679" height="517" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608529902141" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1608200582835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608200582835" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608284208192">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608284386836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608284208192" />
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1608197411849">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608284386836" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1608547892347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608197411849" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608197415601">
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608547892347" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608547900584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608197415601" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608547900584" />
   </component>
 </project>
