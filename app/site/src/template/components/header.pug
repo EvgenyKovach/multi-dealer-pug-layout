@@ -1,0 +1,15 @@
+mixin header()
+  HEADER
+    .wrapper
+
+      .header-box
+        .container
+
+          +b.headerNav.row
+            +e.navItem.col-xl-4
+              +e.A.navLogo
+                +e.SVG
+                    +e.USE(xlink:href="../img/spritemap.svg#logo")
+
+            +e.navItem.col-xl-4
+            +e.navItem.col-xl-4

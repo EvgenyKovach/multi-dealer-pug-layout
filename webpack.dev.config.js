@@ -1,7 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const fs = require('fs');
 
@@ -14,7 +13,7 @@ const PAGES_DIR = `${PATHS.src}/template/`;
 const PAGES = fs.readdirSync(PAGES_DIR).filter(fileName => fileName.endsWith('.pug'));
 
 module.exports = {
-
+    mode: 'development',
     entry: {
         app: path.resolve(__dirname, './app/site/src/js/app.js'),
     },
@@ -43,7 +42,6 @@ module.exports = {
                 test: /\.(scss|css)$/,
                 use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader'],
             }, // CSS, PostCSS, Sass
-
         ],
     },
 
@@ -55,18 +53,10 @@ module.exports = {
     },
 
     plugins: [
-        new CleanWebpackPlugin(),
-
-        // new HtmlWebpackPlugin({
-        //     template: './app/site/dist/index.html',
-        // }),
-
         new MiniCssExtractPlugin({
             filename: './css/[name].css',
         }),
-
         new webpack.HotModuleReplacementPlugin(),
-
         ...PAGES.map(
             page =>
                 new HtmlWebpackPlugin({

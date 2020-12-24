@@ -2,11 +2,28 @@ include ../bemto/lib/index
 include footer
 include head
 
+include ../components/header
+
+-
+  set_bemto_settings({
+    element: '-',
+    modifier: '--',
+    output_element: '__',
+    output_modifier: '_'
+  })
+
+-
+  const pageOptions = {
+    title: '',
+  }
+
+block vars
+
 doctype html
 html(lang='ru')
-    +head()
-    body
-        .wrapper
-
-            block content
-            +footer()
+  +head()
+  body
+  .wrapper
+    +header()
+    block content
+    +footer()
