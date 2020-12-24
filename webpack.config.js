@@ -14,6 +14,7 @@ const PAGES_DIR = `${PATHS.src}/template/`;
 const PAGES = fs.readdirSync(PAGES_DIR).filter(fileName => fileName.endsWith('.pug'));
 
 module.exports = {
+
     entry: {
         app: path.resolve(__dirname, './app/site/src/js/app.js'),
     },
@@ -26,12 +27,7 @@ module.exports = {
         rules: [
             {
                 test: /\.pug$/,
-                oneOf: [
-                    // this applies to pug imports inside JavaScript
-                    {
-                        use: ['pug-loader'],
-                    },
-                ],
+                use: 'pug-loader',
             },
             // JavaScript
             {
@@ -43,11 +39,11 @@ module.exports = {
                 test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
                 type: 'asset/inline',
             },
-            // CSS, PostCSS, Sass
             {
                 test: /\.(scss|css)$/,
                 use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader'],
             }, // CSS, PostCSS, Sass
+
         ],
     },
 
@@ -75,7 +71,7 @@ module.exports = {
             page =>
                 new HtmlWebpackPlugin({
                     template: `${PAGES_DIR}/${page}`,
-                    filename: `./template/${page.replace(/\.pug/, '.html')}`,
+                    filename: `./templates/${page.replace(/\.pug/, '.html')}`,
                 })
         ),
     ],

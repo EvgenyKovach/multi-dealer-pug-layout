@@ -1,18 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/site/src/styles/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/template/components/head.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/template/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CHERY/resources/api/static/dist/img/map_icon.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/../CHERY/resources/api/static/dist/img/map_icon.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CHERY/resources/api/static/src/img/map_icon.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/../CHERY/resources/api/static/src/img/map_icon.PNG" afterDir="false" />
+    <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="change gitignore">
+      <change afterPath="$PROJECT_DIR$/app/site/src/styles/bootstrap/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/template/bemto/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/template/default/default.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/template/default/footer.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/template/default/head.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/template/default/header.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/dist/css/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/layout/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.postcss.config.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/bootstrap/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/bemto/bemto.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/bemto/bemto.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/bemto/lib/bemto_custom_tag.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/bemto/lib/bemto_custom_tag.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/bemto/lib/bemto_tag.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/bemto/lib/bemto_tag.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/bemto/lib/helpers.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/bemto/lib/helpers.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/bemto/lib/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/bemto/lib/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/bemto/lib/settings.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/bemto/lib/settings.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/bemto/lib/tag_metadata.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/bemto/lib/tag_metadata.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/bemto/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/bemto/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/1_basics.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/1_basics.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/2_attributes.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/2_attributes.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/3_context.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/3_context.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/4_settings.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/4_settings.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/4_settings_compat.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/4_settings_compat.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/5_complex.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/5_complex.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/6_block_layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/6_block_layout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/7_elblocks.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/7_elblocks.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/8_lists.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/8_lists.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/9_doctype.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/bemto/test/cases/9_doctype.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/bemto/test/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/bemto/test/run.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/head.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
@@ -41,6 +65,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/site/src/template/index.pug" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1llnw2ZTdGbYo5407hVFRZ2QyGC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -54,28 +81,29 @@
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/site/src/template" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/site/src/styles/bootstrap" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.files.pattern" value="{**/*,*}.{js,ts,jsx,tsx,vue, pug}" />
     <property name="prettier.import.notification.dismissed" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Projects\project\node_modules\prettier" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\project\app\site\src\styles\bootstrap" />
+      <recent name="C:\Projects\project\app\site\src\template\components" />
+      <recent name="C:\Projects\project\app\site\src\template\bemto" />
+      <recent name="C:\Projects\project\app\site\src\template" />
+      <recent name="C:\Projects\project" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projects\project\app\site\src\template" />
       <recent name="C:\Projects\project\app\site\src\template\components" />
       <recent name="C:\Projects\project\app\site\src" />
-      <recent name="C:\Projects\project\app\site" />
       <recent name="C:\Projects\project\app\site\dist" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Projects\project\app\site\src\template" />
-      <recent name="C:\Projects\project" />
-      <recent name="C:\Projects\project\app\site\src" />
-      <recent name="C:\Projects\project\app\site\src\styles\bootstrap" />
+      <recent name="C:\Projects\project\app\site\src\template\components\default" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -91,7 +119,8 @@
       <workItem from="1608270055464" duration="1196000" />
       <workItem from="1608274556144" duration="2080000" />
       <workItem from="1608284022153" duration="3615000" />
-      <workItem from="1608523553680" duration="38772000" />
+      <workItem from="1608523553680" duration="52002000" />
+      <workItem from="1608712763737" duration="19867000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace">
       <created>1608284195775</created>
@@ -126,6 +155,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Deployment/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608529973773" />
+    <state x="792" y="375" key="#Other_File_Types" timestamp="1608698064271">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="792" y="375" key="#Other_File_Types/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608698064271" />
     <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608637553720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -134,29 +167,49 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608523577747" />
-    <state x="496" y="107" key="CommitChangelistDialog2" timestamp="1608284306835">
+    <state x="496" y="107" key="CommitChangelistDialog2" timestamp="1608645293552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="496" y="107" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608284306835" />
-    <state x="740" y="261" width="679" height="517" key="FileChooserDialogImpl" timestamp="1608529902141">
+    <state x="496" y="107" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608645293552" />
+    <state x="740" y="261" width="679" height="517" key="FileChooserDialogImpl" timestamp="1608645308096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" width="679" height="517" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608529902141" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1608200582835">
+    <state x="740" y="261" width="679" height="517" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608645308096" />
+    <state width="938" height="243" key="GridCell.Tab.0.bottom" timestamp="1608785028221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608200582835" />
+    <state width="938" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608785028221" />
+    <state width="938" height="243" key="GridCell.Tab.0.center" timestamp="1608785028221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="243" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608785028221" />
+    <state width="938" height="243" key="GridCell.Tab.0.left" timestamp="1608785028221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="243" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608785028221" />
+    <state width="938" height="243" key="GridCell.Tab.0.right" timestamp="1608785028221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="243" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608785028221" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1608718719668">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608718719668" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608284386836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608284386836" />
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1608547892347">
+    <state x="561" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608727115340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608547892347" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608547900584">
+    <state x="561" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608727115340" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1608727567702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608547900584" />
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608727567702" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608706044308">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608706044308" />
   </component>
 </project>

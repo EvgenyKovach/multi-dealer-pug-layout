@@ -5,6 +5,131 @@
 //- This is a replacement for an interpolated tag,
 //- which is not possible due to Jade's wontfixed #659 and #660 bugs.
 
+-
+  var bemto_tag_metadata = {
+    'hr': {
+      'type': 'self_closing'
+    },
+    'br': {
+      'type': 'self_closing'
+    },
+    'wbr': {
+      'type': 'self_closing'
+    },
+    'source': {
+      'type': 'self_closing'
+    },
+    'img': {
+      'type': 'self_closing'
+    },
+    'input': {
+      'type': 'self_closing'
+    },
+    'a': {
+      'type': 'inline'
+    },
+    'abbr': {
+      'type': 'inline'
+    },
+    'acronym': {
+      'type': 'inline'
+    },
+    'b': {
+      'type': 'inline'
+    },
+    'code': {
+      'type': 'inline'
+    },
+    'em': {
+      'type': 'inline'
+    },
+    'font': {
+      'type': 'inline'
+    },
+    'i': {
+      'type': 'inline'
+    },
+    'ins': {
+      'type': 'inline'
+    },
+    'kbd': {
+      'type': 'inline'
+    },
+    'map': {
+      'type': 'inline'
+    },
+    'pre': {
+      'type': 'inline'
+    },
+    'samp': {
+      'type': 'inline'
+    },
+    'small': {
+      'type': 'inline'
+    },
+    'span': {
+      'type': 'inline'
+    },
+    'strong': {
+      'type': 'inline'
+    },
+    'sub': {
+      'type': 'inline'
+    },
+    'sup': {
+      'type': 'inline'
+    },
+    'textarea': {
+      'type': 'inline'
+    },
+    'time': {
+      'type': 'inline'
+    },
+    'label': {
+      'content_type': 'inline'
+    },
+    'p': {
+      'content_type': 'inline'
+    },
+    'h1': {
+      'content_type': 'inline'
+    },
+    'h2': {
+      'content_type': 'inline'
+    },
+    'h3': {
+      'content_type': 'inline'
+    },
+    'h4': {
+      'content_type': 'inline'
+    },
+    'h5': {
+      'content_type': 'inline'
+    },
+    'h6': {
+      'content_type': 'inline'
+    },
+    'ul': {
+      'content_type': 'list'
+    },
+    'ol': {
+      'content_type': 'list'
+    },
+    'select': {
+      'content_type': 'optionlist'
+    },
+    'datalist': {
+      'content_type': 'optionlist'
+    }
+  }
+
+  var get_bemto_tag_type = function(tagName) {
+    if (bemto_tag_metadata[tagName]) {
+      result = bemto_tag_metadata[tagName].type || result;
+    }
+    return result;
+  }
+
 mixin bemto_custom_inline_tag(customTag, self_closing)
   - self_closing = self_closing || false
   != '<'
@@ -25,6 +150,7 @@ mixin bemto_custom_inline_tag(customTag, self_closing)
     != '</'
     = customTag
     != '>'
+
 
 
 mixin bemto_custom_tag(customTag, tagMetadata)

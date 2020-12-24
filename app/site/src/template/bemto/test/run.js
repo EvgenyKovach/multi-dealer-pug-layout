@@ -21,6 +21,7 @@ cases.forEach(function(test){
     var str = fs.readFileSync(path, 'utf8');
     var html = fs.readFileSync('test/cases/' + test + '.html', 'utf8').trim().replace(/\r/g, '');
     var fn = pug.compile(str, { filename: path, pretty: true });
+    console.log(str);
     var actual = fn({ title: 'Pug' });
     actual.trim().should.equal(html);
   })
