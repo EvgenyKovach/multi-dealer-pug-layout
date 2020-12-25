@@ -1,1 +1,8 @@
-@import 'bootstrap/bootstrap';
+// default
+@import "default/vars";
+@import "default/mixins";
+@import "bootstrap/bootstrap";
+@import "default/default";
+@import "default/fonts";
+//components
+@import "components/header/header";

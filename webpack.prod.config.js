@@ -1,9 +1,10 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const SVGSpritemapPlugin = require('svg-spritemap-webpack-plugin');
+const RemovePlugin = require('remove-files-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 const fs = require('fs');
 
 const PATHS = {
@@ -22,6 +23,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, './app/site/dist'),
         filename: './js/[name].js',
+        publicPath: '',
     },
 
     module: {
@@ -37,31 +39,44 @@ module.exports = {
                 use: ['babel-loader'],
             },
             {
-                test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
-                type: 'asset/inline',
-            },
-            {
                 test: /\.(scss|css)$/,
                 use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader', 'sass-loader'],
             }, // CSS, PostCSS, Sass
+            {
+                test: /\.(pdf|jpg|png|gif|svg|ico)$/,
+                use: [
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            name: '[name].[ext]',
+                            outputPath: '/img', // file pack output path, is relative path for `dist`
+                            publicPath: '/img/', // css file will use, is absolute path for server
+                        },
+                    },
+                ],
+            },
         ],
     },
 
-    devServer: {
-        contentBase: path.join(__dirname, 'dist'),
-        port: 9000,
-        compress: true,
-        writeToDisk: true,
-    },
-
     plugins: [
-        new CleanWebpackPlugin(),
+        new CopyPlugin({
+            patterns: [
+                { from: './app/site/src/img', to: 'img' },
+                { from: './app/site/src/fonts', to: 'fonts' },
+            ],
+        }),
+
+        new RemovePlugin({
+            before: {
+                include: ['./app/site/dist'],
+            },
+        }),
         new SVGSpritemapPlugin({
             sprite: {
                 prefix: false,
             },
             output: {
-                filename: './img/spritemap.svg',
+                filename: '../src/img/spritemap.svg',
             },
         }),
 

@@ -1,15 +1,32 @@
 mixin header()
-  HEADER
-    .wrapper
+	HEADER
+		.wrapper
 
-      .header-box
-        .container
+			.header-box
+				.container
 
-          +b.headerNav.row
-            +e.navItem.col-xl-4
-              +e.A.navLogo
-                +e.SVG
-                    +e.USE(xlink:href="../img/spritemap.svg#logo")
+					+b.header.row
+						+e.item.col-lg-2
+							+e.A(href='/').logo
+								+e.SVG
+									+e.USE(xlink:href="../img/spritemap.svg#logo")
 
-            +e.navItem.col-xl-4
-            +e.navItem.col-xl-4
+						+e.item.col-lg-6
+							+b.menu
+								+e.A.item(href="#") Найти автомобиль
+								+e.A.item(href="#") Кредитные программы
+								+e.A.item(href="#") Обменять свой авто
+								+e.A.item(href="#") Контакты
+
+						+e.item.contactsInfo.col-lg-4
+							+b.headerInfo
+								+e.address
+									+e.addressIco
+										+e.SVG
+											+e.USE(xlink:href="../img/spritemap.svg#mapcounter")
+									+e.addressInfo
+										+e.dealerName DealerName
+										+e.dealerData Волгоград, ул. Жукова, д. 94
+								+e.itemPhone
+									+e.itemPhoneData +7 8442 20 06 37
+									+e.itemDealerOnline Сейчас открыто
