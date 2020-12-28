@@ -55,6 +55,14 @@ module.exports = {
                     },
                 ],
             },
+            {
+                test: /\.(eot|ttf|woff|woff2)$/,
+                use: [
+                    {
+                        loader: 'file-loader?name=./fonts/[name].[ext]',
+                    },
+                ],
+            },
         ],
     },
 
@@ -62,7 +70,7 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 { from: './app/site/src/img', to: 'img' },
-                { from: './app/site/src/fonts', to: 'fonts' },
+                { from: './app/site/src/fonts', to: 'css/fonts' },
             ],
         }),
 

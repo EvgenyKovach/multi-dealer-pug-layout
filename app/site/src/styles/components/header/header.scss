@@ -1,7 +1,47 @@
 .header {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 
   padding: 10px 0;
+
+
+  &__item:nth-child(1) {
+    width: calc(100% / 6);
+
+    @include below($desktop) {
+      padding-top: 15px;
+      width: 20%;
+    }
+  }
+
+  &__item:nth-child(2) {
+    width: calc(100% / 2);
+
+    @include below($desktop) {
+      padding-top: 15px;
+      width: 50%;
+
+      font-size: 14px;
+    }
+
+    @include below($notebook) {
+      width: 75%;
+    }
+
+    @include below($tablet) {
+      display: none;
+    }
+
+  }
+
+  &__item:nth-child(3) {
+    width: calc(100% / 4)
+  }
+
+  @include below($desktop) {
+    flex-wrap: wrap;
+  }
 
   &__logo svg {
     width: 150px;
@@ -12,18 +52,32 @@
     position: relative;
     margin-left: 90px;
 
+    @include below($desktop) {
+      margin-left: 0px;
+      order: -1;
+      width: 100%;
+      border-bottom: 1px solid #F2F4F6;
+      padding-bottom: 10px;
+    }
+
     &:before {
       position:absolute;
       content: "";
 
-      left: calc(60% + 8px);
+      left: calc(60%);
       top: 0;
       width: 1px;
       height: 90%;
 
       background: #F2F4F6;
+
+      @include below($desktop) {
+        display: none;
+      }
+
     }
   }
+
 }
 
 .menu {
@@ -48,12 +102,46 @@
   display: flex;
   justify-content: space-between;
 
+  @include below($desktop) {
+    justify-content: flex-start;
+  }
+
+  @include below($mobile) {
+    font-size: 12px;
+  }
+
+
   &__address {
     display: flex;
     align-items: center;
     position: relative;
 
     width: 60%;
+
+    cursor: default;
+
+    @include below($desktop) {
+      width: auto;
+      margin-right: 45px;
+    }
+
+    &:before {
+      position:absolute;
+      content: "";
+      display: none;
+
+      right: -25px;
+      top: 0;
+      width: 1px;
+      height: 90%;
+
+      background: #F2F4F6;
+
+      @include below($desktop) {
+        display: block;
+      }
+    }
+
   }
 
   &__addressIco {
@@ -63,6 +151,18 @@
       max-width: 23px;
       height: 24px;
     }
+    
+    @include below($mobileL) {
+      display: none;
+    }
+  }
+
+  &__dealerData {
+    font-size: 12px;
+
+    @include below($mobile) {
+      font-size: 10px;
+    }
   }
 
   &__dealerName {
@@ -70,5 +170,33 @@
     color: $mainColor;
   }
 
-}
+  &__phoneData {
+    font-weight: bold;
+    color: $mainColor;
 
+    white-space: nowrap;
+  }
+
+  &__dealerOnline {
+    position: relative;
+
+    cursor: default;
+    font-size: 12px;
+  }
+
+  .onlineCounter {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    width: 6px;
+    height: 6px;
+    transform: translateY(-50%);
+    background: #01a501;
+    border-radius: 50%;
+
+    @include below($mobile) {
+      right: -8px;
+    }
+  }
+
+}

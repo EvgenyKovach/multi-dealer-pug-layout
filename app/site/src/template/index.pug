@@ -1,6 +1,11 @@
 extends default/default
 
+include components/slider
+include components/brandsList
+
 block vars
-    -pageOptions.title ='Главнaя'
+	-pageOptions.title = 'Главнaя'
 
 block content
+	+slider()
+	+brandsList()

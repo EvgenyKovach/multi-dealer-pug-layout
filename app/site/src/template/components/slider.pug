@@ -1,0 +1,11 @@
+mixin slider()
+	+b.slider
+		+e.container.swiper-container
+			+e.swiperWrapper.swiper-wrapper
+				+e.swiperItem.swiper-slide
+					+e.PICTURE.swipper__picture
+						+e.SOURCE(srcset="../img/devImages/testSlide400.jpg" media="(max-width: 768px)")
+						+e.SOURCE(srcset="../img/devImages/testSlide1024.jpg" media="(max-width: 1024px)")
+						+e.IMG.img(src="../img/devImages/testSlide.jpg" srcset="../img/devImages/testSlide.jpg")
+			.swiper-button-prev
+			.swiper-button-next

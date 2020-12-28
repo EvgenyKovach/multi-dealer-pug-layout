@@ -1,32 +1,39 @@
 mixin header()
 	HEADER
-		.wrapper
 
-			.header-box
-				.container
+		.container
 
-					+b.header.row
-						+e.item.col-lg-2
-							+e.A(href='/').logo
-								+e.SVG
-									+e.USE(xlink:href="../img/spritemap.svg#logo")
+			+b.header
+				+e.item
+					+e.A(href='/').logo
+						SVG
+							USE(xlink:href="../img/spritemap.svg#logo")
 
-						+e.item.col-lg-6
-							+b.menu
-								+e.A.item(href="#") Найти автомобиль
-								+e.A.item(href="#") Кредитные программы
-								+e.A.item(href="#") Обменять свой авто
-								+e.A.item(href="#") Контакты
+				+e.item
+					+b.menu
+						+e.A.item(href="#") Найти автомобиль
+						+e.A.item(href="#") Кредитные программы
+						+e.A.item(href="#") Обменять свой авто
+						+e.A.item(href="#") Контакты
 
-						+e.item.contactsInfo.col-lg-4
-							+b.headerInfo
-								+e.address
-									+e.addressIco
-										+e.SVG
-											+e.USE(xlink:href="../img/spritemap.svg#mapcounter")
-									+e.addressInfo
-										+e.dealerName DealerName
-										+e.dealerData Волгоград, ул. Жукова, д. 94
-								+e.itemPhone
-									+e.itemPhoneData +7 8442 20 06 37
-									+e.itemDealerOnline Сейчас открыто
+				+e.item.contactsInfo
+					+b.headerInfo
+						+e.address
+							+e.addressIco
+								SVG
+									USE(xlink:href="../img/spritemap.svg#mapcounter")
+							+e.addressInfo
+								+e.dealerName DealerName
+								+e.dealerData Волгоград, ул. Жукова, д. 94
+						+e.phone
+							+e.A.phoneData(href="#") +7 8442 20 06 37
+							+e.dealerOnline Сейчас открыто
+								SPAN.onlineCounter
+
+				+b.mobileMenuBtn
+					+e.toggle
+				+b.mobileMenu
+					+e.A.item(href="#") Найти автомобиль
+					+e.A.item(href="#") Кредитные программы
+					+e.A.item(href="#") Обменять свой авто
+					+e.A.item(href="#") Контакты

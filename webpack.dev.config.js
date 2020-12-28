@@ -24,7 +24,7 @@ module.exports = {
 
     output: {
         path: path.resolve(__dirname, './app/site/dist'),
-        publicPath: '/',
+        publicPath: '',
         filename: './js/[name].js',
     },
 
@@ -94,7 +94,7 @@ module.exports = {
         new CopyPlugin({
             patterns: [
                 { from: './app/site/src/img', to: 'img' },
-                { from: './app/site/src/fonts', to: 'fonts' },
+                { from: './app/site/src/fonts', to: 'css/fonts' },
             ],
         }),
     ],

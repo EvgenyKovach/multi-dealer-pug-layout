@@ -1,8 +1,11 @@
 // default
 @import "default/vars";
 @import "default/mixins";
-@import "bootstrap/bootstrap";
 @import "default/default";
-@import "default/fonts";
+@import "fonts";
+
 //components
 @import "components/header/header";
+@import "components/header/mobile";
+@import "components/slider/swiper";
+@import "components/brandsList/brandsList";
