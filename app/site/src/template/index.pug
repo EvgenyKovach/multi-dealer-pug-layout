@@ -2,10 +2,12 @@ extends default/default
 
 include components/slider
 include components/brandsList
+include components/popularBrands
 
 block vars
-	-pageOptions.title = 'Главнaя'
+    -pageOptions.title = 'Главнaя'
 
 block content
-	+slider()
-	+brandsList()
+    +slider()
+    +brandsList()
+    +popularBrands()

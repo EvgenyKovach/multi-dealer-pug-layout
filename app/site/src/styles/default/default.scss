@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .row {
   display: flex;
 }
@@ -108,4 +113,46 @@ ul, li {
   padding: 0;
   margin: 0;
   list-style-type: none;
+}
+
+.pageTitle {
+  margin: 0 auto 40px;
+  font-family: inherit;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.4;
+  letter-spacing: -0.2px;
+}
+
+.btn {
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 12px 20px;
+  margin: 0 auto;
+  color: $whiteMainColor;
+  background: $mainColor;
+  border-radius: 6px;
+
+  &.withArrow {
+    position: relative;
+    padding-right: 45px;
+  }
+
+  .arrowBtn {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: .15s ease-in;
+  }
+
+  &:hover {
+    .arrowBtn {
+      transform: translateY(-50%) translateX(2px);
+    }
+  }
 }

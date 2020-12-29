@@ -10,7 +10,7 @@
     width: calc(100% / 6);
 
     @include below($desktop) {
-      padding-top: 15px;
+      padding: 7.5px 0;
       width: 20%;
     }
   }
@@ -19,14 +19,19 @@
     width: calc(100% / 2);
 
     @include below($desktop) {
-      padding-top: 15px;
+      padding: 7.5px 0;
       width: 50%;
 
       font-size: 14px;
     }
 
+    @include below($desktopM) {
+      width: 65%;
+    }
+
     @include below($notebook) {
-      width: 75%;
+      width: 80%;
+      font-size: 14px;
     }
 
     @include below($tablet) {
@@ -46,6 +51,11 @@
   &__logo svg {
     width: 150px;
     height: 45px;
+
+    @include below($notebook) {
+      width: 125px;
+    }
+
   }
 
   .contactsInfo {
@@ -88,6 +98,8 @@
 
   &__item {
     font-weight: bold;
+    font-size: 16px;
+    padding: 0 5px;
 
     &:hover {
       color: $mainColor;

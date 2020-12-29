@@ -1,7 +1,40 @@
 mixin brandsList()
     .brands-box
         .container
-            +b.ZAL.upa
-                +e.zala
-                +e.sadas
-                +e.asasa
+            +b.brandsList
+                +e.title.pageTitle Поиск по маркам
+                +e.list
+                    +e.A.item(href="#")
+                        +e.itemImg
+                            IMG(src='../img/devImages/bmw128x12.png')
+                        +e.itemName BmW
+                        +e.itemCount 2 811 автомобилей
+                    +e.A.item(href="#")
+                        +e.itemImg
+                            IMG(src='../img/devImages/chevrolet128x128.png')
+                        +e.itemName Chevrolet
+                        +e.itemCount 691 автомобиль
+                    +e.A.item(href="#")
+                        +e.itemImg
+                            IMG(src='../img/devImages/ford128x128.png')
+                        +e.itemName Ford
+                        +e.itemCount 2 811 автомобилей
+                    +e.A.item(href="#")
+                        +e.itemImg
+                            IMG(src='../img/devImages/honda128x128.png')
+                        +e.itemName Honda
+                        +e.itemCount 2 811 автомобилей
+                    +e.A.item(href="#")
+                        +e.itemImg
+                            IMG(src='../img/devImages/hyundai128x128.png')
+                        +e.itemName Hyundai
+                        +e.itemCount Нет в наличии
+                    +e.A.item(href="#")
+                        +e.itemImg
+                            IMG(src='../img/devImages/jaguar128x128.png')
+                        +e.itemName Jaguar
+                        +e.itemCount 4 автомобиля
+
+                +e.A.btnSeeMore.btn.withArrow(href="#") Смотреть все авто
+                    SVG.arrowBtn
+                        USE(xlink:href="../img/spritemap.svg#arrow-right-solid")
