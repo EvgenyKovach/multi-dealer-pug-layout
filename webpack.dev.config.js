@@ -20,6 +20,7 @@ module.exports = {
 
     entry: {
         app: path.resolve(__dirname, './app/site/src/js/app.js'),
+        vendor: ['./node_modules/vanilla-lazyload/dist/lazyload.js'],
     },
 
     output: {

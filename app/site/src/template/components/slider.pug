@@ -4,13 +4,13 @@ mixin slider()
 			+e.swiperWrapper.swiper-wrapper
 				+e.swiperItem.swiper-slide
 					PICTURE.swipper__picture
-						SOURCE(srcset="../img/devImages/testSlide400.jpg" media="(max-width: 768px)")
-						SOURCE(srcset="../img/devImages/testSlide1024.jpg" media="(max-width: 1024px)")
-						IMG.img(src="../img/devImages/testSlide.jpg" srcset="../img/devImages/testSlide.jpg")
+						SOURCE.lazy(data-srcset="../img/devImages/testSlide400.jpg" src="../img/devImages/testSlide400.jpg" media="(max-width: 768px)")
+						SOURCE.lazy(data-srcset="../img/devImages/testSlide1024.jpg" src="../img/devImages/testSlide1024.jpg" media="(max-width: 1024px)")
+						IMG.lazy(data-src="../img/devImages/testSlide.jpg" src="../img/devImages/testSlide.jpg")
 				+e.swiperItem.swiper-slide
 					PICTURE.swipper__picture
-						SOURCE(srcset="../img/devImages/testSlide400.jpg" media="(max-width: 768px)")
-						SOURCE(srcset="../img/devImages/testSlide1024.jpg" media="(max-width: 1024px)")
-						IMG.img(src="../img/devImages/testSlide.jpg" srcset="../img/devImages/testSlide.jpg")
+						SOURCE.lazy(data-srcset="../img/devImages/testSlide400.jpg" srcset="../img/devImages/testSlide400.jpg" media="(max-width: 768px)")
+						SOURCE.lazy(data-srcset="../img/devImages/testSlide1024.jpg" srcset="../img/devImages/testSlide1024.jpg" media="(max-width: 1024px)")
+						IMG.lazy(data-src="../img/devImages/testSlide.jpg" src="../img/devImages/testSlide.jpg")
 			.swiper-button-prev
 			.swiper-button-next

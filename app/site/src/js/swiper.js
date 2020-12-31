@@ -1,7 +1,7 @@
-import Swiper from '../../../../node_modules/swiper';
+import Swiper from 'swiper';
 
 export default () => {
-    const slider = new Swiper('.swiper-container', {
+    const slider = new Swiper('.slider-container', {
         slidesPerView: 1,
         spaceBetween: 0,
         autoHeight: true,
@@ -28,5 +28,28 @@ export default () => {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
+    });
+
+    const popularModelsSlider = new Swiper('.popularModels-slider', {
+        breakpoints: {
+            1024: {
+                slidesPerView: 4,
+            },
+            768: {
+                slidesPerView: 3,
+            },
+            480: {
+                slidesPerView: 2,
+            },
+        },
+        navigation: {
+            nextEl: '.popularModels__button-next',
+            prevEl: '.popularModels__button-prev',
+            clickable: true,
+        },
+        spaceBetween: 60,
+        slidesPerView: 1,
+        loop: true,
+        speed: 600,
     });
 };

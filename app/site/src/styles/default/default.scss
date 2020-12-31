@@ -115,14 +115,23 @@ ul, li {
   list-style-type: none;
 }
 
-.pageTitle {
-  margin: 0 auto 40px;
+.page-title {
+  margin: 0 auto 25px;
   font-family: inherit;
   font-size: 32px;
   font-weight: 700;
   text-align: center;
-  line-height: 1.4;
+  line-height: 1.2;
   letter-spacing: -0.2px;
+
+  @include below($tablet) {
+    font-size: 28px;
+  }
+
+  @include below($mobileL) {
+    font-size: 24px;
+  }
+
 }
 
 .btn {

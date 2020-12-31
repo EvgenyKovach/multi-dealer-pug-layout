@@ -3,6 +3,14 @@
   display: flex;
   flex-direction: column;
 
+  @include below($tablet) {
+    padding: 70px 0;
+  }
+
+  @include below($mobileL) {
+    padding: 40px 0;
+  }
+
   &__list {
     display: flex;
     justify-content: space-around;

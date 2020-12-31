@@ -1,0 +1,19 @@
+mixin popularModels()
+    .typeSearch-box
+        .container
+            +b.typeSearch(style='position: relative')
+                +e.title.page-title Поиск по типу автомобиля
+                .swiper-container.popularModels-slider
+                    +e.list.swiper-wrapper
+                        +e.item.swiper-slide
+                            +e.slide-box
+                                +e.item-logo
+                                    IMG(src="../img/devImages/audiCar.png")
+                                +e.item-name Audi A3
+                                +e.item-total-auto от 1 516 111 руб
+                +e.button-prev
+                    SVG.arrowBtn
+                        USE(xlink:href="../img/spritemap.svg#arrowleft")
+                +e.button-next
+                    SVG.arrowBtn
+                        USE(xlink:href="../img/spritemap.svg#arrowleft")

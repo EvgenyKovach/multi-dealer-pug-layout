@@ -5,6 +5,10 @@
 
   padding: 10px 0;
 
+  @include below($desktop) {
+    padding-bottom: 0;
+  }
+
 
   &__item:nth-child(1) {
     width: calc(100% / 6);

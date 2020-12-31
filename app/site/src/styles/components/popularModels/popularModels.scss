@@ -1,0 +1,132 @@
+.popularModels-box {
+  background: #F2F4F6;
+  padding: 70px 0;
+}
+
+.popularModels {
+
+  &__list {
+    margin-top: 40px;
+  }
+
+  &__descr-text {
+    max-width: 980px;
+    margin: 0 auto;
+
+    text-align: center;
+  }
+
+  &__item {
+    position: relative;
+
+    background: #E5EAEE;
+    border-radius: 8px;
+  }
+
+  &__item-brand-logo {
+    position: absolute;
+  }
+
+  &__item-img {
+    display: flex;
+
+    img {
+      margin: auto;
+    }
+
+  }
+
+  &__button-prev,
+  &__button-next,
+  {
+    position: absolute;
+    top: 67%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+    z-index: 10;
+    width: 35px;
+    height: 35px;
+
+    svg {
+      width: 17px;
+      height: 17px;
+      padding: 8px;
+
+      background: #FFF;
+      border-radius: 50%;
+      box-shadow: 0 0 35px #c2c0c0;
+      transition: .15s ease-in-out;
+
+      &:hover {
+        box-shadow: 0 0 10px #c2c0c0;
+      }
+    }
+  }
+
+  &__button-prev {
+    left: -15px;
+  }
+
+  &__button-next {
+    right: -15px;
+    transform: translateY(-50%) rotate(180deg);
+  }
+
+  &__slide-box {
+    padding: 95px 15px 35px 15px;
+  }
+
+  &__item-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 240px;
+    height: auto;
+    margin: 0 auto;
+
+    img {
+      height: auto;
+      width: auto;
+      margin: 0 auto;
+      z-index: 2;
+    }
+
+  }
+
+  &__item-brand-logo {
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 35px;
+    width: 100%;
+
+
+    img {
+      margin: auto;
+      max-width: 155px;
+      z-index: 1;
+    }
+
+  }
+
+  &__item {
+    height: auto !important;
+  }
+
+  &__item-name {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+
+    margin-top: 15px;
+  }
+
+  &__item-cost {
+    font-size: 16px;
+    text-align: center;
+
+    margin-top: 5px;
+  }
+
+}
