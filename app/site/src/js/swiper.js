@@ -72,4 +72,25 @@ export default () => {
         speed: 600,
     });
 
+  let newArrivalsSlider = new Swiper('.newArrivals__list', {
+
+    spaceBetween: 60,
+    slidesPerView: 1,
+    loop: true,
+    speed: 600,
+    navigation: {
+      nextEl: '.newArrivals__button-next',
+      prevEl: '.newArrivals__button-prev',
+      clickable: true,
+    },
+    breakpoints: {
+      980: {
+        slidesPerView: 3,
+      },
+      625: {
+        slidesPerView: 2,
+      },
+    },
+  });
+
 };

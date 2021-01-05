@@ -92,6 +92,10 @@ module.exports = {
             filename: './css/[name].css',
         }),
 
+        new webpack.ProvidePlugin({
+          Swiper: 'swiper/swiper-bundle.min.js',
+        }),
+
         new webpack.HotModuleReplacementPlugin(),
 
         ...PAGES.map(

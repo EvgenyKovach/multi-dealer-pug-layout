@@ -1,9 +1,29 @@
 .popularModels-box {
   background: #F2F4F6;
   padding: 70px 0;
+
+  @include below($notebook) {
+    padding: 60px 0;
+  }
+
+  @include below($tablet) {
+    padding: 50px 0;
+  }
+
+  @include below($mobileL) {
+    padding: 30px 0;
+  }
 }
 
 .popularModels {
+
+  &__title {
+
+    @include below($mobileL) {
+      margin: 0 auto 10px;
+    }
+
+  }
 
   &__list {
     margin-top: 40px;
@@ -39,13 +59,13 @@
   &__button-next,
   {
     position: absolute;
+    width: 35px;
+    height: 35px;
     top: 56%;
     transform: translateY(-50%);
     cursor: pointer;
-
     z-index: 10;
-    width: 35px;
-    height: 35px;
+
 
     svg {
       width: 17px;
@@ -54,10 +74,12 @@
 
       background: #FFF;
       border-radius: 50%;
-      box-shadow: 0 0 0px #c2c0c0;
+      box-shadow: 0 0 5px #929292;
       transition: .15s ease-in-out;
+      opacity: .45;
 
       &:hover {
+        opacity: 1;
         box-shadow: 0 0 10px #c2c0c0;
       }
     }

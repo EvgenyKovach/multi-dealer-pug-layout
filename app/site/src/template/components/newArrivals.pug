@@ -1,23 +1,49 @@
+include carCard
+
 mixin newArrivals()
   .newArrivals-box
     .container
       +b.newArrivals
         +e.title.page-title Новые поступления
-        +e.list
-          +e.list-item
-            +e.item-box
-              +e.item-slider
-              +e.location-info
-              +e.item-name
-              +e.item-complectation
-              +e.item-tth
-              +e.item-prices
-                +e.special-price
-                  +e.special-price-name Спецпредложение:
-                  +e.special-price-count 2 099 000 руб
-                +e.just-price
-                  +e.just-price-name Начальная цена:
-                  +e.just-price-count 3 240 000 руб
+        +e.list.swiper-container
+          .swiper-wrapper
+            +carCard('../img/devImages/car1.png',
+                      '../img/devImages/car2.png',
+                      '../img/devImages/car3.png',
+                      'В наличии',
+                      'Lexus RX',
+                      'Комплектация UX 200 #discover',
+                      '249 л/с, Бензин, Вариатор, Полный привод, Черный металлик',
+                      '2 099 000 руб',
+                      '3 240 000 руб')
+
+            +carCard('../img/devImages/car2.png',
+              '../img/devImages/car1.png',
+              '../img/devImages/car3.png',
+              'В наличии',
+              'Lexus RX',
+              'Комплектация UX 200 #discover',
+              '249 л/с, Бензин, Вариатор, Полный привод, Черный металлик',
+              '2 099 000 руб',
+              '3 240 000 руб')
+
+            +carCard('../img/devImages/car3.png',
+              '../img/devImages/car2.png',
+              '../img/devImages/car1.png',
+              'В наличии',
+              'Lexus RX',
+              'Комплектация UX 200 #discover',
+              '249 л/с, Бензин, Вариатор, Полный привод, Черный металлик',
+              '2 099 000 руб',
+              '3 240 000 руб')
+
+          +e.button-prev
+            SVG.arrowBtn
+              USE(xlink:href="../img/spritemap.svg#arrowleft")
+          +e.button-next
+            SVG.arrowBtn
+              USE(xlink:href="../img/spritemap.svg#arrowleft")
+
         +e.A.see-more-btn.btn.withArrow(href="#") Перейти в каталог
           SVG.arrowBtn
             USE(xlink:href="../img/spritemap.svg#arrow-right-solid")

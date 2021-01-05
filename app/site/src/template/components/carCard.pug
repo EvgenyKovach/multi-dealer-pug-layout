@@ -1,0 +1,22 @@
+mixin carCard(photo, photo2, photo3, location, name, complectation, tth, special, price)
+  +b.car-card.swiper-slide
+    +e.item-box
+      +e.item-photos.swiper-container
+        .swiper-wrapper
+          .photo.swiper-slide
+            IMG(src= photo)
+          .photo.swiper-slide
+            IMG(src= photo2)
+          .photo.swiper-slide
+            IMG(src= photo3)
+      +e.location-info= location
+      +e.item-name= name
+      +e.item-complectation= complectation
+      +e.item-tth= tth
+      +e.item-prices
+        +e.special-price
+          +e.special-price-name Спецпредложение:
+          +e.special-price-count= special
+        +e.just-price
+          +e.just-price-name Начальная цена:
+          +e.just-price-count= price
