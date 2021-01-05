@@ -1,2 +1,23 @@
 mixin newArrivals()
-  d
+  .newArrivals-box
+    .container
+      +b.newArrivals
+        +e.title.page-title Новые поступления
+        +e.list
+          +e.list-item
+            +e.item-box
+              +e.item-slider
+              +e.location-info
+              +e.item-name
+              +e.item-complectation
+              +e.item-tth
+              +e.item-prices
+                +e.special-price
+                  +e.special-price-name Спецпредложение:
+                  +e.special-price-count 2 099 000 руб
+                +e.just-price
+                  +e.just-price-name Начальная цена:
+                  +e.just-price-count 3 240 000 руб
+        +e.A.see-more-btn.btn.withArrow(href="#") Перейти в каталог
+          SVG.arrowBtn
+            USE(xlink:href="../img/spritemap.svg#arrow-right-solid")

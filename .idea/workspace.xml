@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/img/devImages/asType1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/img/devImages/asType2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/img/devImages/asType3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/img/devImages/asType4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/styles/components/searchAsType/searchAsType.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/template/components/newArrivals.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/js/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/swiper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/brandsList/brandsList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/brandsList/brandsList.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/popularModels/popularModels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/popularModels/popularModels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/slider/swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/slider/swiper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/brandsList.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/brandsList.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/popularModels.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/popularModels.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/searchAsType.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/searchAsType.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/slider.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/slider.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.dev.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.dev.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/newArrivals.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/newArrivals.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +108,7 @@
       <workItem from="1609741525082" duration="1781000" />
       <workItem from="1609743418373" duration="2158000" />
       <workItem from="1609745702688" duration="1342000" />
-      <workItem from="1609752402679" duration="11472000" />
+      <workItem from="1609752402679" duration="12605000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace">
       <created>1608284195775</created>
@@ -186,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609404268785</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="block searchAsType">
+      <created>1609825166093</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609825166093</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +191,8 @@
     <MESSAGE value="layout init" />
     <MESSAGE value="layout 14%" />
     <MESSAGE value="second clone block" />
-    <option name="LAST_COMMIT_MESSAGE" value="second clone block" />
+    <MESSAGE value="block searchAsType" />
+    <option name="LAST_COMMIT_MESSAGE" value="block searchAsType" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Deployment" timestamp="1608529973773">
@@ -243,10 +231,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609136217924" />
-    <state x="496" y="107" key="CommitChangelistDialog2" timestamp="1609404267502">
+    <state x="496" y="3" key="CommitChangelistDialog2" timestamp="1609825165072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="496" y="107" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609404267502" />
+    <state x="496" y="3" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609825165072" />
     <state x="740" y="261" width="679" height="517" key="FileChooserDialogImpl" timestamp="1609763125128">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -279,10 +267,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="737" y="219" width="998" height="709" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609766018501" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609404318752">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609825171635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609404318752" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609825171635" />
     <state x="561" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608727115340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
