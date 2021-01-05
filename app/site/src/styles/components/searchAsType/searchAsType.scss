@@ -1,9 +1,8 @@
-.popularModels-box {
-  background: #F2F4F6;
+.searchAsType-box {
   padding: 70px 0;
 }
 
-.popularModels {
+.searchAsType {
 
   &__list {
     margin-top: 40px;
@@ -14,20 +13,19 @@
     margin: 0 auto;
 
     text-align: center;
-    cursor: default;
   }
 
-  &__item {
-    position: relative;
+  &__item-logo {
     display: flex;
-  }
-
-  &__item-brand-logo {
     position: absolute;
-  }
 
-  &__item-img {
-    display: flex;
+    width: 100%;
+    max-width: 325px;
+    height: 100%;
+
+    border-radius: 8px;
+
+    z-index: -1;
 
     img {
       margin: auto;
@@ -36,10 +34,9 @@
   }
 
   &__button-prev,
-  &__button-next,
-  {
+  &__button-next, {
     position: absolute;
-    top: 56%;
+    top: 56.4%;
     transform: translateY(-50%);
     cursor: pointer;
 
@@ -54,7 +51,7 @@
 
       background: #FFF;
       border-radius: 50%;
-      box-shadow: 0 0 0px #c2c0c0;
+      box-shadow: 0 0 2px #666;
       transition: .15s ease-in-out;
 
       &:hover {
@@ -68,75 +65,45 @@
   }
 
   &__button-prev {
-    left: 5px;
+    left: 3px;
   }
 
   &__button-next {
-    right: 5px;
+    right: 3px;
     transform: translateY(-50%) rotate(180deg);
   }
 
   &__slide-box {
-    max-width: 360px;
-    min-width: 290px;
-    height: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 325px;
     margin: 0 auto;
-    padding: 95px 15px 35px 15px;
-
-    background: #E5EAEE;
     border-radius: 8px;
   }
 
-  &__item-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 240px;
-    height: auto;
-    margin: 0 auto;
-
-    img {
-      height: auto;
-      width: auto;
-      margin: 0 auto;
-      z-index: 2;
-    }
-
-  }
-
-  &__item-brand-logo {
-    position: absolute;
-    display: flex;
-    left: 0;
-    top: 35px;
-    width: 100%;
-
-
-    img {
-      margin: auto;
-      max-width: 155px;
-      z-index: 1;
-    }
-
-  }
-
   &__item {
-    height: auto !important;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 290px !important;
   }
 
   &__item-name {
-    font-size: 18px;
+    margin-top: auto;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
-
-    margin-top: 15px;
+    z-index: 2;
+    color: #FFFFFF;
   }
 
-  &__item-cost {
+  &__item-total {
     font-size: 16px;
     text-align: center;
+    color: #FFFFFF;
 
     margin-top: 5px;
+    margin-bottom: 30px;
   }
 
 }

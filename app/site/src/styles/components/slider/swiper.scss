@@ -1,3 +1,55 @@
 .slider {
   max-height: 1000px;
+
+  &__button-prev,
+  &__button-next,
+  {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+    z-index: 10;
+
+    svg {
+      width: 35px;
+      height: 35px;
+      padding: 8px;
+
+      background: #FFF;
+      opacity: .55;
+      border-radius: 50%;
+      box-shadow: 0 0 35px #c2c0c0;
+      transition: .15s ease-in-out;
+
+      &:hover {
+        box-shadow: 0 0 10px #c2c0c0;
+        opacity: 1;
+      }
+
+      @include below($tablet) {
+        width: 25px;
+        height: 25px;
+      }
+
+      @include below($tablet) {
+        width: 15px;
+        height: 15px;
+      }
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__button-prev {
+    left: 5px;
+  }
+
+  &__button-next {
+    right: 5px;
+    transform: translateY(-50%) rotate(180deg);
+  }
 }

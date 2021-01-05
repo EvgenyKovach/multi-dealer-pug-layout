@@ -1,19 +1,33 @@
-mixin popularModels()
-    .typeSearch-box
-        .container
-            +b.typeSearch(style='position: relative')
-                +e.title.page-title Поиск по типу автомобиля
-                .swiper-container.popularModels-slider
-                    +e.list.swiper-wrapper
-                        +e.item.swiper-slide
-                            +e.slide-box
-                                +e.item-logo
-                                    IMG(src="../img/devImages/audiCar.png")
-                                +e.item-name Audi A3
-                                +e.item-total-auto от 1 516 111 руб
-                +e.button-prev
-                    SVG.arrowBtn
-                        USE(xlink:href="../img/spritemap.svg#arrowleft")
-                +e.button-next
-                    SVG.arrowBtn
-                        USE(xlink:href="../img/spritemap.svg#arrowleft")
+mixin searchAsType()
+  .searchAsType-box
+    .container
+      +b.searchAsType(style='position: relative')
+        +e.title.page-title Поиск по типу автомобиля
+        .swiper-container.searchAsType-slider
+          +e.list.swiper-wrapper
+            +e.item.swiper-slide
+              +e.A.slide-box(href="#")
+                +e.item-logo(style="background: url(../img/devImages/asType1.png) center/cover no-repeat")
+                +e.item-name Премиальные
+                +e.item-total 279 автомобилей
+            +e.item.swiper-slide
+              +e.A.slide-box(href="#")
+                +e.item-logo(style="background: url(../img/devImages/asType2.png) center/cover no-repeat")
+                +e.item-name Внедорожники и паркетники
+                +e.item-total 696 автомобилей
+            +e.item.swiper-slide
+              +e.A.slide-box(href="#")
+                +e.item-logo(style="background: url(../img/devImages/asType3.png) center/cover no-repeat")
+                +e.item-name Спортивные
+                +e.item-total 11 автомобилей
+            +e.item.swiper-slide
+              +e.A.slide-box(href="#")
+                +e.item-logo(style="background: url(../img/devImages/asType4.png) center/cover no-repeat")
+                +e.item-name Эксклюзивы
+                +e.item-total 4 автомобилей
+          +e.button-prev
+            SVG.arrowBtn
+              USE(xlink:href="../img/spritemap.svg#arrowleft")
+          +e.button-next
+            SVG.arrowBtn
+              USE(xlink:href="../img/spritemap.svg#arrowleft")

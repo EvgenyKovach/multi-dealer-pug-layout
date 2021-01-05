@@ -80,6 +80,10 @@ module.exports = {
             },
         }),
 
+        new webpack.ProvidePlugin({
+            Swiper: 'swiper/swiper-bundle.min.js',
+        }),
+
         new MiniCssExtractPlugin({
             filename: './css/[name].css',
         }),

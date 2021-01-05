@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: SeroWebW07Regular;
 }
 
 .row {
@@ -49,14 +50,6 @@ h3 {
   @include below($mobile) {
     width: calc(100% - 15px);
   }
-}
-
-.grayContainer {
-  max-width: 1500px;
-  margin: 0 auto;
-  width: 100%;
-
-  background-color: #F3F5F6;
 }
 
 input, textarea, button, select {
@@ -123,6 +116,7 @@ ul, li {
   text-align: center;
   line-height: 1.2;
   letter-spacing: -0.2px;
+  cursor: default;
 
   @include below($tablet) {
     font-size: 28px;

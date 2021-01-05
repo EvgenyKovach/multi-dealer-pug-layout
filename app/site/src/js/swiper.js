@@ -1,11 +1,10 @@
-import Swiper from 'swiper';
-
 export default () => {
-    const slider = new Swiper('.slider-container', {
+
+    let slider = new Swiper('.slider__container', {
         slidesPerView: 1,
         spaceBetween: 0,
-        autoHeight: true,
         loop: true,
+        speed: 600,
         breakpoints: {
             480: {
                 spaceBetween: 100,
@@ -20,25 +19,22 @@ export default () => {
                 spaceBetween: 50,
             },
         },
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '.slider__button-next',
+            prevEl: '.slider__button-prev',
+            clickable: true,
         },
     });
 
-    const popularModelsSlider = new Swiper('.popularModels-slider', {
+    let popularModelsSlider = new Swiper('.popularModels-slider', {
         breakpoints: {
-            1024: {
+            1224: {
                 slidesPerView: 4,
             },
-            768: {
+            980: {
                 slidesPerView: 3,
             },
-            480: {
+            625: {
                 slidesPerView: 2,
             },
         },
@@ -52,4 +48,28 @@ export default () => {
         loop: true,
         speed: 600,
     });
+
+    let searchAsTypeSlider = new Swiper('.searchAsType-slider', {
+        breakpoints: {
+            1224: {
+                slidesPerView: 4,
+            },
+            980: {
+                slidesPerView: 3,
+            },
+            625: {
+                slidesPerView: 2,
+            },
+        },
+        navigation: {
+            nextEl: '.searchAsType__button-next',
+            prevEl: '.searchAsType__button-prev',
+            clickable: true,
+        },
+        spaceBetween: 60,
+        slidesPerView: 1,
+        loop: true,
+        speed: 600,
+    });
+
 };

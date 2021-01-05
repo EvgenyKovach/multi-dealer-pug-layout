@@ -3,11 +3,15 @@ extends default/default
 include components/slider
 include components/brandsList
 include components/popularModels
+include components/searchAsType
+include components/newArrivals
 
 block vars
-    -pageOptions.title = 'Главнaя'
+  -pageOptions.title = 'Главнaя'
 
 block content
-    +slider()
-    +brandsList()
-    +popularModels()
+  +slider()
+  +brandsList()
+  +popularModels()
+  +searchAsType()
+  +newArrivals()
