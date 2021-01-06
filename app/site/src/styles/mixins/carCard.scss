@@ -1,12 +1,216 @@
 .car-card {
-
+  display: flex;
+  height: auto !important;
 
   &__item-box {
-    padding: 16px 12px;
+    display: flex;
+    flex-direction: column;
+    min-height: 535px;
+    max-width: 355px;
+    padding: 0px 12px 0 12px;
+    margin: 0 auto;
 
     background: #F2F4F6;
     border-radius: 6px;
+    overflow: hidden;
+
+    @include below($tablet) {
+      max-width: 325px;
+    }
+
+    @include below($mobileL) {
+      max-width: 295px;
+    }
+
   }
 
+  &__location {
+    position: relative;
+    margin: 8px 0 0 15px;
+
+    font-size: 14px;
+    
+    &::before {
+      content: "";
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      left: -15px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #53B374;
+      border-radius: 50%;
+
+    }
+    
+  }
+
+  &__car-photos {
+    width: calc(100% + 24px);
+    height: 240px;
+    max-width: 420px;
+    transform: translateX(-12px);
+    margin-bottom: 10px;
+  }
+
+  &__photo {
+    display: flex;
+    align-items: center;
+  }
+
+  &__car-name {
+    margin: 8px 0 0 0;
+
+    font-family: SeroWebW07;
+    font-size: 20px;
+    font-weight: bold;
+    color: #242629;
+  }
+
+  &__car-complectation {
+    margin: 5px 0 0 0;
+
+    color: #565254;
+    font-size: 14px;
+  }
+
+  &__car-tth {
+    margin: 10px 0;
+    color: #000;
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  &__car-prices {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0 16px 0;
+    padding: 25px 0 0 0;
+  }
+
+  &__price-name {
+    font-size: 14px;
+    color: #565254;
+  }
+
+  &__price-count {
+    margin-top: 5px;
+
+    font-family: SeroWebW07;
+    font-size: 22px;
+    font-weight: bold;
+
+    @include below($desktopL) {
+      font-size: 18px;
+    }
+
+    @include below($desktop) {
+      font-size: 16px;
+    }
+  }
+
+  &__price-box:nth-child(2) {
+    & .car-card__price-count {
+      text-decoration: line-through;
+    }
+
+  }
+
+  &__btns {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    border-top: 1px solid rgba(179, 182, 184, 0.33);
+
+    .btn {
+      position: relative;
+      width: 100%;
+      padding: 15px 0;
+      max-width: 100%;
+      margin-top: 10px;
+
+      font-weight: 600;
+      font-size: 14px;
+      cursor: pointer;
+
+      &::before {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        left: 0;
+        bottom: 0;
+        background: #00000015;
+        transition: .15s ease-in-out;
+        opacity: 0;
+      }
+      &:hover {
+        &::before {
+          opacity: 1;
+        }
+      }
+    }
+
+  }
+
+  &__button-credit {
+    position: relative;
+    color: $mainColor;
+    background: $whiteMainColor;
+    transition: .25s ease-in-out;
+
+    span {
+      margin-left: 5px;
+    }
+
+  }
+
+  &__button-offer {
+
+  }
+
+  .swiper-pagination {
+    display: flex;
+    height: 100%;
+    bottom: 0;
+  }
+
+  .swiper-slide {
+    opacity: 0 !important;
+    transition: .65s ease-in-out;
+  }
+
+  .swiper-slide-active {
+    opacity: 1 !important;
+  }
+
+  .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    background: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+
+    &:only-child {
+      display: none;
+    }
+  }
+
+  .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet-active {
+    border-color: $mainColor;
+  }
+
+  .swiper-scrollbar {
+    opacity: 0.75;
+    border-radius: 0 !important;
+    left: 2% !important;
+    width: 96% !important;
+    height: 2px !important;
+    bottom: 0px !important;
+  }
 
 }

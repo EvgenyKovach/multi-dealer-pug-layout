@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: SeroWebW07Regular;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .row {
@@ -110,7 +110,7 @@ ul, li {
 
 .page-title {
   margin: 0 auto 25px;
-  font-family: inherit;
+  font-family: SeroWebW07;
   font-size: 32px;
   font-weight: 700;
   text-align: center;
@@ -135,8 +135,10 @@ ul, li {
   font-size: 16px;
   padding: 12px 20px;
   margin: 0 auto;
-  color: $whiteMainColor;
+  color: #FFF;
   background: $mainColor;
+  outline: none;
+  border: none;
   border-radius: 6px;
 
   &.withArrow {

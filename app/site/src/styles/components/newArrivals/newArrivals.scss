@@ -4,6 +4,10 @@
 
 .newArrivals {
 
+  &__list {
+    padding: 0px;
+  }
+
   &__see-more-btn {
     margin-top: 40px;
   }
@@ -11,24 +15,28 @@
   &__button-prev,
   &__button-next, {
     position: absolute;
-    top: 56.4%;
+    top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
 
     z-index: 10;
-    width: 35px;
-    height: 35px;
 
     svg {
       width: 17px;
       height: 17px;
       padding: 8px;
 
-      background: #FFF;
       border-radius: 50%;
       box-shadow: 0 0 5px #929292;
       transition: .15s ease-in-out;
       opacity: .75;
+
+
+      @include below($tablet) {
+        width: 14px;
+        height: 14px;
+        padding: 5px;
+      }
 
       &:hover {
         opacity: 1;

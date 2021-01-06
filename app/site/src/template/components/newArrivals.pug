@@ -7,25 +7,28 @@ mixin newArrivals()
         +e.title.page-title Новые поступления
         +e.list.swiper-container
           .swiper-wrapper
-            +carCard('../img/devImages/car1.png',
-                      '../img/devImages/car2.png',
-                      '../img/devImages/car3.png',
-                      'В наличии',
-                      'Lexus RX',
-                      'Комплектация UX 200 #discover',
-                      '249 л/с, Бензин, Вариатор, Полный привод, Черный металлик',
-                      '2 099 000 руб',
-                      '3 240 000 руб')
+            +carCard(
+              '../img/devImages/car1/a3.png',
+              '../img/devImages/car1/a2.png',
+              '../img/devImages/car1/a1.png',
+              'В наличии',
+              'Lexus RX',
+              'Комплектация UX 200 #discover',
+              '249 л/с, Бензин, Вариатор, ПолныПолный ПолыйПолный ПолныйПолный ПолныйПолныйПолный привод, Черный металлик',
+              '2 099 000 руб',
+              '18 990',
+              '1 240 000 руб')
 
-            +carCard('../img/devImages/car2.png',
-              '../img/devImages/car1.png',
-              '../img/devImages/car3.png',
+            +carCard(
+              '../img/devImages/car2/b2.jpg',
+              '../img/devImages/car2/b3.jpg',
+              '../img/devImages/car2/b4.jpg',
               'В наличии',
               'Lexus RX',
               'Комплектация UX 200 #discover',
               '249 л/с, Бензин, Вариатор, Полный привод, Черный металлик',
               '2 099 000 руб',
-              '3 240 000 руб')
+              '18 990')
 
             +carCard('../img/devImages/car3.png',
               '../img/devImages/car2.png',
@@ -35,7 +38,8 @@ mixin newArrivals()
               'Комплектация UX 200 #discover',
               '249 л/с, Бензин, Вариатор, Полный привод, Черный металлик',
               '2 099 000 руб',
-              '3 240 000 руб')
+              '18 990',
+              '1 240 000 руб')
 
           +e.button-prev
             SVG.arrowBtn

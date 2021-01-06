@@ -17,6 +17,10 @@
 
 .searchAsType {
 
+  &-slider {
+    padding: 0 20px !important
+  }
+
   &__title {
     @include below($mobileL) {
       margin: 0 auto 10px;

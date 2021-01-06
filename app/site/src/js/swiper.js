@@ -78,6 +78,7 @@ export default () => {
     slidesPerView: 1,
     loop: true,
     speed: 600,
+    allowTouchMove: false,
     navigation: {
       nextEl: '.newArrivals__button-next',
       prevEl: '.newArrivals__button-prev',

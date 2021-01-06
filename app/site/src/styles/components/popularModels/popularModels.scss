@@ -17,6 +17,10 @@
 
 .popularModels {
 
+  &-slider {
+    padding: 0 20px !important;
+  }
+
   &__title {
 
     @include below($mobileL) {
@@ -40,6 +44,8 @@
   &__item {
     position: relative;
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   &__item-brand-logo {
@@ -100,7 +106,7 @@
 
   &__slide-box {
     max-width: 360px;
-    min-width: 290px;
+    min-width: 255px;
     height: auto;
     margin: 0 auto;
     padding: 95px 15px 35px 15px;
