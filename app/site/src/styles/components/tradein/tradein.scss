@@ -1,0 +1,35 @@
+.tradein-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 624px;
+  width: 100%;
+
+  color: #FFF;
+  text-align: center;
+
+  @include below($tablet) {
+    min-height: 450px;
+  }
+
+  @include below($mobileL) {
+    min-height: 400px;
+  }
+}
+
+.tradein {
+
+  &__btn {
+    margin-top: 15px;
+  }
+
+  &__subtitle {
+    font-size: 16px;
+
+    @include below($tablet) {
+      font-size: 14px;
+    }
+
+  }
+
+}

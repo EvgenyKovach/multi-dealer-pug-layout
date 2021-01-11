@@ -123,7 +123,7 @@ ul, li {
   }
 
   @include below($mobileL) {
-    font-size: 24px;
+    font-size: 22px;
   }
 
 }
@@ -133,13 +133,21 @@ ul, li {
   max-width: fit-content;
   font-weight: bold;
   font-size: 16px;
-  padding: 12px 20px;
+  padding: 16px 20px;
   margin: 0 auto;
   color: #FFF;
   background: $mainColor;
   outline: none;
   border: none;
   border-radius: 6px;
+
+  @include below($tablet) {
+    font-size: 14px;
+  }
+
+  @include below($mobile) {
+    font-size: 12px;
+  }
 
   &.withArrow {
     position: relative;
@@ -157,8 +165,11 @@ ul, li {
   }
 
   &:hover {
+
     .arrowBtn {
       transform: translateY(-50%) translateX(2px);
     }
+
   }
+
 }

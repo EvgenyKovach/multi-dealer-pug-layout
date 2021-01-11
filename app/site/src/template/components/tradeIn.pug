@@ -1,0 +1,9 @@
+mixin tradeIn()
+  .tradein-box(style='background: url(../img/tradein/tradeinbg.png) center/cover no-repeat;')
+    .container
+      +b.tradein
+        +e.title.page-title Обменять свой авто / Trade in
+        +e.subtitle Подберите автомобиль в нашем каталоге и заполните заявку онлайн, мы свяжемся с вами и расскажем условия обмена.
+        +e.A.btn.btn.withArrow(href="#") Оценить свой авто
+          SVG.arrowBtn
+            USE(xlink:href="../img/spritemap.svg#arrow-right-solid")

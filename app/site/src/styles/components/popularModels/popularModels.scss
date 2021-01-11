@@ -48,10 +48,6 @@
     justify-content: center;
   }
 
-  &__item-brand-logo {
-    position: absolute;
-  }
-
   &__item-img {
     display: flex;
 
@@ -135,10 +131,14 @@
   &__item-brand-logo {
     position: absolute;
     display: flex;
-    left: 0;
-    top: 35px;
+
+    top: 45px;
+    left: 50%;
+    max-width: 140px;
+    max-height: 140px;
     width: 100%;
 
+    transform: translateX(-50%);
 
     img {
       margin: auto;

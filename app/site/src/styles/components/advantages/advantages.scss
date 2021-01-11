@@ -1,0 +1,61 @@
+.advantages-box {
+  padding: 90px 0;
+}
+
+.advantages {
+
+  &__title {
+    max-width: 75%;
+
+    @include below($tablet) {
+      max-width: 85%;
+    }
+
+    @include below($mobileL) {
+      max-width: 100%;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 25px 0;
+  }
+
+  &__item {
+    width: calc(100% / 4 - 25px);
+    padding: 15px 0;
+
+    text-align: center;
+
+    @include below($tablet) {
+      width: calc(100% / 2 - 15px);
+    }
+
+    @include below($mobileL) {
+      width: calc(100% / 1 - 15px);
+    }
+
+    &-img svg {
+      width: 44px;
+      height: 44px;
+
+      fill: $mainColor;
+    }
+
+    &-title {
+      font-size: 18px;
+      font-weight: bold;
+
+      margin-top: 10px;
+    }
+
+    &-text {
+      margin-top: 3px;
+    }
+
+  }
+
+}

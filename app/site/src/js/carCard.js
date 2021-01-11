@@ -1,8 +1,6 @@
 export default () => {
   let carSlider = document.querySelectorAll('.js-carCardSwiper');
 
-  console.log(carSlider)
-
   if (carSlider && carSlider.length) {
     let collectionsSwiper = new Swiper('.js-carCardSwiper', {
       slidesPerView: 1,
