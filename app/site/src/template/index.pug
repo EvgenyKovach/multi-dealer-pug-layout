@@ -7,6 +7,9 @@ include components/searchAsType
 include components/newArrivals
 include components/tradeIn
 include components/advantages
+include components/moreQuestions
+include components/indexDescription
+include components/footer
 
 block vars
   -pageOptions.title = 'Главнaя'
@@ -19,3 +22,6 @@ block content
   +newArrivals()
   +tradeIn()
   +advantages()
+  +moreQestions()
+  +indexDescription()
+  +footer()

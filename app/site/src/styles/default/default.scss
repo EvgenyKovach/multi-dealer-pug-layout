@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Noto Sans', sans-serif;
+  line-height: 1.5
 }
 
 .row {
@@ -119,11 +120,11 @@ ul, li {
   cursor: default;
 
   @include below($tablet) {
-    font-size: 28px;
+    font-size: 26px;
   }
 
   @include below($mobileL) {
-    font-size: 22px;
+    font-size: 20px;
   }
 
 }
@@ -140,6 +141,7 @@ ul, li {
   outline: none;
   border: none;
   border-radius: 6px;
+  cursor: pointer;
 
   @include below($tablet) {
     font-size: 14px;

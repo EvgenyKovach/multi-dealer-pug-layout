@@ -1,0 +1,63 @@
+.indexDescription {
+  position: relative;
+  padding: 90px 0 60px 0;
+
+  &__title {
+    text-align: left;
+  }
+
+
+  &__text {
+    position: relative;
+    max-height: 200px;
+    overflow: hidden;
+
+    &::before {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background: linear-gradient(to bottom, transparent, #FFF);
+    }
+
+    &.showText {
+      max-height: 100%;
+      overflow: inherit;
+      animation: linearText .25s ease-in-out;
+
+      &::before {
+        opacity: 0;
+      }
+
+    }
+
+  }
+
+  &__seeAll {
+    border: transparent;
+    cursor: pointer;
+    color: $mainColor;
+    margin-top: 10px;
+
+    background: transparent;
+
+    font-weight: bold;
+
+    &.showText {
+      content: 'скрыть'
+    }
+
+  }
+
+  @keyframes linearText {
+    0% {
+      opacity: .25;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+}

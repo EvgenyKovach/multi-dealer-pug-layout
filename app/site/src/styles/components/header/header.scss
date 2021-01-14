@@ -167,6 +167,7 @@
     svg {
       max-width: 23px;
       height: 24px;
+      fill: $mainColor;
     }
     
     @include below($mobileL) {

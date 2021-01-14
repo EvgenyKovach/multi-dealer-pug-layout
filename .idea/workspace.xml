@@ -2,24 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/money.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/service.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/support.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/tradein.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/img/tradein/tradeinbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/styles/components/advantages/advantages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/styles/components/moreQuestions/moreQuestions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/styles/components/tradein/tradein.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/template/components/advantages.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/template/components/moreQuestions.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/template/components/tradeIn.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/supporter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/js/hiddenTextDescription.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/styles/components/indexDescription/indexDescription.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/template/components/footer.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/template/components/indexDescription.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/img/spritemap.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/img/spritemap.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/js/carCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/carCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/img/sprites/mapCounter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/img/sprites/mapCounter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/popularModels/popularModels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/popularModels/popularModels.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/advantages/advantages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/advantages/advantages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/header/mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/header/mobile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/moreQuestions/moreQuestions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/moreQuestions/moreQuestions.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/header.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/default/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/default/vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/moreQuestions.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/moreQuestions.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/template/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/index.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,9 +32,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="SCSS File" />
         <option value="JavaScript File" />
         <option value="Pug File" />
-        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -52,6 +51,7 @@
     <setting file="file://$PROJECT_DIR$/app/site/src/template/index.pug" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/webpack.dev.config.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/webpack.prod.config.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/site/src/js/hiddenTextDescription.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -74,7 +74,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/site/src/img/sprites" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CHERY" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.files.pattern" value="{**/*,*}.{js,ts,jsx,tsx,vue, pug}" />
@@ -87,11 +87,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\project\app\site\src\styles\components\indexDescription" />
       <recent name="C:\Projects\project\app\site\src\img\tradein" />
       <recent name="C:\Projects\project\app\site\src\styles\components" />
       <recent name="C:\Projects\project\app\site\src\template\components" />
       <recent name="C:\Projects\project\app\site\src\styles\mixins" />
-      <recent name="C:\Projects\project\app\site\src\styles\components\brandsList" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projects\project\app\site\src\img\sprites" />
@@ -125,7 +125,8 @@
       <workItem from="1609741525082" duration="1781000" />
       <workItem from="1609743418373" duration="2158000" />
       <workItem from="1609745702688" duration="1342000" />
-      <workItem from="1609752402679" duration="63112000" />
+      <workItem from="1609752402679" duration="76782000" />
+      <workItem from="1610514340656" duration="9485000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace">
       <created>1608284195775</created>
@@ -211,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609937878751</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="3 new blocks">
+      <created>1610354535538</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1610354535538</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +238,8 @@
     <MESSAGE value="layout 14%" />
     <MESSAGE value="second clone block" />
     <MESSAGE value="block searchAsType" />
-    <option name="LAST_COMMIT_MESSAGE" value="block searchAsType" />
+    <MESSAGE value="3 new blocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 new blocks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Deployment" timestamp="1608529973773">
@@ -269,14 +278,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="707" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609136217924" />
-    <state x="496" y="3" key="CommitChangelistDialog2" timestamp="1609937877474">
+    <state x="496" y="3" key="CommitChangelistDialog2" timestamp="1610354534298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="496" y="3" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609937877474" />
-    <state x="740" y="261" width="679" height="517" key="FileChooserDialogImpl" timestamp="1609763125128">
+    <state x="496" y="3" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610354534298" />
+    <state x="740" y="261" width="679" height="517" key="FileChooserDialogImpl" timestamp="1610518493484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" width="679" height="517" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609763125128" />
+    <state x="740" y="261" width="679" height="517" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610518493484" />
     <state x="0" y="267" key="FileDocumentManager.FileCacheConflict" timestamp="1608793231650">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -305,10 +314,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="737" y="219" width="998" height="709" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609841020121" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609937975192">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610354538993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609937975192" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610354538993" />
     <state x="561" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608727115340">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -333,9 +342,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609756758515" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610348002072">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610444985764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610348002072" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610444985764" />
   </component>
 </project>
