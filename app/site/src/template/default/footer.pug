@@ -1,2 +1,64 @@
 mixin footer()
-    footer
+  .footer-box
+    .container
+      +b.footer
+        +e.top
+          +e.list
+            +e.list-title Купить
+            +e.A.list-item(href="#") Легковые автомобили
+            +e.A.list-item(href="#") Коммерческий транспорт
+            +e.A.list-item(href="#") Внедорожники и кроссоверы
+            +e.A.list-item(href="#") Минивэны
+          +e.list
+            +e.list-title Бренды
+            +e.A.list-item(href="#") Mercedes-Benz
+            +e.A.list-item(href="#") Opel
+            +e.A.list-item(href="#") Lexus
+            +e.A.list-item(href="#") Ford
+            +e.A.list-item(href="#") Nissan
+          +e.list
+            +e.list-title Услуги
+            +e.A.list-item(href="#") Покупка онлайн
+            +e.A.list-item(href="#") Оценка и выкуп онлайн
+            +e.A.list-item(href="#") Обмен / trade-in онлайн
+            +e.A.list-item(href="#") Корпоративным клиентам
+            +e.A.list-item(href="#") Сервис
+          +e.list
+            +e.list-title Компания
+            +e.A.list-item(href="#") О Компании
+            +e.A.list-item(href="#") Оценка и выкуп онлайн
+            +e.A.list-item(href="#") Обмен / trade-in онлайн
+            +e.A.list-item(href="#") Корпоративным клиентам
+            +e.A.list-item(href="#") Сервис
+          +e.list
+            +e.list-title Мы в социальных сетях
+            +e.list-social
+              +e.A.social-link(href="#")
+                SVG
+                  USE(xlink:href="../img/spritemap.svg#vk-logo")
+              +e.A.social-link(href="#")
+                SVG
+                  USE(xlink:href="../img/spritemap.svg#telegram-logo")
+              +e.A.social-link(href="#")
+                SVG
+                  USE(xlink:href="../img/spritemap.svg#fb-logo")
+              +e.A.social-link(href="#")
+                SVG
+                  USE(xlink:href="../img/spritemap.svg#insta-logo")
+        +e.mid
+          +e.contact
+            +e.contact-name Телефон
+            +e.A.contact-phone(href="#") +7 (495) 123-00-10
+          +e.contact
+            +e.contact-name Фактический адрес
+            +e.contact-address г. Москва, Новорижское ш., 7 км от МКАД<br>Ежедневно 8:30 - 22:00
+        +e.bottom
+          +e.left
+            +e.left-text Вся представленная на сайте информация, касающаяся автомобилей и сервисного обслуживания, носит информационный характер и не является публичной офертой, определяемой положениями ст. 437 (2) ГК РФ. Все цены указанные на данном сайте носят информационный характер и являются максимально рекомендуемыми розничными ценами по расчетам дистрибьютора (ООО «Хендэ Мотор СНГ»). Для получения подробной информации просьба обращаться к ближайшему официальному дилеру ООО «Хендэ Мотор СНГ». Опубликованная на данном сайте информация может быть изменена в любое время без предварительного уведомления.
+            +e.left-copyright 2020 © ООО “CarDealerName”
+          +e.A.right(href="mailto:info@lego-car.ru")
+            +e.right-company-name Разработано <br> info@lego-car.ru
+            +e.right-company-logo
+              SVG
+                USE(xlink:href="../img/spritemap.svg#legologo")
+      .js-scroll-top.notActive

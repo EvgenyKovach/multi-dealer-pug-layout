@@ -2,23 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/supporter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/js/hiddenTextDescription.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/styles/components/indexDescription/indexDescription.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/template/components/footer.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/template/components/indexDescription.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/arrdown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/checkSolid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/fb-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/insta-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/legologo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/telegram-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/vk-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/js/checkbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/js/scrollTop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/js/toggleFilters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/styles/components/brandsListFull/brandsListFull.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/autoList.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filerResult.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filters.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/styles/components/footer/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/template/brands.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/template/components/autosList.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/template/components/brandsListFull.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/template/components/filterResult.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/template/components/filters.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/template/filterAuto.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/img/spritemap.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/img/spritemap.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/img/sprites/mapCounter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/img/sprites/mapCounter.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/advantages/advantages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/advantages/advantages.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/header/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/header/mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/header/mobile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/indexDescription/indexDescription.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/indexDescription/indexDescription.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/moreQuestions/moreQuestions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/moreQuestions/moreQuestions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/newArrivals/newArrivals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/newArrivals/newArrivals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/popularModels/popularModels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/popularModels/popularModels.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/searchAsType/searchAsType.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/searchAsType/searchAsType.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/slider/swiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/slider/slider.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/default/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/default/vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/moreQuestions.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/moreQuestions.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/footer.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/default/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/default/footer.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/template/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/index.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,9 +53,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Pug File" />
         <option value="SCSS File" />
         <option value="JavaScript File" />
-        <option value="Pug File" />
       </list>
     </option>
   </component>
@@ -47,11 +68,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/app/site/src/template/index.pug" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/webpack.dev.config.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/webpack.prod.config.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/site/src/styles/components/brandsListFull/brandsListFull.scss" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/app/site/src/js/hiddenTextDescription.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/site/src/template/components/brandsListFull.pug" root0="SKIP_INSPECTION" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -72,17 +103,16 @@
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CHERY" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../KIA2" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="prettier.files.pattern" value="{**/*,*}.{js,ts,jsx,tsx,vue, pug}" />
     <property name="prettier.import.notification.dismissed" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Projects\project\node_modules\prettier" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -126,7 +156,14 @@
       <workItem from="1609743418373" duration="2158000" />
       <workItem from="1609745702688" duration="1342000" />
       <workItem from="1609752402679" duration="76782000" />
-      <workItem from="1610514340656" duration="9485000" />
+      <workItem from="1610514340656" duration="13532000" />
+      <workItem from="1610942346381" duration="6339000" />
+      <workItem from="1610948745348" duration="4074000" />
+      <workItem from="1611028686247" duration="3101000" />
+      <workItem from="1611033121875" duration="63000" />
+      <workItem from="1611033208190" duration="722000" />
+      <workItem from="1611034316464" duration="3492000" />
+      <workItem from="1611203898836" duration="25912000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace">
       <created>1608284195775</created>
@@ -219,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610354535538</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add indexDescription.pug&#10;add moreQuestions.pug">
+      <created>1610605946835</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610605946835</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,112 +283,29 @@
     <MESSAGE value="second clone block" />
     <MESSAGE value="block searchAsType" />
     <MESSAGE value="3 new blocks" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 new blocks" />
+    <MESSAGE value="add indexDescription.pug&#10;add moreQuestions.pug" />
+    <option name="LAST_COMMIT_MESSAGE" value="add indexDescription.pug&#10;add moreQuestions.pug" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Deployment" timestamp="1608529973773">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1611290332612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Deployment/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608529973773" />
-    <state x="761" y="27" key="#HTML" timestamp="1608880897086">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611290332612" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1611225331397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="761" y="27" key="#HTML/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608880897086" />
-    <state x="698" y="229" key="#JavaScript" timestamp="1608798600208">
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611225331397" />
+    <state x="565" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1611225914366">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="698" y="229" key="#JavaScript/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608798600208" />
-    <state x="705" y="344" key="#Notifications" timestamp="1609759850036">
+    <state x="565" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611225914366" />
+    <state x="668" y="237" width="583" height="566" key="find.popup" timestamp="1611225916647">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="705" y="344" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609759850036" />
-    <state x="792" y="375" width="373" height="294" key="#Other_File_Types" timestamp="1609763266435">
+    <state x="668" y="237" width="583" height="566" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611225916647" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611222977304">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="792" y="375" width="373" height="294" key="#Other_File_Types/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609763266435" />
-    <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610339834452">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610339834452" />
-    <state x="690" y="300" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1609752793172">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="300" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609752793172" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608877217447">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608877217447" />
-    <state x="707" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1609136217924">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="707" y="375" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609136217924" />
-    <state x="496" y="3" key="CommitChangelistDialog2" timestamp="1610354534298">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="496" y="3" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610354534298" />
-    <state x="740" y="261" width="679" height="517" key="FileChooserDialogImpl" timestamp="1610518493484">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="261" width="679" height="517" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610518493484" />
-    <state x="0" y="267" key="FileDocumentManager.FileCacheConflict" timestamp="1608793231650">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="0" y="267" key="FileDocumentManager.FileCacheConflict/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608793231650" />
-    <state width="1877" height="243" key="GridCell.Tab.0.bottom" timestamp="1609741484771">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609741484771" />
-    <state width="1877" height="243" key="GridCell.Tab.0.center" timestamp="1609741484770">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="243" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609741484770" />
-    <state width="1877" height="243" key="GridCell.Tab.0.left" timestamp="1609741484770">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="243" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609741484770" />
-    <state width="1877" height="243" key="GridCell.Tab.0.right" timestamp="1609741484770">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="243" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609741484770" />
-    <state x="793" y="222" key="RollbackChangesDialog" timestamp="1609845232589">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="793" y="222" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609845232589" />
-    <state x="737" y="219" width="998" height="709" key="SettingsEditor" timestamp="1609841020121">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="737" y="219" width="998" height="709" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609841020121" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610354538993">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610354538993" />
-    <state x="561" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608727115340">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="561" y="130" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608727115340" />
-    <state x="382" y="0" width="738" height="842" key="dock-window-1" timestamp="1609836891896">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="382" y="0" width="738" height="842" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609836891896" />
-    <state x="194" y="0" width="775" height="876" key="dock-window-2" timestamp="1610340362621">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="194" y="0" width="775" height="876" key="dock-window-2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610340362621" />
-    <state x="181" y="100" width="775" height="876" key="dock-window-3" timestamp="1610340362621">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="181" y="100" width="775" height="876" key="dock-window-3/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610340362621" />
-    <state x="667" y="258" width="585" height="592" key="find.popup" timestamp="1610338188475">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="667" y="258" width="585" height="592" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610338188475" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1609756758515">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1609756758515" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610444985764">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1610444985764" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611222977304" />
   </component>
 </project>

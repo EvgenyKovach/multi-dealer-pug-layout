@@ -1,5 +1,13 @@
 .advantages-box {
   padding: 90px 0;
+
+  @include below($tablet) {
+    padding: 60px 0;
+  }
+
+  @include below($mobileL) {
+    padding:  45px 0;
+  }
 }
 
 .advantages {

@@ -1,0 +1,15 @@
+extends default/default
+
+include components/slider
+include components/brandsListFull
+include components/moreQuestions
+include components/indexDescription
+
+block vars
+  -pageOptions.title = 'Бренды'
+
+block content
+  +slider()
+  +brandsListFull()
+  +moreQestions()
+  +indexDescription()

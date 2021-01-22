@@ -18,7 +18,11 @@
 .searchAsType {
 
   &-slider {
-    padding: 0 20px !important
+    padding: 0 20px !important;
+
+    @include below($tablet) {
+      padding: 0px !important;
+    }
   }
 
   &__title {
@@ -43,7 +47,7 @@
     position: absolute;
 
     width: 100%;
-    max-width: 325px;
+    max-width: 285px;
     height: 100%;
 
     border-radius: 8px;
@@ -59,18 +63,18 @@
   &__button-prev,
   &__button-next, {
     position: absolute;
+    display: flex;
     top: 56.4%;
     transform: translateY(-50%);
     cursor: pointer;
 
     z-index: 10;
-    width: 35px;
-    height: 35px;
 
     svg {
       width: 17px;
       height: 17px;
       padding: 8px;
+      margin: auto 0;
 
       background: #FFF;
       border-radius: 50%;
@@ -81,6 +85,12 @@
       &:hover {
         opacity: 1;
         box-shadow: 0 0 10px #c2c0c0;
+      }
+
+      @include below($tablet) {
+        width: 14px;
+        height: 14px;
+        padding: 5px;
       }
 
     }
@@ -102,8 +112,10 @@
   &__slide-box {
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 100%;
-    max-width: 325px;
+    max-width: 360px;
+    min-width: 255px;
     margin: 0 auto;
     border-radius: 8px;
     overflow: hidden;
@@ -120,11 +132,15 @@
   &__item {
     border-radius: 8px;
     overflow: hidden;
+
     height: 290px !important;
   }
 
   &__item-name {
+    max-width: 285px;
     margin-top: auto;
+    padding: 0 15px;
+
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -133,6 +149,7 @@
   }
 
   &__item-total {
+    max-width: 285px;
     font-size: 16px;
     text-align: center;
     color: #FFFFFF;

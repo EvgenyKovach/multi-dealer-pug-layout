@@ -1,0 +1,9 @@
+include filters
+include filterResult
+
+mixin autosList()
+  .autoList-box
+    .container
+      +b.autoList
+        +filters()
+        +filterResult()

@@ -60,14 +60,14 @@
   &__button-prev,
   &__button-next,
   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    width: 35px;
-    height: 35px;
     top: 56%;
     transform: translateY(-50%);
     cursor: pointer;
     z-index: 10;
-
 
     svg {
       width: 17px;
@@ -79,6 +79,12 @@
       box-shadow: 0 0 5px #929292;
       transition: .15s ease-in-out;
       opacity: .45;
+
+      @include below($tablet) {
+        width: 14px;
+        height: 14px;
+        padding: 5px;
+      }
 
       &:hover {
         opacity: 1;

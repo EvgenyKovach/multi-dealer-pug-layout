@@ -1,0 +1,276 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 60px 0;
+
+  @include below($tablet) {
+    padding: 45px 0;
+  }
+
+  @include below($mobileL) {
+    padding: 25px 0;
+  }
+
+  &-box {
+    background: #F2F4F6;
+  }
+
+  &__top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding-bottom: 40px;
+    border-bottom: 1px solid #DDE1E5;
+
+    @include below($mobileL) {
+      padding-bottom: 25px;
+    }
+  }
+
+  &__list {
+    width: calc(210px - 10px);
+    margin: 15px 5px;
+    font-size: 14px;
+    letter-spacing: -0.2px;
+
+    &-title {
+      font-size: 16px;
+      font-weight: bold;
+
+      padding: 5px 0;
+
+      cursor: default;
+
+      @include below($mobile) {
+        font-size: 14px;
+      }
+    }
+
+    &-item {
+      position: relative;
+      display: block;
+      padding: 5px 0;
+
+      @include below($mobileL) {
+        font-size: 12px;
+      }
+
+      &::before {
+        content: "";
+        position: absolute;
+        width: 15%;
+        height: 1px;
+        bottom: 5px;
+
+        transform: scaleX(0);
+        transform-origin: 0 0;
+        background: #000;
+        transition: .15s ease-in-out;
+      }
+
+      &:hover::before {
+        transform: scaleX(1);
+      }
+
+    }
+
+  }
+
+  &__list-social {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  &__social-link {
+
+    SVG {
+      max-width: 25px;
+      max-height: 25px;
+
+      fill: #ababae;
+      transition: .25s ease-in-out;
+
+    }
+
+    &:hover {
+      svg {
+        fill: $mainColor;
+      }
+
+    }
+
+  }
+
+  &__mid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px 0;
+
+    border-bottom: 1px solid #DDE1E5;
+
+    @include below($mobileL) {
+      padding: 25px 0;
+    }
+  }
+
+  &__contact {
+    display: flex;
+    flex-direction: column;
+
+    min-width: 290px;
+    max-width: 320px;
+
+    &:nth-child(2) {
+      margin: 0 0 0 85px;
+
+      @include below($notebook) {
+        margin: 0 0 0 25px;
+      }
+
+      @include below($tablet) {
+        margin: 20px 0 0 0;
+      }
+
+    }
+
+
+    &-name {
+      font-weight: bold;
+      font-size: 16px;
+
+      cursor: default;
+
+      @include below($mobileL) {
+        font-size: 14px;
+      }
+    }
+
+    &-phone {
+      font-weight: bold;
+      font-size: 20px;
+
+      transition: .25s ease-in-out;
+
+      @include below($mobileL) {
+        font-size: 16px;
+      }
+
+      &:hover {
+        color: $mainColor;
+      }
+    }
+
+    &-address {
+      font-size: 14px;
+      color: #242629;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px 0 0 0;
+
+    @include below($mobileL) {
+      padding: 25px 0 0 0;
+    }
+
+  }
+
+  &__left {
+    width: 60%;
+    min-width: 290px;
+
+    &-text {
+      font-size: 11px;
+      color: #242629;
+    }
+
+    &-copyright {
+      margin-top: 25px;
+
+      font-size: 12px;
+
+      @include below($tablet) {
+        margin-top: 15px;
+      }
+
+    }
+
+    @include below($tablet) {
+      width: 100%;
+    }
+
+  }
+
+  &__right {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+
+    @include below($tablet) {
+      width: 100%;
+
+      margin-top: 25px;
+    }
+
+    &:hover {
+      .footer__right-company-name {
+        text-decoration: underline;
+      }
+    }
+
+    &-company-name {
+      margin-right: 45px;
+    }
+
+    &-company-logo {
+      display: flex;
+      align-items: flex-start;
+
+      width: 120px;
+
+      svg {
+        width: 120px;
+        height: 45px;
+      }
+    }
+
+    &-company-name {
+      font-weight: bold;
+    }
+
+    &-company-logo {
+      fill: #242629;
+    }
+  }
+
+}
+
+.js-scroll-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  padding: 0;
+  z-index: 2;
+  cursor: pointer;
+  background: none;
+  border: 13px solid #0000;
+  border-top: none;
+  border-bottom-color: #454545;
+  outline: none;
+  opacity: 0.6;
+
+  &.notActive {
+    opacity: 0;
+    pointer-events: none;
+    z-index: -999;
+  }
+
+}

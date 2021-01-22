@@ -14,13 +14,13 @@
 
     top: 50%;
     transform: translateY(-50%);
-    transition: .25s ease-in-out;
+    transition: .15s ease-in-out;
 
     background: #333;
   }
 
   &.active:before {
-    transform: translateY(-50%) translateX(-15px) scaleY(0);
+    transform: translateY(-50%) rotate(45deg);
   }
 
   &__toggle {
@@ -38,7 +38,7 @@
       height: 4px;
 
       background: #333;
-      transition: .25s ease-in-out;
+
     }
 
     &:after {
@@ -50,20 +50,44 @@
       bottom: 0;
 
       background: #333;
-      transition: .25s ease-in-out;
+      transition: .2s ease-in-out;
     }
 
     &.active {
       &:before {
-        left: -10px;
-        transform: rotate(135deg) translateY(-300%);
+        animation: btntoggleDown .15s ease-in;
+        animation-fill-mode: forwards;
       }
       &:after {
-        left: -13px;
-        transform: rotate(-135deg) translateY(400%);
+        animation: btntoggleTop .15s ease-in;
+        animation-fill-mode: forwards;
       }
     }
 
+  }
+}
+
+@keyframes btntoggleTop {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-250%) rotate(-5deg);
+  }
+  100% {
+    transform: translateY(-250%) rotate(-45deg);
+  }
+}
+
+@keyframes btntoggleDown {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(250%) rotate(5deg);
+  }
+  100% {
+    transform: translateY(250%) rotate(45deg);
   }
 }
 
@@ -74,7 +98,7 @@
   flex-direction: column;
   align-items: center;
 
-  top: 110px;
+  top: 123px;
   left: 0;
   width: 100%;
   padding: 10px 0;

@@ -1,0 +1,15 @@
+extends default/default
+
+include components/slider
+include components/brandsListFull
+include components/moreQuestions
+include components/indexDescription
+include components/autosList
+
+block vars
+  -pageOptions.title = 'Фильтр авто'
+
+block content
+  +autosList()
+  +moreQestions()
+  +indexDescription()

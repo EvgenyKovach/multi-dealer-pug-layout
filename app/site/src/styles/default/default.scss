@@ -2,7 +2,13 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Noto Sans', sans-serif;
-  line-height: 1.5
+  line-height: 1.5;
+
+  color: #242629;
+}
+
+div {
+  cursor: default;
 }
 
 .row {
@@ -145,10 +151,12 @@ ul, li {
 
   @include below($tablet) {
     font-size: 14px;
+    padding: 12px 17px;
   }
 
   @include below($mobile) {
     font-size: 12px;
+    padding: 10px 15px;
   }
 
   &.withArrow {
