@@ -3,6 +3,7 @@
   flex-direction: column;
 
   user-select: none;
+  padding: 20px 0;
 
   &__name {
     cursor: pointer;
@@ -21,6 +22,10 @@
         transform: translateY(-50%) rotate(180deg);
       }
 
+    }
+
+    &:nth-last-child {
+      border-bottom: none;
     }
 
   }
@@ -74,6 +79,28 @@
         transform: translateY(-50%) rotate(170deg);
       }
 
+    }
+
+    &.disabled {
+      color: #8f8f8f;
+      pointer-events: none;
+
+
+      .arrow-down {
+        fill: #8f8f8f;
+      }
+
+    }
+  }
+
+  &__selectParent {
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    color: #910303;
+
+    &.parentSelected {
+      display: none;
     }
   }
 
@@ -166,8 +193,116 @@
 
   }
 
+  &__rangeSlider {
+    transform: translateY(-12px);
+    
+    div {
+      cursor: pointer;
+    }
+  }
+
+  &__rangeValues {
+    width: 260px;
+    display: flex;
+    margin-left: 12px;
+
+    pointer-events: none;
+
+    input {
+      width: calc(100% / 2);
+      padding: 15px 10px;
+      border: 1px solid #B3B6B8;
+      border-top-left-radius: 6px;
+
+      font-size: 16px;
+
+      &:nth-child(2) {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 6px;
+        text-align: right;
+      }
+
+    }
+  }
+
   .checkbox-input {
     opacity: 0;
   }
+
+  .css-slider-section-fix {
+    animation: none;
+    transform: translateX(-7px) !important;
+  }
+
+  .colors-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+    overflow: visible;
+    padding: 10px 0 0;
+  }
+
+  .checkColor {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+
+    top: 25%;
+    transform: translateY(-100%) translateX(5px);
+    right: -8px;
+    padding: 4px;
+
+    opacity: 0;
+    transition: .1s ease-in-out;
+    z-index: 99;
+
+    fill: #fff;
+    background: $mainColor;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    cursor: pointer;
+    pointer-events: none;
+
+    &.checked {
+      opacity: 1;
+      transform: translateY(-50%) translateX(0);
+    }
+  }
+
+  &__colorLabel {
+    position: relative;
+    width: 30px;
+    height: 30px;
+
+    margin: 0 10px 10px 0;
+
+    border-radius: 50%;
+    box-shadow: 0 0 5px #565254;
+
+    transition: .15s ease-in-out;
+
+    input {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      left: -4px;
+      top: -4px;
+      opacity: 0;
+    }
+
+    &.checked {
+      box-shadow: 0 0 15px #565254;
+      transform: scale(.9);
+    }
+
+  }
+
+ &__clearFilter {
+    position: sticky;
+   width: 100%;
+   margin-top: 20px;
+ }
 
 }

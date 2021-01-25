@@ -1,0 +1,66 @@
+.filters__section {
+
+  .rangeSlider-box {
+    max-width: 260px;
+    margin-left: 8px;
+  }
+
+  .noUi-connect {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 4px !important;
+    background: $mainColor;
+  }
+
+  .noUi-target {
+    border: none;
+    box-shadow: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .noUi-handle {
+    width: 26px !important;
+    height: 26px !important;
+    top: -2px !important;
+    background: $mainColor;
+    box-shadow: none;
+    border: 1px solid #ffffff;
+    transition: .15s ease-in-out;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:hover {
+      outline: none !important;
+      transform: scale(1.1);
+
+      &:after {
+        background: #414141;
+      }
+
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:before {
+      display: none;
+    }
+
+    &:after {
+      width: 13px;
+      height: 13px;
+      left: 49.5%;
+      top: 50%;
+
+      background: #ffffff;
+      border-radius: 50%;
+      transform: translate(-50%, -50%);
+      transition: .15s ease-in-out;
+    }
+
+  }
+
+}

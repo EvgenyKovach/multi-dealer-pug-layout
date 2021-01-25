@@ -28,8 +28,9 @@ mixin filters()
             USE(xlink:href="../img/spritemap.svg#checksolid")
           +e.SPAN.checkbox-name Mercedes-Benz
     +e.section.closedList
-      +e.section-title
-        +e.name Марка
+      +e.section-title.disabled
+        +e.name Модель
+        +e.SPAN.selectParent  (выберите бренд)
         +e.section-arrow
           SVG.arrow-down.closedList
             USE(xlink:href="../img/spritemap.svg#arrdown")
@@ -39,7 +40,7 @@ mixin filters()
           SVG.checkMark
             USE(xlink:href="../img/spritemap.svg#checksolid")
           +e.SPAN.checkbox-name RV-6
-        +e.LABEL.checkbox-box
+        +e.LABEL.checkbox-box.disabled
           INPUT.checkbox-input(type='checkbox')
           SVG.checkMark
             USE(xlink:href="../img/spritemap.svg#checksolid")
@@ -55,13 +56,14 @@ mixin filters()
             USE(xlink:href="../img/spritemap.svg#checksolid")
           +e.SPAN.checkbox-name WTF_Benz
     +e.section.closedList
-      +e.section-title
+      +e.section-title.disabled
         +e.name Комплектация
+        +e.SPAN.selectParent  (выберите модель)
         +e.section-arrow
           SVG.arrow-down.closedList
             USE(xlink:href="../img/spritemap.svg#arrdown")
       +e.section-list
-        +e.LABEL.checkbox-box
+        +e.LABEL.checkbox-box.disabled
           INPUT.checkbox-input(type='checkbox')
           SVG.checkMark
             USE(xlink:href="../img/spritemap.svg#checksolid")
@@ -162,3 +164,106 @@ mixin filters()
           SVG.checkMark
             USE(xlink:href="../img/spritemap.svg#checksolid")
           +e.SPAN.checkbox-name Выдуманный
+    +e.section
+      +e.section-title
+        +e.name Бюджет
+        +e.section-arrow
+          SVG.arrow-down
+            USE(xlink:href="../img/spritemap.svg#arrdown")
+      +e.section-list.css-slider-section-fix
+        +e.rangeValues.js-rangeData
+          INPUT.maxRange(name='price[max]'
+            type='text'
+            value='15000000'
+            class='js-rangeMax')
+          INPUT.minRange(name='price[min]'
+                         type='text'
+                         value='1000'
+                          class='js-rangeMin')
+
+        +e.rangeSlider
+          .rangeSlider-box.js-rangeSlider(data-min=''
+                               data-max=''
+                               data-from=''
+                               data-to='')
+    +e.section
+      +e.section-title
+        +e.name Цвет кузова
+        +e.section-arrow
+          SVG.arrow-down
+            USE(xlink:href="../img/spritemap.svg#arrdown")
+      +e.section-list.colors-list
+        +e.LABEL.colorLabel(style="background: red")
+          INPUT.color-checkbox(type='checkbox')
+          SVG.checkColor
+            USE(xlink:href="../img/spritemap.svg#checksolid")
+        +e.LABEL.colorLabel(style="background: green")
+          INPUT.color-checkbox(type='checkbox')
+          SVG.checkColor
+            USE(xlink:href="../img/spritemap.svg#checksolid")
+        +e.LABEL.colorLabel(style="background: blue")
+          INPUT.color-checkbox(type='checkbox')
+          SVG.checkColor
+            USE(xlink:href="../img/spritemap.svg#checksolid")
+        +e.LABEL.colorLabel(style="background: aqua")
+          INPUT.color-checkbox(type='checkbox')
+          SVG.checkColor
+            USE(xlink:href="../img/spritemap.svg#checksolid")
+        +e.LABEL.colorLabel(style="background: brown")
+          INPUT.color-checkbox(type='checkbox')
+          SVG.checkColor
+            USE(xlink:href="../img/spritemap.svg#checksolid")
+        +e.LABEL.colorLabel(style="background: black")
+          INPUT.color-checkbox(type='checkbox')
+          SVG.checkColor
+            USE(xlink:href="../img/spritemap.svg#checksolid")
+        +e.LABEL.colorLabel(style="background: black")
+          INPUT.color-checkbox(type='checkbox')
+          SVG.checkColor
+            USE(xlink:href="../img/spritemap.svg#checksolid")
+        +e.LABEL.colorLabel(style="background: black")
+          INPUT.color-checkbox(type='checkbox')
+          SVG.checkColor
+            USE(xlink:href="../img/spritemap.svg#checksolid")
+        +e.LABEL.colorLabel(style="background: white")
+          INPUT.color-checkbox(type='checkbox')
+          SVG.checkColor
+            USE(xlink:href="../img/spritemap.svg#checksolid")
+        +e.LABEL.colorLabel(style="background: red")
+          INPUT.color-checkbox(type='checkbox')
+          SVG.checkColor
+            USE(xlink:href="../img/spritemap.svg#checksolid")
+        +e.LABEL.colorLabel(style="background: green")
+          INPUT.color-checkbox(type='checkbox')
+          SVG.checkColor
+            USE(xlink:href="../img/spritemap.svg#checksolid")
+        +e.LABEL.colorLabel(style="background: blue")
+          INPUT.color-checkbox(type='checkbox')
+          SVG.checkColor
+            USE(xlink:href="../img/spritemap.svg#checksolid")
+        +e.LABEL.colorLabel(style="background: aqua")
+          INPUT.color-checkbox(type='checkbox')
+          SVG.checkColor
+            USE(xlink:href="../img/spritemap.svg#checksolid")
+        +e.LABEL.colorLabel(style="background: brown")
+          INPUT.color-checkbox(type='checkbox')
+          SVG.checkColor
+            USE(xlink:href="../img/spritemap.svg#checksolid")
+        +e.LABEL.colorLabel(style="background: green")
+          INPUT.color-checkbox(type='checkbox')
+          SVG.checkColor
+            USE(xlink:href="../img/spritemap.svg#checksolid")
+        +e.LABEL.colorLabel(style="background: blue")
+          INPUT.color-checkbox(type='checkbox')
+          SVG.checkColor
+            USE(xlink:href="../img/spritemap.svg#checksolid")
+        +e.LABEL.colorLabel(style="background: aqua")
+          INPUT.color-checkbox(type='checkbox')
+          SVG.checkColor
+            USE(xlink:href="../img/spritemap.svg#checksolid")
+        +e.LABEL.colorLabel(style="background: brown")
+          INPUT.color-checkbox(type='checkbox')
+          SVG.checkColor
+            USE(xlink:href="../img/spritemap.svg#checksolid")
+    +e.clearFilter
+      BUTTON.btn.js-clear-filter Очистить фильтр

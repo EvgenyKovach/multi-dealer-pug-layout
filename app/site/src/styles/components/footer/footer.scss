@@ -13,7 +13,8 @@
   }
 
   &-box {
-    background: #F2F4F6;
+    background: #2a2a2d;;
+    color: #fff;
   }
 
   &__top {
@@ -66,7 +67,7 @@
 
         transform: scaleX(0);
         transform-origin: 0 0;
-        background: #000;
+        background: #e3e3e3;
         transition: .15s ease-in-out;
       }
 
@@ -167,7 +168,7 @@
 
     &-address {
       font-size: 14px;
-      color: #242629;
+      color: #fff;
     }
   }
 
@@ -189,7 +190,7 @@
 
     &-text {
       font-size: 11px;
-      color: #242629;
+      color: #fff;
     }
 
     &-copyright {
@@ -247,7 +248,7 @@
     }
 
     &-company-logo {
-      fill: #242629;
+      fill: #fff;;
     }
   }
 

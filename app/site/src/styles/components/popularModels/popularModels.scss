@@ -115,6 +115,7 @@
 
     background: #E5EAEE;
     border-radius: 8px;
+    cursor: pointer;
   }
 
   &__item-img {
@@ -124,6 +125,7 @@
     max-width: 240px;
     height: auto;
     margin: 0 auto;
+    cursor: pointer;
 
     img {
       height: auto;
@@ -145,6 +147,7 @@
     width: 100%;
 
     transform: translateX(-50%);
+    cursor: pointer;
 
     img {
       margin: auto;
@@ -156,6 +159,7 @@
 
   &__item {
     height: auto !important;
+    cursor: pointer;
   }
 
   &__item-name {
@@ -164,6 +168,7 @@
     text-align: center;
 
     margin-top: 15px;
+    cursor: pointer;
   }
 
   &__item-cost {
@@ -171,6 +176,7 @@
     text-align: center;
 
     margin-top: 5px;
+    cursor: pointer;
   }
 
 }

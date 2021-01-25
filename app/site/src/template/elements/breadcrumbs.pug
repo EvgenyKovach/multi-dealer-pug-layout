@@ -1,0 +1,17 @@
+mixin breadcrumbs(nextLink, middleLink)
+  +b.breadcrumbs
+    +e.A.link(href="/") Главная
+      +e.SVG.arrow
+        USE(xlink:href="../img/spritemap.svg#arrdown")
+    if middleLink
+      +e.A.link(href="#")= middleLink
+        +e.SVG.arrow
+          USE(xlink:href="../img/spritemap.svg#arrdown")
+      +e.A.link.currentLink(href="#")= nextLink
+        +e.SVG.arrow
+          USE(xlink:href="../img/spritemap.svg#arrdown")
+    else
+      +e.A.link.currentLink(href="#")= nextLink
+        +e.SVG.arrow
+          USE(xlink:href="../img/spritemap.svg#arrdown")
+

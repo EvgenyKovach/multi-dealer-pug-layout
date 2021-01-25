@@ -1,0 +1,17 @@
+.choices__list--dropdown .choices__item {
+  padding: 10px 10px !important;
+
+}
+
+.choices__list--dropdown {
+  z-index: 2;
+}
+
+.choices__inner {
+  min-height: auto;
+  width: 255px;
+}
+
+.choices[data-type*=select-one]:after {
+  right: 15px;
+}

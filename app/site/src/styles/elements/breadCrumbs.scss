@@ -1,0 +1,42 @@
+.breadcrumbs {
+  padding: 40px 0 30px 0;
+  margin-left: 5px;
+
+  &__link {
+    position: relative;
+
+    margin-right: 65px;
+
+    transition: .15s ease-in-out;
+    color: #808080;
+    font-size: 14px;
+
+    &:last-child .breadcrumbs__arrow {
+      display: none;
+    }
+
+    &.currentLink {
+      color: #222;
+      pointer-events: none;
+    }
+
+    &:hover {
+      color: #222;
+    }
+
+  }
+
+  &__arrow {
+    position: absolute;
+
+    top: 30%;
+    right: -40px;
+    width: 8px;
+    height: 8px;
+
+    fill: #333333;
+
+    pointer-events: none;
+    transform: rotate(-90deg) translateY(-50%);
+  }
+}

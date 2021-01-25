@@ -5,11 +5,12 @@ include components/brandsListFull
 include components/moreQuestions
 include components/indexDescription
 
+include elements/breadcrumbs
+
 block vars
   -pageOptions.title = 'Бренды'
 
 block content
-  +slider()
   +brandsListFull()
   +moreQestions()
   +indexDescription()

@@ -6,10 +6,12 @@ include components/moreQuestions
 include components/indexDescription
 include components/autosList
 
+include elements/breadcrumbs
+include elements/carCard
+
 block vars
   -pageOptions.title = 'Фильтр авто'
 
 block content
   +autosList()
-  +moreQestions()
   +indexDescription()

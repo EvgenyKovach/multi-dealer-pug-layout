@@ -1,2 +1,150 @@
 mixin filterResult()
+  .filterResult-box
+    +breadcrumbs('Авто в наличии')
     +b.filterResult
+      +e.sort
+        +e.sort-element
+          +e.sort-el-name Упорядочить:
+          +e.SELECT.sort-el-select
+            OPTION Сначала дешевые
+            OPTION Сначала дорогие
+            OPTION Сначача в наличии
+            OPTION Сначача в наличии + дешевые
+            OPTION Сначача в наличии + дорогие
+      +e.listResult
+        +carCard(
+          '../img/devImages/car1/a3.png',
+          '../img/devImages/car1/a2.png',
+          '../img/devImages/car1/a1.png',
+          'В наличии',
+          'Lexus RX',
+          'Комплектация UX 200 #discover',
+          '249 л/с, Бензин, Вариатор, ПолныПолный ПолыйПолный ПолныйПолный ПолныйПолныйПолный привод, Черный металлик',
+          '2 099 000 руб',
+          '18 990',
+          '1 240 000 руб')
+
+        +carCard(
+          '../img/devImages/car2/b2.jpg',
+          '../img/devImages/car2/b3.jpg',
+          '../img/devImages/car2/b4.jpg',
+          'В наличии',
+          'Lexus RX',
+          'Комплектация UX 200 #discover',
+          '249 л/с, Бензин, Вариатор, Полный привод, Черный металлик',
+          '2 099 000 руб',
+          '18 990')
+
+        +carCard('../img/devImages/car3.png',
+          '../img/devImages/car2.png',
+          '../img/devImages/car1.png',
+          'В наличии',
+          'Lexus RX',
+          'Комплектация UX 200 #discover',
+          '249 л/с, Бензин, Вариатор, Полный привод, Черный металлик',
+          '2 099 000 руб',
+          '18 990',
+          '1 240 000 руб')
+
+        +carCard(
+          '../img/devImages/car1/a3.png',
+          '../img/devImages/car1/a2.png',
+          '../img/devImages/car1/a1.png',
+          'В наличии',
+          'Lexus RX',
+          'Комплектация UX 200 #discover',
+          '249 л/с, Бензин, Вариатор, ПолныПолный ПолыйПолный ПолныйПолный ПолныйПолныйПолный привод, Черный металлик',
+          '2 099 000 руб',
+          '18 990',
+          '1 240 000 руб')
+
+        +carCard(
+          '../img/devImages/car2/b2.jpg',
+          '../img/devImages/car2/b3.jpg',
+          '../img/devImages/car2/b4.jpg',
+          'В наличии',
+          'Lexus RX',
+          'Комплектация UX 200 #discover',
+          '249 л/с, Бензин, Вариатор, Полный привод, Черный металлик',
+          '2 099 000 руб',
+          '18 990')
+
+        +carCard('../img/devImages/car3.png',
+          '../img/devImages/car2.png',
+          '../img/devImages/car1.png',
+          'В наличии',
+          'Lexus RX',
+          'Комплектация UX 200 #discover',
+          '249 л/с, Бензин, Вариатор, Полный привод, Черный металлик',
+          '2 099 000 руб',
+          '18 990',
+          '1 240 000 руб')
+
+        +carCard(
+          '../img/devImages/car1/a3.png',
+          '../img/devImages/car1/a2.png',
+          '../img/devImages/car1/a1.png',
+          'В наличии',
+          'Lexus RX',
+          'Комплектация UX 200 #discover',
+          '249 л/с, Бензин, Вариатор, ПолныПолный ПолыйПолный ПолныйПолный ПолныйПолныйПолный привод, Черный металлик',
+          '2 099 000 руб',
+          '18 990',
+          '1 240 000 руб')
+
+        +carCard(
+          '../img/devImages/car2/b2.jpg',
+          '../img/devImages/car2/b3.jpg',
+          '../img/devImages/car2/b4.jpg',
+          'В наличии',
+          'Lexus RX',
+          'Комплектация UX 200 #discover',
+          '249 л/с, Бензин, Вариатор, Полный привод, Черный металлик',
+          '2 099 000 руб',
+          '18 990')
+
+        +carCard('../img/devImages/car3.png',
+          '../img/devImages/car2.png',
+          '../img/devImages/car1.png',
+          'В наличии',
+          'Lexus RX',
+          'Комплектация UX 200 #discover',
+          '249 л/с, Бензин, Вариатор, Полный привод, Черный металлик',
+          '2 099 000 руб',
+          '18 990',
+          '1 240 000 руб')
+
+        +carCard(
+          '../img/devImages/car1/a3.png',
+          '../img/devImages/car1/a2.png',
+          '../img/devImages/car1/a1.png',
+          'В наличии',
+          'Lexus RX',
+          'Комплектация UX 200 #discover',
+          '249 л/с, Бензин, Вариатор, ПолныПолный ПолыйПолный ПолныйПолный ПолныйПолныйПолный привод, Черный металлик',
+          '2 099 000 руб',
+          '18 990',
+          '1 240 000 руб')
+
+        +carCard(
+          '../img/devImages/car2/b2.jpg',
+          '../img/devImages/car2/b3.jpg',
+          '../img/devImages/car2/b4.jpg',
+          'В наличии',
+          'Lexus RX',
+          'Комплектация UX 200 #discover',
+          '249 л/с, Бензин, Вариатор, Полный привод, Черный металлик',
+          '2 099 000 руб',
+          '18 990')
+
+        +carCard('../img/devImages/car3.png',
+          '../img/devImages/car2.png',
+          '../img/devImages/car1.png',
+          'В наличии',
+          'Lexus RX',
+          'Комплектация UX 200 #discover',
+          '249 л/с, Бензин, Вариатор, Полный привод, Черный металлик',
+          '2 099 000 руб',
+          '18 990',
+          '1 240 000 руб')
+      +e.showMore.btn Показать ещё

@@ -4,7 +4,7 @@
 @import "default/default";
 @import "fonts";
 
-//components
+//  components
 @import "components/header/header";
 @import "components/header/mobile";
 @import "components/footer/footer";
@@ -21,7 +21,9 @@
 @import "components/filterAuto/autoList";
 @import "components/filterAuto/filters";
 @import "components/filterAuto/filerResult";
+@import "components/rangeSlider/noUiSliderCustom";
+@import "components/choicesjs-custom";
 
-
-//mixins
-@import "mixins/carCard";
+//  elements
+@import "elements/carCard";
+@import "elements/breadCrumbs";

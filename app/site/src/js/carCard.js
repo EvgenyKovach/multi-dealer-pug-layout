@@ -1,5 +1,5 @@
 export default () => {
-  let carSlider = document.querySelectorAll('.js-carCardSwiper');
+  const carSlider = document.querySelectorAll('.js-carCardSwiper');
 
   if (carSlider && carSlider.length) {
     let collectionsSwiper = new Swiper('.js-carCardSwiper', {
@@ -10,21 +10,6 @@ export default () => {
       autoplay: {
         enabled: false,
         delay: 500
-      },
-      //Responsive breakpoints
-      breakpoints: {
-        480: {
-          spaceBetween: 100
-        },
-        769: {
-          spaceBetween: 50
-        },
-        1024: {
-          spaceBetween: 40
-        },
-        1440: {
-          spaceBetween: 50
-        }
       },
       // If we need pagination
       pagination: {

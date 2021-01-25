@@ -1,4 +1,4 @@
-include carCard
+include ../elements/carCardSlide
 
 mixin newArrivals()
   .newArrivals-box
@@ -7,7 +7,7 @@ mixin newArrivals()
         +e.title.page-title Новые поступления
         +e.list.swiper-container
           .swiper-wrapper
-            +carCard(
+            +carCardSlide(
               '../img/devImages/car1/a3.png',
               '../img/devImages/car1/a2.png',
               '../img/devImages/car1/a1.png',
@@ -19,7 +19,7 @@ mixin newArrivals()
               '18 990',
               '1 240 000 руб')
 
-            +carCard(
+            +carCardSlide(
               '../img/devImages/car2/b2.jpg',
               '../img/devImages/car2/b3.jpg',
               '../img/devImages/car2/b4.jpg',
@@ -30,7 +30,7 @@ mixin newArrivals()
               '2 099 000 руб',
               '18 990')
 
-            +carCard('../img/devImages/car3.png',
+            +carCardSlide('../img/devImages/car3.png',
               '../img/devImages/car2.png',
               '../img/devImages/car1.png',
               'В наличии',

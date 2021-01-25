@@ -92,6 +92,7 @@ export default () => {
         slidesPerView: 2,
       },
     },
+
   });
 
 };
