@@ -98,27 +98,25 @@
   flex-direction: column;
   align-items: center;
 
-  top: 120px;
-  left: 0;
-  width: 100%;
+  bottom: 0;
+  right: -18px;
+  width: calc(100% + 36px);
   padding: 10px 0;
-  z-index: 2;
 
+  z-index: 2;
   border-bottom: 1px solid #f1f1f1;
   border-top: 1px solid #f1f1f1;
   transform-origin: 0 0;
-  transform: scaleY(0);
+  transform: scaleY(.9) translateY(100%);
   transition: .15s ease-in-out;
   opacity: 0;
   background: #fff;
-
-  @include below($mobileL) {
-    top: 115px;
-  }
+  pointer-events: none;
 
   &.active {
-    transform: scaleY(1);
+    transform: scaleY(1) translateY(100%);
     opacity: 1;
+    pointer-events: inherit;
   }
 
   &__item {

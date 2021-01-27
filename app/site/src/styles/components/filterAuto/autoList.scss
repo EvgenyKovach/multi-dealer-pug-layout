@@ -3,5 +3,8 @@
   min-height: 80vh;
 
   grid-template-columns: 310px 3fr ;
-  padding-bottom: 40px;
+
+  @include below($notebook) {
+    grid-template-columns: 1fr;
+  }
 }

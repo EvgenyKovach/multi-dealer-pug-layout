@@ -1,5 +1,5 @@
 export default () => {
-  const colorCheckboxes = document.querySelectorAll('.filters__colorLabel')
+  const colorCheckboxes = document.querySelectorAll('.js-color-toggle')
 
   colorCheckboxes.forEach(item => {
 

@@ -4,7 +4,12 @@
 
   &-box {
     background: #F2F4F6;
-    padding: 0 25px;
+    padding: 0 15px;
+
+    @include below($mobile) {
+      padding: 0 5px;
+    }
+
   }
 
   &__sort {
@@ -28,24 +33,37 @@
 
 
   &__listResult {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 30px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px 10px;
+    justify-content: space-evenly;
+    padding: 30px 10px 30px 0;
+
+    @include below(1900px) {
+      grid-template-columns: auto auto auto;
+    }
+
+    @include below(1275px) {
+      grid-template-columns: auto auto;
+    }
+
+    @include below($notebook) {
+      grid-template-columns: auto auto auto;
+    }
+
+    @include below(975px) {
+      grid-template-columns: auto auto;
+    }
+
+    @include below(675px) {
+      grid-template-columns: auto;
+    }
+
   }
 
   .car-card {
-    width: calc(100% / 4 - 15px);
-
-    margin: 10px 0;
-
-    @include below($desktop) {
-      width: calc(100% / 3 - 15px);
-    }
-
-    @include below($tablet) {
-      width: calc(100% / 2 - 15px);
-    }
+    min-width: 275px;
+    max-width: 400px;
 
     &__item-box {
       background: #fff;

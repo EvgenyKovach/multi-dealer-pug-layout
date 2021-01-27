@@ -10,6 +10,13 @@
 .choices__inner {
   min-height: auto;
   width: 255px;
+  border-radius: 7.5px !important;
+  border-color: $lightGray;
+  background: #ffffff;
+}
+
+.choices__list--dropdown {
+  border-radius: 7.5px !important;
 }
 
 .choices[data-type*=select-one]:after {

@@ -8,11 +8,11 @@ mixin header()
 							USE(xlink:href="../img/spritemap.svg#logo")
 
 				+e.item
-					+b.menu
-						+e.A.item(href="/templates/brands.html") Найти автомобиль
-						+e.A.item(href="/templates/filterAuto.html") Фильтр авто
-						+e.A.item(href="#") Обменять свой авто
-						+e.A.item(href="#") Контакты
+					+e.menu
+						+e.A.menu-item(href="/templates/brands.html") Найти автомобиль
+						+e.A.menu-item(href="/templates/filterAuto.html") Фильтр авто
+						+e.A.menu-item(href="#") Обменять свой авто
+						+e.A.menu-item(href="#") Контакты
 
 				+e.item.contactsInfo
 					+b.headerInfo
@@ -22,7 +22,7 @@ mixin header()
 									USE(xlink:href="../img/spritemap.svg#mapcounter")
 							+e.addressInfo
 								+e.dealerName DealerName
-								+e.dealerData Волгоград, ул. Жукова, д. 94
+								+e.dealerData Волгоград Волгоград Волгоград Волгоград Волгоград, ул. Жукова, д. 94
 						+e.phone
 							+e.A.phoneData(href="tel:900") +7 8442 20 06 37
 							+e.dealerOnline Сейчас открыто

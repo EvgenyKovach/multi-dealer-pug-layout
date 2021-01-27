@@ -7,6 +7,8 @@ header {
   justify-content: space-between;
   align-items: center;
 
+  position: relative;
+
   @include below($desktop) {
     padding-bottom: 0;
   }
@@ -46,7 +48,7 @@ header {
   }
 
   &__item:nth-child(3) {
-    width: calc(100% / 4)
+    width: calc(100% / 3)
   }
 
   @include below($desktop) {
@@ -76,10 +78,10 @@ header {
     }
 
     &:before {
-      position:absolute;
+      position: absolute;
       content: "";
 
-      left: calc(60%);
+      left: calc(62%);
       top: 0;
       width: 1px;
       height: 90%;
@@ -93,15 +95,15 @@ header {
     }
   }
 
-}
 
-.menu {
-  display: flex;
-  justify-content: space-between;
+  &__menu {
+    display: flex;
+    justify-content: space-between;
 
-  width: 100%;
+    width: 100%;
+  }
 
-  &__item {
+  &__menu-item {
     font-weight: bold;
     font-size: 14px;
     padding: 20px 5px;
@@ -147,7 +149,7 @@ header {
     }
 
     &:before {
-      position:absolute;
+      position: absolute;
       content: "";
       display: none;
 
@@ -174,7 +176,7 @@ header {
       height: 24px;
       fill: $mainColor;
     }
-    
+
     @include below($mobileL) {
       display: none;
     }
@@ -191,6 +193,12 @@ header {
   &__dealerName {
     font-weight: bold;
     color: $mainColor;
+  }
+
+  &__phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   &__phoneData {

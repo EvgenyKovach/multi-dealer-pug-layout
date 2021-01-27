@@ -3,14 +3,19 @@
   flex-direction: column;
 
   user-select: none;
-  padding: 20px 0;
+  padding: 15px 0;
+
+  @include below($notebook) {
+    display: none;
+  }
 
   &__name {
     cursor: pointer;
+    max-width: 80%;
   }
 
   &__section {
-    padding: 5px;
+    padding: 5px 0 5px 15px;
     border-bottom: 1px solid #E8E9EA;
 
     &.closedList {
@@ -164,6 +169,12 @@
     user-select: none;
 
     transition: .1s ease;
+  }
+
+  &__checkbox-count {
+    padding-left: 5px;
+    font-size: 12px;
+    color: #666666;
   }
 
   .checkMark {

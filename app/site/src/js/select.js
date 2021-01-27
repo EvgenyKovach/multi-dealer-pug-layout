@@ -1,7 +1,7 @@
 import Choices from "choices.js";
 
 export default () => {
-  const selectElements = document.querySelectorAll('.filterResult__sort-el-select');
+  const selectElements = document.querySelectorAll('.js-sort-init');
 
   selectElements.forEach(select => {
     new Choices(select, {

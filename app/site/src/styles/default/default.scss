@@ -62,7 +62,7 @@ h3 {
 .container-filter {
   max-width: 1920px;
   margin: 0 auto;
-  width: calc(100% - 35px);
+  width: calc(100% - 5px);
 
   @include below($mobileL) {
     width: calc(100% - 20px);
@@ -177,6 +177,12 @@ ul, li {
     transform-origin: 50% 50%;
     opacity: 0;
     transition: .25s ease-in-out;
+
+  }
+
+  &.small-btn {
+    padding: 10px 20px;
+    font-size: 14px;
   }
 
   &:hover::before {
