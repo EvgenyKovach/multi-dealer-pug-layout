@@ -1,12 +1,11 @@
 .breadcrumbs {
   padding: 40px 0 30px 0;
-  margin-left: 5px;
 
   &__link {
     position: relative;
 
     margin-right: 15px;
-    padding: 4px 10px;
+    padding: 4px 20px 4px 0;
 
     transition: .15s ease-in-out;
     color: #808080;
@@ -17,7 +16,7 @@
       content: '';
       width: 2px;
       height: 15px;
-      right: -7px;
+      right: 3px;
       top: 50%;
       transform: rotate(15deg) translateY(-50%);
 

@@ -58,11 +58,7 @@ export default () => {
               bulletItem.classList.add("swiper-pagination-bullet-active");
 
             });
-            bulletItem.addEventListener("mouseleave", (e) => {
-              if(e.toElement.classList.contains("swiper-pagination-bullet")) {
-                bulletItem.classList.remove("swiper-pagination-bullet-active");
-              }
-            });
+
           });
         }
       });

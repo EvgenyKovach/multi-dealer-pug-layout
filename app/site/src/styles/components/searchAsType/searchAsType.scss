@@ -83,8 +83,8 @@
     z-index: 10;
 
     svg {
-      width: 17px;
-      height: 17px;
+      width: 25px;
+      height: 25px;
       padding: 8px;
       margin: auto 0;
 
@@ -100,15 +100,13 @@
       }
 
       @include below($tablet) {
-        width: 14px;
-        height: 14px;
+        width: 19px;
+        height: 19px;
         padding: 5px;
       }
 
       @include below($mobileL) {
         box-shadow: none;
-        border: none;
-        background: none;
       }
 
     }

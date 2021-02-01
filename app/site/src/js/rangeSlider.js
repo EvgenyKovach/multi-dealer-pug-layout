@@ -10,12 +10,14 @@ export default () => {
     max: dataRange.querySelector('.js-rangeMax')
   }
 
+  console.log(dataRangeObj)
+
   noUiSlider.create(rangeSlider, {
     start: [dataRangeObj.min.value, dataRangeObj.max.value],
     step: 1000,
     range: {
-      'min': +dataRangeObj.min.value,
-      'max': +dataRangeObj.max.value
+      'min': parseInt(dataRangeObj.min.value),
+      'max': parseInt(dataRangeObj.max.value)
     },
     animate: false,
     connect: true

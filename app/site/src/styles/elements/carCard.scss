@@ -11,23 +11,23 @@
     flex-direction: column;
     padding: 0px 12px 0 12px;
     margin: 5px auto;
-    width: 350px;
+    max-width: 375px;
 
-    box-shadow: 0 0 3px #a2a2a2;
+    box-shadow: 0 0 9px #a2a2a266;
     background: #F2F4F6;
     border-radius: 2px;
     overflow: hidden;
 
     @include below($tablet) {
-      width: 315px;
+      max-width: 315px;
     }
 
     @include below($mobileL) {
-      width: 295px;
+      max-width: 295px;
     }
 
     @include below(335px) {
-      width: 275px;
+      max-width: 275px;
       margin: 5px;
     }
 
@@ -268,19 +268,19 @@
 
   }
 
-  &__tth-ico SVG {
+  &__tth-ico svg {
     width: 25px;
     height: 25px;
 
-    padding-right: 15px;
+    margin-right: 10px;
 
     fill: #5a5a64;
 
     @include below($mobileL) {
-      width: 15px;
-      height: 15px;
+      width: 25px;
+      height: 25px;
 
-      padding-right: 10px;
+      padding-right: 5px;
     }
 
   }
