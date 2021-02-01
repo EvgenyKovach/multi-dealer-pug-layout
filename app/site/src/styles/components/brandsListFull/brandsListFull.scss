@@ -28,6 +28,7 @@
   }
 
   &__preview-item {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -36,7 +37,7 @@
     padding: 20px 23px;
 
     border: 2px solid #F2F4F6;
-    border-radius: 8px;
+    border-radius: 4px;
     text-align: center;
     transition: .15s ease-in;
 
@@ -62,8 +63,29 @@
       margin: 10px 0;
     }
 
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+
+      background: rgba(59, 59, 59, 0.04);
+
+      transition: .15s ease;
+      transform: scale(.75);
+      opacity: 0;
+    }
+
     &:hover {
-      border: 2px solid $darkMainColor;
+      border: 2px solid $lightGray;
+
+      &:before {
+        transform: scale(1);
+        opacity: 1;
+      }
+
     }
 
   }

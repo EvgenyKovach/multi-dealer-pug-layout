@@ -21,9 +21,13 @@
 @import "components/filterAuto/autoList";
 @import "components/filterAuto/filters";
 @import "components/filterAuto/filerResult";
-@import "components/rangeSlider/noUiSliderCustom";
-@import "components/choicesjs-custom";
+
 
 //  elements
 @import "elements/carCard";
 @import "elements/breadCrumbs";
+@import "elements/scrollTop";
+
+// custom styles
+@import "customStyles/choicesjs-custom";
+@import "customStyles/noUiSliderCustom";

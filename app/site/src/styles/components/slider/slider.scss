@@ -1,5 +1,6 @@
 .slider {
-  max-height: 1000px;
+  position: relative;
+  z-index: 0;
 
   &__button-prev,
   &__button-next,
@@ -28,15 +29,12 @@
         opacity: 1;
       }
 
-      @include below($tablet) {
-        width: 25px;
-        height: 25px;
-      }
 
       @include below($tablet) {
         width: 15px;
         height: 15px;
       }
+
     }
 
     &:focus {

@@ -37,7 +37,7 @@
     grid-template-columns: auto auto auto auto;
     grid-gap: 10px 10px;
     justify-content: space-evenly;
-    padding: 30px 10px 30px 0;
+    padding: 30px 0;
 
     @include below(1900px) {
       grid-template-columns: auto auto auto;
@@ -68,5 +68,14 @@
     &__item-box {
       background: #fff;
     }
+
+    &__car-tth {
+      color: #262626;
+    }
+
+    &__button-credit:hover {
+      background: #F2F4F6 !important;
+    }
+
   }
 }

@@ -1,8 +1,13 @@
-$mainColor: #1bc37a;
-$whiteMainColor: #eff3f0;
-$darkMainColor: #dce9e0;
+// global colors
+$mainColor: var(--main-color);                  /* Основной цвет сайта. Окрашивает большу часть кнопок, иконок и некоторой графики */
+  $mainColorHover: var(--main-color-hover);     /* Слегка осветленная версия основного цвета для наведения на кнопки */
+$phonesColor: var(--phones-color);              /* Фоновая версия цвета. Чаще используется для фона, реже для второй версии кнопок */
+  $phonesColorHover: var(--phones-color-hover); /* Слегка затемненная версия основного цвета для наведения на кнопки */
 
-$lightGray: #d4d4d4;
+// anotherColors
+$currentWhite: #fff;
+$currentDark: #000;
+$lightGray: #a2a2a2;
 $darkGray: #2A2A2D;
 
 // adaptive

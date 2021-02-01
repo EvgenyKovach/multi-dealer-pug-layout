@@ -37,7 +37,7 @@
     padding: 20px 23px;
 
     border: 2px solid #F2F4F6;
-    border-radius: 8px;
+    border-radius: 4px;
     text-align: center;
     transition: .15s ease-in;
 
@@ -79,12 +79,13 @@
     }
 
     &:hover {
-      border: 2px solid $darkMainColor;
+      border: 2px solid $lightGray;
 
       &:before {
         transform: scale(1);
         opacity: 1;
       }
+
     }
 
   }

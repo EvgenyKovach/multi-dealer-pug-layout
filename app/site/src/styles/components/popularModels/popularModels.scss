@@ -86,6 +86,12 @@
         padding: 5px;
       }
 
+      @include below($mobileL) {
+        box-shadow: none;
+        border: none;
+        background: none;
+      }
+
       &:hover {
         opacity: 1;
         box-shadow: 0 0 10px #c2c0c0;
@@ -99,11 +105,19 @@
 
   &__button-prev {
     left: 5px;
+
+    @include below($mobileL) {
+      left: -8px;
+    }
   }
 
   &__button-next {
     right: 5px;
     transform: translateY(-50%) rotate(180deg);
+
+    @include below($mobileL) {
+      right: -8px;
+    }
   }
 
   &__slide-box {
@@ -114,7 +128,7 @@
     padding: 95px 15px 35px 15px;
 
     background: #E5EAEE;
-    border-radius: 8px;
+    border-radius: 4px;
     cursor: pointer;
   }
 

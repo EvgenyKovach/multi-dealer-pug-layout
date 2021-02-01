@@ -5,6 +5,8 @@ include components/brandsListFull
 include components/moreQuestions
 include components/indexDescription
 include components/autosList
+include components/popularModels
+include components/searchAsType
 
 include elements/breadcrumbs
 include elements/carCard
@@ -14,4 +16,6 @@ block vars
 
 block content
   +autosList()
+  +searchAsType()
+  +popularModels()
   +indexDescription()

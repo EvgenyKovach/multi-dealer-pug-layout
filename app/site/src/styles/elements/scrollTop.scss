@@ -1,0 +1,28 @@
+.js-scroll-top {
+  position: fixed;
+  width: 4px;
+  right: 15px;
+  bottom: 15px;
+  padding: 10px 0;
+  z-index: 20;
+  cursor: pointer;
+  background: none;
+  border: 20px solid #0000;
+  border-top: none;
+  border-bottom-color: $mainColor;
+  outline: none;
+  opacity: 0.6;
+  transition: .15s ease-in-out;
+
+  &:hover {
+    transform: translateY(-2px);
+    opacity: 1;
+  }
+
+  &.notActive {
+    opacity: 0;
+    pointer-events: none;
+    z-index: -999;
+  }
+
+}

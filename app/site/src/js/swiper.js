@@ -4,7 +4,7 @@ export default () => {
     slidesPerView: 1,
     spaceBetween: 0,
     loop: true,
-    speed: 600,
+    speed: 300,
     breakpoints: {
       480: {
         spaceBetween: 100,
@@ -46,7 +46,7 @@ export default () => {
     spaceBetween: 60,
     slidesPerView: 1,
     loop: true,
-    speed: 600,
+    speed: 300,
   });
 
   let searchAsTypeSlider = new Swiper('.js-searchAsType-slider', {
@@ -69,26 +69,27 @@ export default () => {
     spaceBetween: 60,
     slidesPerView: 1,
     loop: true,
-    speed: 600,
+    speed: 300,
+    allowTouchMove: true
   });
 
   let newArrivalsSlider = new Swiper('.js-newArrivals-slider', {
-
     spaceBetween: 60,
     slidesPerView: 1,
     loop: true,
-    speed: 600,
-    allowTouchMove: false,
+    speed: 300,
+    allowTouchMove: true,
+    longSwipesRatio: 1,
     navigation: {
       nextEl: '.newArrivals__button-next',
       prevEl: '.newArrivals__button-prev',
       clickable: true,
     },
     breakpoints: {
-      980: {
+      1280: {
         slidesPerView: 3,
       },
-      625: {
+      875: {
         slidesPerView: 2,
       },
     },

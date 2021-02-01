@@ -1,14 +1,23 @@
 mixin head()
-    head
-        meta(charset="utf-8")
-        meta(http-equiv="x-ua-compatible", content="ie=edge")
-        title= pageOptions.title
-        meta(content="", name="description")
-        meta(content="", name="keywords")
-        meta(name="viewport", content="width=320, initial-scale=1.0")
-        meta(content="telephone=no", name="format-detection")
-        //- This make sence for mobile browsers. It means, that content has been optimized for mobile browsers
-        meta(name="HandheldFriendly", content="true")
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        link(rel="icon" type="image/x-icon" href="favicon.ico")
-        <!--END HEAD-->
+  head
+    <!--  START HEAD  -->
+    meta(charset="utf-8")
+    meta(http-equiv="x-ua-compatible", content="ie=edge")
+    title= pageOptions.title
+    meta(content="", name="description")
+    meta(content="", name="keywords")
+    meta(name="viewport", content="width=320, initial-scale=1.0")
+    meta(content="telephone=no", name="format-detection")
+    //- This make sence for mobile browsers. It means, that content has been optimized for mobile browsers
+    meta(name="HandheldFriendly", content="true")
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    link(rel="icon" type="image/x-icon" href="favicon.ico")
+    style(type="text/css").
+      :root {
+        --main-color: #53B374;             /* Основной цвет сайта. Окрашивает большу часть кнопок, иконок и некоторой графики */
+          --main-color-hover: #5ecd84;     /* Слегка осветленная версия основного цвета для наведения на кнопки */
+
+        --phones-color: #D3E7DC;           /* Фоновая версия цвета. Чаще используется для фона, реже для второй версии кнопок */
+        --phones-color-hover: #cfd9d1;     /* Слегка затемненная версия основного цвета для наведения на кнопки */
+      }
+    <!--  END HEAD  -->

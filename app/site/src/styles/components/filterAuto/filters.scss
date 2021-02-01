@@ -5,6 +5,9 @@
   user-select: none;
   padding: 15px 0;
 
+  box-shadow: 5px 0px 5px #e5e5e5;
+  z-index: 2;
+
   @include below($notebook) {
     display: none;
   }
@@ -234,6 +237,7 @@
       }
 
     }
+
   }
 
   .checkbox-input {

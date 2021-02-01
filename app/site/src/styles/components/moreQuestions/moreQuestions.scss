@@ -1,4 +1,5 @@
 .moreQuestions {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,9 +21,20 @@
 
   &__item-left {
     margin-top: 70px;
+    z-index: 1;
 
     @include below($tablet) {
-      display: none;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      z-index: 0;
+
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+
+      opacity: 0.3;
+      margin: 0;
     }
 
   }
@@ -32,10 +44,16 @@
     width: 472px;
 
     fill: $mainColor;
+    overflow: hidden;
 
     @include below($notebook) {
       height: 277px;
       width: 311px;
+    }
+
+    @include below($tablet) {
+      height: 215px;
+      width: 190px;
     }
 
   }
@@ -43,6 +61,8 @@
   &__item-right {
     width: calc(100% / 2);
     padding: 45px 0;
+
+    z-index: 2;
 
     @include below($tablet) {
       width: 100%;

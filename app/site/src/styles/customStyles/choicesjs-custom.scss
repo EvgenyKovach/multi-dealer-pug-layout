@@ -1,22 +1,28 @@
+.choices {
+  position: relative;
+}
+
 .choices__list--dropdown .choices__item {
   padding: 10px 10px !important;
 
 }
 
 .choices__list--dropdown {
-  z-index: 2;
+  z-index: 5;
 }
 
 .choices__inner {
   min-height: auto;
   width: 255px;
-  border-radius: 7.5px !important;
-  border-color: $lightGray;
-  background: #ffffff;
+  border-radius: 4px !important;
+  box-shadow: 0 0 3px $lightGray;
+  border-color: transparent;
+  background: #fff;
+  padding: 3px 7px !important;
 }
 
 .choices__list--dropdown {
-  border-radius: 7.5px !important;
+  border-radius: 4px !important;
 }
 
 .choices[data-type*=select-one]:after {

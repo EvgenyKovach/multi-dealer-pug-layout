@@ -18,25 +18,24 @@ import checkbox from "./checkbox";                            // настрой�
 import toggleFilters from "./toggleFilters";                  // тагл разделов фильтра
 import rangeSlider from "./rangeSlider";                      // инит ползунка слайдера
 import colorPickFilter from "./colorPickFilter";              // настройка чекбокса выбора цвета фильтра
+import stickySidebar from "./stickySidebar";                  // инит плавающей настройки фильтра
 import select from './select';
 
 
 // inits
-
 toggleMenu();
 swiper();
 carCard();
 lazyLoad();
 hiddenTextDescription();
 scrollTop();
-
+select();
 
 // filter scripts
-
 if (document.querySelector('.filters')) {
   checkbox();
   toggleFilters();
   rangeSlider();
   colorPickFilter();
-  select()
+  stickySidebar();
 }
