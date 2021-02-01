@@ -1,10 +1,15 @@
-import stickySidebar from 'sticky-sidebar';
+import stickySidebar from 'sticky-sidebar-v2';
 
 export default () => {
+  let scrollPosition;
+  const filterHeight = document.querySelector('.js-filterHeight-check')
+  const parentFilterBlock = document.querySelector('.js-filterPage-block')
+
+  parentFilterBlock.style.minHeight = filterHeight.offsetHeight + 'px';
+
   const sidebar = new StickySidebar('#filter', {
-    topSpacing: 20,
-    bottomSpacing: 80,
-    containerSelector: '.autoList',
-    innerWrapperSelector: '.inner-wrapper-sticky',
+    topSpacing: 10,
+    bottomSpacing: 0,
+    containerSelector: '.filters-wrapper',
   });
 }

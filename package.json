@@ -41,6 +41,7 @@
     "pug-loader": "^2.4.0",
     "remove-files-webpack-plugin": "^1.4.4",
     "sticky-sidebar": "^3.3.1",
+    "sticky-sidebar-v2": "^1.1.0",
     "swiper": "^6.4.5",
     "vanilla-lazyload": "^17.3.0"
   },

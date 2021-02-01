@@ -5,43 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/card_year.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/styles/elements/scrollTop.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/styles/elements/scrollbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/img/spritemap.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/img/spritemap.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/js/swiper.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/swiper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/js/stickySidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/stickySidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/js/toggleFilters.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/toggleFilters.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/advantages/advantages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/advantages/advantages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/brandsList/brandsList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/brandsList/brandsList.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/brandsListFull/brandsListFull.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/brandsListFull/brandsListFull.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/choicesjs-custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/customStyles/choicesjs-custom.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/autoList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/autoList.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filerResult.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filerResult.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filters.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filters.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/footer/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/header/mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/header/mobile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/moreQuestions/moreQuestions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/moreQuestions/moreQuestions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/newArrivals/newArrivals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/newArrivals/newArrivals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/popularModels/popularModels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/popularModels/popularModels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/rangeSlider/noUiSliderCustom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/customStyles/noUiSliderCustom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/rangeSlider/rangeSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/stickySidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/searchAsType/searchAsType.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/searchAsType/searchAsType.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/slider/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/slider/slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/tradein/tradein.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/tradein/tradein.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/default/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/default/vars.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/elements/breadCrumbs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/elements/breadCrumbs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/elements/carCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/elements/carCard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/advantages.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/advantages.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/elements/scrollTop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/elements/scrollTop.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/autosList.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/autosList.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/template/components/filterResult.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/filterResult.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/template/components/filters.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/filters.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/header.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/newArrivals.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/newArrivals.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/default/head.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/default/head.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/elements/carCard.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/elements/carCard.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/filterAuto.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/filterAuto.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/elements/breadcrumbs.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/elements/breadcrumbs.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +151,7 @@
       <workItem from="1611552524052" duration="23939000" />
       <workItem from="1611653550837" duration="211000" />
       <workItem from="1611653772129" duration="3441000" />
-      <workItem from="1611720072076" duration="66210000" />
+      <workItem from="1611720072076" duration="89432000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace">
       <created>1608284195775</created>
@@ -292,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611753463212</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fixes styles/ rework some blocks">
+      <created>1612152406610</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1612152406610</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +303,8 @@
     <MESSAGE value="final 2 page/ init filter" />
     <MESSAGE value="init filter" />
     <MESSAGE value="refacotor/ optimization" />
-    <option name="LAST_COMMIT_MESSAGE" value="refacotor/ optimization" />
+    <MESSAGE value="fixes styles/ rework some blocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes styles/ rework some blocks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="340" key="#Notifications" timestamp="1611725260503">
@@ -327,10 +315,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="710" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611910642596" />
-    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1611753462123">
+    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1612152405352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="1" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611753462123" />
+    <state x="585" y="1" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612152405352" />
     <state x="335" y="88" width="1372" height="713" key="FileChooserDialogImpl" timestamp="1611927346884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -352,20 +340,24 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="608" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611728700966" />
-    <state x="668" y="237" width="583" height="624" key="find.popup" timestamp="1612152247365">
+    <state x="668" y="237" width="583" height="624" key="find.popup" timestamp="1612177538651">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612152247365" />
+    <state x="668" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612177538651" />
     <state x="2588" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611904513877" />
     <state x="2588" y="233" width="817" height="600" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1611834791418">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="668" y="233" width="817" height="600" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611552899522" />
     <state x="2588" y="233" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611834791418" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611923047297">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1612161243984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611923047297" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612161243984" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612177310006">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612177310006" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611902527908" />
   </component>
 </project>

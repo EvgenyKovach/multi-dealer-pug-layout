@@ -1,5 +1,4 @@
 .filterResult {
-
   padding: 15px 0;
 
   &-box {
@@ -77,5 +76,10 @@
       background: #F2F4F6 !important;
     }
 
+  }
+
+  &__open-hided-filters {
+    display: none;
+    margin-top: 25px;
   }
 }

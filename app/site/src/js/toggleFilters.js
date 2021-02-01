@@ -5,7 +5,6 @@ export default () => {
 
     item.querySelector('.filters__section-title').onclick = () => {
       item.classList.toggle('closedList')
-      item.querySelector('.arrow-down').classList.toggle('closedList')
     }
 
   })

@@ -1,278 +1,271 @@
 mixin filters()
-  +b.filters(id="filter")
-    +e.section
-      +e.section-title
-        +e.name Бренд
-        +e.section-arrow
-          SVG.arrow-down
-            USE(xlink:href="../img/spritemap.svg#arrdown")
-      +e.section-list
-        +e.LABEL.checkbox-box.js-toggle-checkbox.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name Mazda
-          +e.SPAN.checkbox-count (8)
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name Hyundai
-          +e.SPAN.checkbox-count (11)
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name Suzuki
-          +e.SPAN.checkbox-count (216)
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name Mercedes-Benz
-          +e.SPAN.checkbox-count (164)
-    +e.section.closedList
-      +e.section-title.disabled
-        +e.name-box
-          +e.name Модель
-        +e.SPAN.selectParent  (выберите бренд)
-        +e.section-arrow
-          SVG.arrow-down.closedList
-            USE(xlink:href="../img/spritemap.svg#arrdown")
-      +e.section-list
-        +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name RV-6
-        +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name CX-78
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name MLG-PLAYER
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name WTF_Benz
-    +e.section.closedList
-      +e.section-title.disabled
-        +e.name-box
-          +e.name Комплектация
-        +e.SPAN.selectParent  (выберите модель)
-        +e.section-arrow
-          SVG.arrow-down.closedList
-            USE(xlink:href="../img/spritemap.svg#arrdown")
-      +e.section-list
-        +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name SUBER-788
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name OMGx
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name VestCost
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name Cold machine
-    +e.section.closedList
-      +e.section-title
-        +e.name-box
-          +e.name Кузов ыыв фвфыв фыв ыфвфыв
-        +e.section-arrow
-          SVG.arrow-down.closedList
-            USE(xlink:href="../img/spritemap.svg#arrdown")
-      +e.section-list
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name Железный
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name Пластмассовый
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name Криптонитовый
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name Выдуманный
-    +e.section.closedList
-      +e.section-title
-        +e.name-box
-          +e.name Кузов
-        +e.section-arrow
-          SVG.arrow-down.closedList
-            USE(xlink:href="../img/spritemap.svg#arrdown")
-      +e.section-list
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name Железный
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name Пластмассовый
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name Криптонитовый
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name Выдуманный
-    +e.section.closedList
-      +e.section-title
-        +e.name-box
-          +e.name Кузов
-        +e.section-arrow
-          SVG.arrow-down.closedList
-            USE(xlink:href="../img/spritemap.svg#arrdown")
-      +e.section-list
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name Железный
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name Пластмассовый
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name Криптонитовый
-        +e.LABEL.checkbox-box.js-toggle-checkbox
-          INPUT.checkbox-input.js-input-toggle(type='checkbox')
-          SVG.checkMark
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.SPAN.checkbox-name Выдуманный
-    +e.section
-      +e.section-title
-        +e.name Бюджет
-        +e.section-arrow
-          SVG.arrow-down
-            USE(xlink:href="../img/spritemap.svg#arrdown")
-      +e.section-list.css-slider-section-fix
-        +e.rangeValues.js-rangeData
-          INPUT.maxRange(name='price[max]'
-            type='text'
-            value='15000000'
-            class='js-rangeMax')
-          INPUT.minRange(name='price[min]'
-                         type='text'
-                         value='1000'
-                         class='js-rangeMin')
+  .filters-wrapper
+    +b.filters(id="filter").js-filterHeight-check
+      +e.section
+        +e.section-title.js-filter-toggle
+          +e.name Бренд
+          +e.toggle-section-box
+            .toggle-filter-counter
+        +e.section-list
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name Mazda
+            +e.SPAN.checkbox-count (8)
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name Hyundai
+            +e.SPAN.checkbox-count (11)
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name Suzuki
+            +e.SPAN.checkbox-count (216)
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name Mercedes-Benz
+            +e.SPAN.checkbox-count (164)
+      +e.section.closedList
+        +e.section-title.disabled.js-filter-toggle
+          +e.name-box
+            +e.name Модель
+          +e.SPAN.selectParent  (выберите бренд)
+          +e.toggle-section-box
+            .toggle-filter-counter
+        +e.section-list
+          +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name RV-6
+          +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name CX-78
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name MLG-PLAYER
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name WTF_Benz
+      +e.section.closedList.js-filter-toggle
+        +e.section-title.disabled
+          +e.name-box
+            +e.name Комплектация
+          +e.SPAN.selectParent  (выберите модель)
+          +e.toggle-section-box
+            .toggle-filter-counter
+        +e.section-list
+          +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name SUBER-788
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name OMGx
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name VestCost
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name Cold machine
+      +e.section.closedList.js-filter-toggle
+        +e.section-title
+          +e.name-box
+            +e.name Кузов
+          +e.toggle-section-box
+            .toggle-filter-counter
+        +e.section-list
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name Железный
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name Пластмассовый
+          +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name Криптонитовый
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name Выдуманный
+      +e.section.closedList.js-filter-toggle
+        +e.section-title
+          +e.name-box
+            +e.name Кузов
+          +e.toggle-section-box
+            .toggle-filter-counter
+        +e.section-list
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name Железный
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name Пластмассовый
+          +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name Криптонитовый
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name Выдуманный
+      +e.section.closedList.js-filter-toggle
+        +e.section-title
+          +e.name-box
+            +e.name Кузов
+          +e.toggle-section-box
+            .toggle-filter-counter
+        +e.section-list
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name Железный
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name Пластмассовый
+          +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name Криптонитовый
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name Выдуманный
+      +e.section.closedList.js-filter-toggle
+        +e.section-title
+          +e.name Бюджет
+          +e.toggle-section-box
+            .toggle-filter-counter
+        +e.section-list.css-slider-section-fix
+          +e.rangeValues.js-rangeData
+            INPUT.maxRange(name='price[max]'
+              type='text'
+              value='15000000'
+              class='js-rangeMax')
+            INPUT.minRange(name='price[min]'
+                           type='text'
+                           value='1000'
+                           class='js-rangeMin')
 
-        +e.rangeSlider
-          .rangeSlider-box.js-rangeSlider(data-min=''
-                                          data-max=''
-                                          data-from=''
-                                          data-to='')
-    +e.section
-      +e.section-title
-        +e.name Цвет кузова
-        +e.section-arrow
-          SVG.arrow-down
-            USE(xlink:href="../img/spritemap.svg#arrdown")
-      +e.section-list.colors-list
-        +e.LABEL.colorLabel.js-color-toggle(style="background: red")
-          INPUT.color-checkbox(type='checkbox')
-          SVG.checkColor
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-        +e.LABEL.colorLabel.js-color-toggle(style="background: green")
-          INPUT.color-checkbox(type='checkbox')
-          SVG.checkColor
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-        +e.LABEL.colorLabel.js-color-toggle(style="background: blue")
-          INPUT.color-checkbox(type='checkbox')
-          SVG.checkColor
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-        +e.LABEL.colorLabel.js-color-toggle(style="background: aqua")
-          INPUT.color-checkbox(type='checkbox')
-          SVG.checkColor
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-        +e.LABEL.colorLabel.js-color-toggle(style="background: brown")
-          INPUT.color-checkbox(type='checkbox')
-          SVG.checkColor
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-        +e.LABEL.colorLabel.js-color-toggle(style="background: black")
-          INPUT.color-checkbox(type='checkbox')
-          SVG.checkColor
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-        +e.LABEL.colorLabel.js-color-toggle(style="background: black")
-          INPUT.color-checkbox(type='checkbox')
-          SVG.checkColor
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-        +e.LABEL.colorLabel.js-color-toggle(style="background: black")
-          INPUT.color-checkbox(type='checkbox')
-          SVG.checkColor
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-        +e.LABEL.colorLabel.js-color-toggle(style="background: white")
-          INPUT.color-checkbox(type='checkbox')
-          SVG.checkColor
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-        +e.LABEL.colorLabel.js-color-toggle(style="background: red")
-          INPUT.color-checkbox(type='checkbox')
-          SVG.checkColor
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-        +e.LABEL.colorLabel.js-color-toggle(style="background: green")
-          INPUT.color-checkbox(type='checkbox')
-          SVG.checkColor
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-        +e.LABEL.colorLabel.js-color-toggle(style="background: blue")
-          INPUT.color-checkbox(type='checkbox')
-          SVG.checkColor
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-        +e.LABEL.colorLabel.js-color-toggle(style="background: aqua")
-          INPUT.color-checkbox(type='checkbox')
-          SVG.checkColor
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-        +e.LABEL.colorLabel.js-color-toggle(style="background: brown")
-          INPUT.color-checkbox(type='checkbox')
-          SVG.checkColor
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-        +e.LABEL.colorLabel.js-color-toggle(style="background: green")
-          INPUT.color-checkbox(type='checkbox')
-          SVG.checkColor
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-        +e.LABEL.colorLabel.js-color-toggle(style="background: blue")
-          INPUT.color-checkbox(type='checkbox')
-          SVG.checkColor
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-        +e.LABEL.colorLabel.js-color-toggle(style="background: aqua")
-          INPUT.color-checkbox(type='checkbox')
-          SVG.checkColor
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-        +e.LABEL.colorLabel.js-color-toggle(style="background: brown")
-          INPUT.color-checkbox(type='checkbox')
-          SVG.checkColor
-            USE(xlink:href="../img/spritemap.svg#checksolid")
-    +e.clearFilter
-      BUTTON.btn.small-btn.js-clear-filter Очистить фильтр
+          +e.rangeSlider
+            .rangeSlider-box.js-rangeSlider(data-min=''
+                                            data-max=''
+                                            data-from=''
+                                            data-to='')
+      +e.section.closedList.js-filter-toggle
+        +e.section-title
+          +e.name Цвет кузова
+          +e.toggle-section-box
+            .toggle-filter-counter
+        +e.section-list.colors-list
+          +e.LABEL.colorLabel.js-color-toggle(style="background: red")
+            INPUT.color-checkbox(type='checkbox')
+            SVG.checkColor
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+          +e.LABEL.colorLabel.js-color-toggle(style="background: green")
+            INPUT.color-checkbox(type='checkbox')
+            SVG.checkColor
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+          +e.LABEL.colorLabel.js-color-toggle(style="background: blue")
+            INPUT.color-checkbox(type='checkbox')
+            SVG.checkColor
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+          +e.LABEL.colorLabel.js-color-toggle(style="background: aqua")
+            INPUT.color-checkbox(type='checkbox')
+            SVG.checkColor
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+          +e.LABEL.colorLabel.js-color-toggle(style="background: brown")
+            INPUT.color-checkbox(type='checkbox')
+            SVG.checkColor
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+          +e.LABEL.colorLabel.js-color-toggle(style="background: black")
+            INPUT.color-checkbox(type='checkbox')
+            SVG.checkColor
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+          +e.LABEL.colorLabel.js-color-toggle(style="background: black")
+            INPUT.color-checkbox(type='checkbox')
+            SVG.checkColor
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+          +e.LABEL.colorLabel.js-color-toggle(style="background: black")
+            INPUT.color-checkbox(type='checkbox')
+            SVG.checkColor
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+          +e.LABEL.colorLabel.js-color-toggle(style="background: white")
+            INPUT.color-checkbox(type='checkbox')
+            SVG.checkColor
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+          +e.LABEL.colorLabel.js-color-toggle(style="background: red")
+            INPUT.color-checkbox(type='checkbox')
+            SVG.checkColor
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+          +e.LABEL.colorLabel.js-color-toggle(style="background: green")
+            INPUT.color-checkbox(type='checkbox')
+            SVG.checkColor
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+          +e.LABEL.colorLabel.js-color-toggle(style="background: blue")
+            INPUT.color-checkbox(type='checkbox')
+            SVG.checkColor
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+          +e.LABEL.colorLabel.js-color-toggle(style="background: aqua")
+            INPUT.color-checkbox(type='checkbox')
+            SVG.checkColor
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+          +e.LABEL.colorLabel.js-color-toggle(style="background: brown")
+            INPUT.color-checkbox(type='checkbox')
+            SVG.checkColor
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+          +e.LABEL.colorLabel.js-color-toggle(style="background: green")
+            INPUT.color-checkbox(type='checkbox')
+            SVG.checkColor
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+          +e.LABEL.colorLabel.js-color-toggle(style="background: blue")
+            INPUT.color-checkbox(type='checkbox')
+            SVG.checkColor
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+          +e.LABEL.colorLabel.js-color-toggle(style="background: aqua")
+            INPUT.color-checkbox(type='checkbox')
+            SVG.checkColor
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+          +e.LABEL.colorLabel.js-color-toggle(style="background: brown")
+            INPUT.color-checkbox(type='checkbox')
+            SVG.checkColor
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+      +e.clearFilter
+        BUTTON.btn.small-btn.js-clear-filter Очистить фильтр
