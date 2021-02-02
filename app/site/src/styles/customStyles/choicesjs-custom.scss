@@ -14,7 +14,7 @@
 .choices__inner {
   min-height: auto;
   width: 255px;
-  border-radius: 4px !important;
+  border-radius: 2px !important;
   box-shadow: 0 0 3px $lightGray;
   border-color: transparent;
   background: #fff;
@@ -22,7 +22,7 @@
 }
 
 .choices__list--dropdown {
-  border-radius: 4px !important;
+  border-radius: 2px !important;
 }
 
 .choices[data-type*=select-one]:after {

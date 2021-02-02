@@ -66,14 +66,17 @@ h3 {
 .container-filter {
   max-width: 1920px;
   margin: 0 auto;
-  width: calc(100% - 5px);
+  width: calc(100%);
+  padding: 0 15px;
 
   @include below($mobileL) {
-    width: calc(100% - 20px);
+    width: calc(100%);
+    padding: 0 20px;
   }
 
   @include below($mobile) {
-    width: calc(100% - 15px);
+    width: calc(100%);
+    padding: 0 5px;
   }
 }
 
