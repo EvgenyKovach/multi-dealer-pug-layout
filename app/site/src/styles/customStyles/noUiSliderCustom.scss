@@ -2,7 +2,7 @@
 
   .rangeSlider-box {
     max-width: 260px;
-    margin-left: 8px;
+    margin-left: 5px;
   }
 
   .noUi-connect {
@@ -21,9 +21,9 @@
   }
 
   .noUi-handle {
-    width: 26px !important;
-    height: 26px !important;
-    top: -2px !important;
+    width: 20px !important;
+    height: 20px !important;
+    top: 1px !important;
     background: $mainColor;
     box-shadow: none;
     border: 1px solid #ffffff;
@@ -50,8 +50,8 @@
     }
 
     &:after {
-      width: 13px;
-      height: 13px;
+      width: 11px;
+      height: 11px;
       left: 49.5%;
       top: 50%;
 

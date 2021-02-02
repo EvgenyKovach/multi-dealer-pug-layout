@@ -1,10 +1,10 @@
 mixin filterResult()
   .filterResult-box
-    +breadcrumbs('Авто в наличии', 'Чёто ещё')
+    +breadcrumbs('Авто в наличии')
     +b.filterResult
       +e.sort
         +e.sort-element
-          +e.sort-el-name Упорядочить:
+          +e.sort-el-name В каком порядке выводить:
           +e.SELECT.sort-el-select.js-sort-init
             OPTION Сначала дешевые
             OPTION Сначала дорогие
@@ -13,9 +13,12 @@ mixin filterResult()
             OPTION Сначача в наличии + дорогие
       +e.hided-filters
         +e.BUTTON.open-hided-filters.btn Открыть фильтр
+      // Два варианта find-box (с наличием и без)
       +e.total-find-box
         +e.total-find-key Найдено
         +e.SPAN.total-find-value 1478 автомобилей
+      +e.total-find-box
+        +e.total-find-key  Нет автомобилей по запросу
       +e.listResult
         +carCard(
           '../img/devImages/car1/a3.png',
@@ -121,9 +124,9 @@ mixin filterResult()
           '2.5 л. / 2 л.с',
           '2450 км.',
           'Автоматическая',
-          '2 099 000 руб',
+          '21 099 000 руб',
           '18 990',
-          '1 240 000 руб')
+          '12 140 000 руб')
 
         +carCard(
           '../img/devImages/car3/1sl.jpg',

@@ -1,5 +1,5 @@
 export default () => {
-  const filters = document.querySelectorAll('.filters__section')
+  const filters = document.querySelectorAll('.js-filter-toggle')
 
   filters.forEach(item => {
 

@@ -1,40 +1,11 @@
+include ../components/brandsList
+
 mixin brandsListFull()
   .brandsListFull-box
     .container
-      +breadcrumbs('Найти автомобиль')
+      +breadcrumbs('Найти автомобиль', 'Межстраничье')
       +b.brandsListFull
-        +e.H1.title.page-title Поиск по маркам
-        +e.preview-list
-          +e.A.preview-item(href="#")
-            +e.DIV.itemImg
-              IMG(src='../img/devImages/bmw128x12.png')
-            +e.DIV.itemName BmW
-            +e.DIV.itemCount 2 811 автомобилей
-          +e.A.preview-item(href="#")
-            +e.DIV.itemImg
-              IMG(src='../img/devImages/bmw128x12.png')
-            +e.DIV.itemName BmW
-            +e.DIV.itemCount 2 811 автомобилей
-          +e.A.preview-item(href="#")
-            +e.DIV.itemImg
-              IMG(src='../img/devImages/bmw128x12.png')
-            +e.DIV.itemName BmW
-            +e.DIV.itemCount 2 811 автомобилей
-          +e.A.preview-item(href="#")
-            +e.DIV.itemImg
-              IMG(src='../img/devImages/bmw128x12.png')
-            +e.DIV.itemName BmW
-            +e.DIV.itemCount 2 811 автомобилей
-          +e.A.preview-item(href="#")
-            +e.DIV.itemImg
-              IMG(src='../img/devImages/bmw128x12.png')
-            +e.DIV.itemName BmW
-            +e.DIV.itemCount 2 811 автомобилей
-          +e.A.preview-item(href="#")
-            +e.DIV.itemImg
-              IMG(src='../img/devImages/bmw128x12.png')
-            +e.DIV.itemName BmW
-            +e.DIV.itemCount 2 811 автомобилей
+        +brandsList()
         +e.stroke-list
           +e.A.stroke-item(href="#") Все марки
             +e.stroke-item-count 1644

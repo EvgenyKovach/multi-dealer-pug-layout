@@ -9,7 +9,11 @@
 
     transition: .15s ease-in-out;
     color: #808080;
-    font-size: .8em;
+    font-size: 14px;
+
+    @include below($tablet) {
+      font-size: 12px;
+    }
     
     &::before {
       position: absolute;

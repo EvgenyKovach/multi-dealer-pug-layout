@@ -5,10 +5,8 @@ export default () => {
   const filterHeight = document.querySelector('.js-filterHeight-check')
   const parentFilterBlock = document.querySelector('.js-filterPage-block')
 
-  parentFilterBlock.style.minHeight = filterHeight.offsetHeight + 'px';
-
   const sidebar = new StickySidebar('#filter', {
-    topSpacing: 10,
+    topSpacing: 25,
     bottomSpacing: 25,
     containerSelector: '.filters-wrapper',
   });

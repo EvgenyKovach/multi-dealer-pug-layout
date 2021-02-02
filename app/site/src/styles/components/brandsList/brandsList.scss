@@ -16,22 +16,12 @@
   }
 
   &__list {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 10px 10px;
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
 
     width: 100%;
-
-    @include below($desktopM) {
-      grid-template-columns: repeat(3, 1fr);
-    }
-
-    @include below($tablet) {
-
-    }
-
   }
 
   &__item {
@@ -40,12 +30,28 @@
     flex-direction: column;
     align-items: center;
 
+    width: calc(100% / 6 - 15px);
     padding: 20px 23px;
+    margin-top: 10px;
 
     border: 2px solid #F2F4F6;
     border-radius: 4px;
     text-align: center;
     transition: .15s ease-in;
+
+    @include below($desktop) {
+      padding: 15px;
+      width: calc(100% / 3 - 10px);
+    }
+
+    @include below($tablet) {
+      width: calc(100% / 3 - 10px);
+    }
+
+    @include below($mobileL) {
+      width: calc(100% / 2 - 10px);
+      margin: 10px 0;
+    }
 
     &:before {
       content: "";
@@ -82,7 +88,6 @@
       width: 48px;
       height: 48px;
     }
-
   }
 
   &__itemName {
@@ -99,8 +104,8 @@
   &__itemCount {
     margin-top: 5px;
 
-    @include below($tablet) {
-      font-size: 12px;
+    @include below($desktopM) {
+      display: none;
     }
   }
 

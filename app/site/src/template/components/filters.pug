@@ -2,10 +2,8 @@ mixin filters()
   .filters-wrapper
     +b.filters(id="filter").js-filterHeight-check
       +e.section
-        +e.section-title.js-filter-toggle
+        +e.section-title.unToggled
           +e.name Бренд
-          +e.toggle-section-box
-            .toggle-filter-counter
         +e.section-list
           +e.LABEL.checkbox-box.js-toggle-checkbox
             INPUT.checkbox-input.js-input-toggle(type='checkbox')
@@ -31,8 +29,26 @@ mixin filters()
               USE(xlink:href="../img/spritemap.svg#checksolid")
             +e.SPAN.checkbox-name Mercedes-Benz
             +e.SPAN.checkbox-count (164)
-      +e.section.closedList
-        +e.section-title.disabled.js-filter-toggle
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name GAZ
+            +e.SPAN.checkbox-count (164)
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name UAZ
+            +e.SPAN.checkbox-count (164)
+          +e.LABEL.checkbox-box.js-toggle-checkbox
+            INPUT.checkbox-input.js-input-toggle(type='checkbox')
+            SVG.checkMark
+              USE(xlink:href="../img/spritemap.svg#checksolid")
+            +e.SPAN.checkbox-name BMW
+            +e.SPAN.checkbox-count (164)
+      +e.section.closedList.js-filter-toggle
+        +e.section-title.disabled
           +e.name-box
             +e.name Модель
           +e.SPAN.selectParent  (выберите бренд)
@@ -168,11 +184,9 @@ mixin filters()
             SVG.checkMark
               USE(xlink:href="../img/spritemap.svg#checksolid")
             +e.SPAN.checkbox-name Выдуманный
-      +e.section.closedList.js-filter-toggle
-        +e.section-title
+      +e.section
+        +e.section-title.unToggled
           +e.name Бюджет
-          +e.toggle-section-box
-            .toggle-filter-counter
         +e.section-list.css-slider-section-fix
           +e.rangeValues.js-rangeData
             INPUT.maxRange(name='price[max]'
@@ -219,51 +233,7 @@ mixin filters()
             INPUT.color-checkbox(type='checkbox')
             SVG.checkColor
               USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.LABEL.colorLabel.js-color-toggle(style="background: black")
-            INPUT.color-checkbox(type='checkbox')
-            SVG.checkColor
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.LABEL.colorLabel.js-color-toggle(style="background: black")
-            INPUT.color-checkbox(type='checkbox')
-            SVG.checkColor
-              USE(xlink:href="../img/spritemap.svg#checksolid")
           +e.LABEL.colorLabel.js-color-toggle(style="background: white")
-            INPUT.color-checkbox(type='checkbox')
-            SVG.checkColor
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.LABEL.colorLabel.js-color-toggle(style="background: red")
-            INPUT.color-checkbox(type='checkbox')
-            SVG.checkColor
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.LABEL.colorLabel.js-color-toggle(style="background: green")
-            INPUT.color-checkbox(type='checkbox')
-            SVG.checkColor
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.LABEL.colorLabel.js-color-toggle(style="background: blue")
-            INPUT.color-checkbox(type='checkbox')
-            SVG.checkColor
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.LABEL.colorLabel.js-color-toggle(style="background: aqua")
-            INPUT.color-checkbox(type='checkbox')
-            SVG.checkColor
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.LABEL.colorLabel.js-color-toggle(style="background: brown")
-            INPUT.color-checkbox(type='checkbox')
-            SVG.checkColor
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.LABEL.colorLabel.js-color-toggle(style="background: green")
-            INPUT.color-checkbox(type='checkbox')
-            SVG.checkColor
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.LABEL.colorLabel.js-color-toggle(style="background: blue")
-            INPUT.color-checkbox(type='checkbox')
-            SVG.checkColor
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.LABEL.colorLabel.js-color-toggle(style="background: aqua")
-            INPUT.color-checkbox(type='checkbox')
-            SVG.checkColor
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.LABEL.colorLabel.js-color-toggle(style="background: brown")
             INPUT.color-checkbox(type='checkbox')
             SVG.checkColor
               USE(xlink:href="../img/spritemap.svg#checksolid")
