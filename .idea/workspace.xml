@@ -6,12 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/js/stickySidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/stickySidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filerResult.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filerResult.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filters.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filters.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/slider/slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/slider/slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/customStyles/choicesjs-custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/customStyles/choicesjs-custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/header/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/elements/carCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/elements/carCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/elements/scrollbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/filterResult.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/filterResult.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +143,7 @@
       <workItem from="1611552524052" duration="23939000" />
       <workItem from="1611653550837" duration="211000" />
       <workItem from="1611653772129" duration="3441000" />
-      <workItem from="1611720072076" duration="97691000" />
+      <workItem from="1611720072076" duration="99486000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace">
       <created>1608284195775</created>
@@ -283,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612183495492</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fixes border-radius/ container/ some fixes filters">
+      <created>1612239896206</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1612239896206</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +319,8 @@
     <MESSAGE value="fixes styles/ rework some blocks" />
     <MESSAGE value="add stickysidebar / rework breadcrumbs" />
     <MESSAGE value="add and fix *border-box" />
-    <option name="LAST_COMMIT_MESSAGE" value="add and fix *border-box" />
+    <MESSAGE value="fixes border-radius/ container/ some fixes filters" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes border-radius/ container/ some fixes filters" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="340" key="#Notifications" timestamp="1611725260503">
@@ -321,10 +331,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="710" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611910642596" />
-    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1612183493911">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612240745514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="1" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612183493911" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612240745514" />
+    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1612239895139">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="585" y="1" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612239895139" />
     <state x="335" y="88" width="1372" height="713" key="FileChooserDialogImpl" timestamp="1612239637155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -346,10 +360,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="608" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611728700966" />
-    <state x="668" y="237" width="583" height="624" key="find.popup" timestamp="1612239714036">
+    <state x="668" y="237" width="583" height="624" key="find.popup" timestamp="1612241058697">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612239714036" />
+    <state x="668" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612241058697" />
     <state x="2588" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611904513877" />
     <state x="668" y="233" width="817" height="600" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1612239643514">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -360,10 +374,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612161243984" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612239710335">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612241048920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612239710335" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612241048920" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611902527908" />
   </component>
 </project>

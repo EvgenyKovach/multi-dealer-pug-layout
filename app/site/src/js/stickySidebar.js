@@ -9,7 +9,8 @@ export default () => {
 
   const sidebar = new StickySidebar('#filter', {
     topSpacing: 10,
-    bottomSpacing: 0,
+    bottomSpacing: 25,
     containerSelector: '.filters-wrapper',
   });
+
 }

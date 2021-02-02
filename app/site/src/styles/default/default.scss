@@ -68,6 +68,7 @@ h3 {
   margin: 0 auto;
   width: calc(100%);
   padding: 0 15px;
+  background: #F2F4F6;
 
   @include below($mobileL) {
     width: calc(100%);

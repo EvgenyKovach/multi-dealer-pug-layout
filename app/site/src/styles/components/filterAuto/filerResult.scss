@@ -27,7 +27,7 @@
     }
 
     &-el-name {
-      margin-right: 10px;
+      margin: 0 10px 5px 0;
     }
   }
 
@@ -35,7 +35,7 @@
   &__listResult {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 30px 10px;
+    grid-gap: 30px 30px;
     justify-content: space-around;
     padding: 30px 0;
 
@@ -61,6 +61,19 @@
 
   }
 
+  &__total-find-box {
+    display: flex;
+    margin-top: 25px;
+  }
+
+  &__total-find-key {
+    padding-right: 5px;
+  }
+
+  &__total-find-value {
+    font-weight: bold;
+  }
+
   .car-card {
     min-width: 275px;
     max-width: 400px;
@@ -83,4 +96,5 @@
     display: none;
     margin-top: 25px;
   }
+
 }

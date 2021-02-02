@@ -208,6 +208,10 @@
     opacity: 1 !important;
   }
 
+  .swiper-scrollbar-drag {
+    background: $mainColor;
+  }
+
   .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
     width: 100%;
     height: 100%;
