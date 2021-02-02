@@ -14,13 +14,13 @@
 
     top: 50%;
     transform: translateY(-50%);
-    transition: .15s ease-in-out;
+    transition: .25s ease-in-out;
 
     background: #333;
   }
 
   &.active:before {
-    transform: translateY(-50%) scale(0);
+    transform: translateY(-50%) rotate(120deg) scaleX(0);
   }
 
   &__toggle {
@@ -38,7 +38,6 @@
       height: 4px;
 
       background: #333;
-
     }
 
     &:after {
@@ -50,7 +49,7 @@
       bottom: 0;
 
       background: #333;
-      transition: .3s ease-in-out;
+      transition: .2s ease-in-out;
     }
 
     &.active {
@@ -72,7 +71,7 @@
     transform: translateY(0%);
   }
   50% {
-    transform: translateY(-250%) rotate(0deg);
+    transform: translateY(-150%) rotate(-45deg);
   }
   100% {
     transform: translateY(-250%) rotate(-45deg);
@@ -84,7 +83,7 @@
     transform: translateY(0%);
   }
   50% {
-    transform: translateY(250%) rotate(0deg);
+    transform: translateY(150%) rotate(45deg);
   }
   100% {
     transform: translateY(250%) rotate(45deg);
