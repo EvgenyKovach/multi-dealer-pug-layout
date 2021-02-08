@@ -20,6 +20,7 @@ import rangeSlider from "./rangeSlider";                      // инит пол
 import colorPickFilter from "./colorPickFilter";              // настройка чекбокса выбора цвета фильтра
 import stickySidebar from "./stickySidebar";                  // инит плавающей настройки фильтра
 import select from './select';
+import mobileFilter from "./mobileFilter";                     // мобильный фильтр
 
 
 // inits
@@ -38,4 +39,5 @@ if (document.querySelector('.filters')) {
   rangeSlider();
   colorPickFilter();
   stickySidebar();
+  mobileFilter();
 }

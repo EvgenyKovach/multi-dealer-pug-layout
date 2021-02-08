@@ -3,26 +3,39 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/location.svg" afterDir="false" />
+    <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="fix locatiob ico&#10;fix stickysidebar&#10;fix togglemenu&#10;fix togglefilter&#10;&#10;more fixes style&#10;refactor brandList&#10;del brandListfull -&gt; brandList">
+      <change afterPath="$PROJECT_DIR$/app/site/src/js/mobileFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filterMobile.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/img/spritemap.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/img/spritemap.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/js/selectParentFIlter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/js/rangeSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/rangeSlider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/js/stickySidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/stickySidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/js/toggleFilters.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/toggleFilters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/js/toggleMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/toggleMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/brandsList/brandsList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/brandsList/brandsList.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/brandsListFull/brandsListFull.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/brandsListFull/brandsListFull.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filerResult.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filerResult.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filters.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filters.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/customStyles/noUiSliderCustom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/customStyles/noUiSliderCustom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/elements/breadCrumbs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/elements/breadCrumbs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/brandsListFull.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/brandsListFull.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/searchAsType/searchAsType.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/searchAsType/searchAsType.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/template/components/filterResult.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/filterResult.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/template/components/filters.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/filters.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/header.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +48,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Pug File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -89,7 +102,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/site/src/img/sprites" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GEELY" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.import.notification.dismissed" value="true" />
@@ -152,7 +165,12 @@
       <workItem from="1611552524052" duration="23939000" />
       <workItem from="1611653550837" duration="211000" />
       <workItem from="1611653772129" duration="3441000" />
-      <workItem from="1611720072076" duration="108975000" />
+      <workItem from="1611720072076" duration="123884000" />
+      <workItem from="1612500295272" duration="2258000" />
+      <workItem from="1612530438217" duration="1636000" />
+      <workItem from="1612587108036" duration="776000" />
+      <workItem from="1612590084532" duration="2520000" />
+      <workItem from="1612595510920" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace">
       <created>1608284195775</created>
@@ -315,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612244531327</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="fix locatiob ico&#10;fix stickysidebar&#10;fix togglemenu&#10;fix togglefilter&#10;&#10;more fixes style&#10;refactor brandList&#10;del brandListfull -&gt; brandList">
+      <created>1612251239888</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1612251239888</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +348,18 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.pug" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init workspace" />
@@ -345,7 +382,8 @@
     <MESSAGE value="fixes border-radius/ container/ some fixes filters" />
     <MESSAGE value="fix stickysidebar/ &#10;add total search items" />
     <MESSAGE value="some filter fixs/ rework mobile menu btn" />
-    <option name="LAST_COMMIT_MESSAGE" value="some filter fixs/ rework mobile menu btn" />
+    <MESSAGE value="fix locatiob ico&#10;fix stickysidebar&#10;fix togglemenu&#10;fix togglefilter&#10;&#10;more fixes style&#10;refactor brandList&#10;del brandListfull -&gt; brandList" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix locatiob ico&#10;fix stickysidebar&#10;fix togglemenu&#10;fix togglefilter&#10;&#10;more fixes style&#10;refactor brandList&#10;del brandListfull -&gt; brandList" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="340" key="#Notifications" timestamp="1611725260503">
@@ -360,14 +398,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612240745514" />
-    <state x="585" y="0" key="CommitChangelistDialog2" timestamp="1612247481227">
+    <state x="585" y="0" key="CommitChangelistDialog2" timestamp="1612361253691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612247481227" />
-    <state x="335" y="88" width="1372" height="713" key="FileChooserDialogImpl" timestamp="1612239637155">
+    <state x="585" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612361253691" />
+    <state x="335" y="88" width="1372" height="713" key="FileChooserDialogImpl" timestamp="1612593172302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="335" y="88" width="1372" height="713" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612239637155" />
+    <state x="335" y="88" width="1372" height="713" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612593172302" />
     <state x="2255" y="88" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611894425978" />
     <state x="740" y="157" key="RollbackChangesDialog" timestamp="1611558182541">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -385,10 +423,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="608" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611728700966" />
-    <state x="668" y="237" width="583" height="624" key="find.popup" timestamp="1612251068821">
+    <state x="668" y="237" width="583" height="624" key="find.popup" timestamp="1612263595959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612251068821" />
+    <state x="668" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612263595959" />
     <state x="2588" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611904513877" />
     <state x="668" y="233" width="817" height="600" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1612239643514">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -399,10 +437,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612161243984" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612250914362">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612262439970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612250914362" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612262439970" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611902527908" />
   </component>
 </project>

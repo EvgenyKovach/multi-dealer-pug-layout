@@ -11,14 +11,14 @@ mixin filterResult()
             OPTION Сначача в наличии
             OPTION Сначача в наличии + дешевые
             OPTION Сначача в наличии + дорогие
-      +e.hided-filters
-        +e.BUTTON.open-hided-filters.btn Открыть фильтр
       // Два варианта find-box (с наличием и без)
       +e.total-find-box
         +e.total-find-key Найдено
         +e.SPAN.total-find-value 1478 автомобилей
       +e.total-find-box
         +e.total-find-key  Нет автомобилей по запросу
+      +b.hided-mobile-filters.js-mobile-filters-btn
+        +e.open-hided-filters Открыть фильтр
       +e.listResult
         +carCard(
           '../img/devImages/car1/a3.png',

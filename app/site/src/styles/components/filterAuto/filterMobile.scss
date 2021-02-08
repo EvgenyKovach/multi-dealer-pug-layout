@@ -1,0 +1,62 @@
+.hided-mobile-filters {
+  position: relative;
+  display: none;
+
+  margin-top: 15px;
+  padding: 10px 0;
+
+  background: #fff;
+  color: #262626;
+
+  border-radius: 2px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+
+  @include below(1085px) {
+    display: block;
+  }
+
+  &::before,
+  &::after {
+    position: absolute;
+    content: '';
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 2px;
+    background: #000;
+  }
+
+  &::after {
+    transform: translateY(-50%) rotate(90deg);
+  }
+  
+  &__open-hided-filters {
+    cursor: pointer;
+  }
+
+}
+
+.filters-wrapper.mobile-filter {
+  box-shadow: 15px 0 0 15px $lightGray;
+
+  &.isActive {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+
+    margin: 0;
+    height: 100%;
+    background: #fff;
+    overflow-y: scroll;
+  }
+
+  .filters {
+
+  }
+
+}
