@@ -11,6 +11,10 @@ export default () => {
 
   toggleFilterBtn.onclick = () => {
     mobileFilter.classList.toggle('isActive')
+    if (mobileFilter.classList.contains('isActive')) {
+      document.body.style.overflow = 'hidden'
+    }
+    else document.body.style.overflow = 'auto'
   }
 
 }

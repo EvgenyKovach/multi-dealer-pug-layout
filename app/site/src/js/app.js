@@ -21,6 +21,7 @@ import colorPickFilter from "./colorPickFilter";              // настрой�
 import stickySidebar from "./stickySidebar";                  // инит плавающей настройки фильтра
 import select from './select';
 import mobileFilter from "./mobileFilter";                     // мобильный фильтр
+import footerBrands from "./footerBrands";                     // размер списка бренда в футере, вынужденный костыль
 
 
 // inits
@@ -31,6 +32,7 @@ lazyLoad();
 hiddenTextDescription();
 scrollTop();
 select();
+footerBrands();
 
 // filter scripts
 if (document.querySelector('.filters')) {

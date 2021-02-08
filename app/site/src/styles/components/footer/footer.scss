@@ -2,7 +2,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
   padding: 60px 0;
+
+  overflow: hidden;
 
   @include below($tablet) {
     padding: 45px 0;
@@ -22,19 +25,62 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
+    margin-left: -10px;
     padding-bottom: 40px;
+
     border-bottom: 1px solid #DDE1E5;
 
     @include below($mobileL) {
       padding-bottom: 25px;
     }
+
   }
 
   &__list {
-    width: calc(210px - 10px);
-    margin: 15px 5px;
+    display: flex;
+    flex-direction: column;
+
+    min-width: 220px;
+    max-height: 250px;
+
+    margin: 15px 0px 15px 10px;
+
     font-size: 14px;
     letter-spacing: -0.2px;
+
+    @include below($tablet) {
+      max-height: 600px;
+    }
+
+    &-box {
+      display: flex;
+      grid-gap: 0 10px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      max-height: 235px;
+
+      @include below($tablet) {
+        max-height: 550px;
+      }
+
+      &.threeCol {
+        min-width: 320px;
+        max-height: 250px;
+      }
+
+      &.fiveCol {
+        min-width: 630px;
+
+        @include below($tablet) {
+          min-width: 420px;
+        }
+
+        @include below($mobileL) {
+          min-width: 260px;
+        }
+
+      }
+    }
 
     &-title {
       font-size: 16px;
@@ -47,6 +93,7 @@
       @include below($mobile) {
         font-size: 14px;
       }
+
     }
 
     &-item {
