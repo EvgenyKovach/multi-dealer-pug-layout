@@ -1,17 +1,19 @@
 .overlay {
   position: fixed;
-  transform: scaleX(0);
+  opacity: 0;
   transform-origin: 0 0;
   height: 100vh;
   width: 100vw;
   top: 0;
   left: 0;
   background: #00000077;
-  z-index: 3;
+  z-index: -1;
   cursor: pointer;
-  transition: .2s ease-in-out;
+  transition: opacity .2s ease-in-out;
 
   &.isActive {
-    transform: scaleX(1);
+    z-index: 3;
+    opacity: 1;
+    transform: translateY(0);
   }
 }
