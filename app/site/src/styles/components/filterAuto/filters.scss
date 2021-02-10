@@ -25,7 +25,11 @@
 
     &.closedList {
       & .filters__section-list {
-        display: none;
+        transform: translateY(-40%);
+        position: absolute;
+
+        opacity: 0;
+        z-index: -1;
       }
 
       .toggle-filter-counter {
@@ -49,17 +53,8 @@
 
     padding: 10px 10px 10px 0px;
 
-    animation: listToggle .15s ease-in-out;
     transform-origin: 0 0;
-  }
-
-  @keyframes listToggle {
-    0% {
-      transform: translateX(-5px);
-    }
-    100% {
-      transform: translateX(0px);
-    }
+    transition: .2s ease-in-out;
   }
 
   &__toggle-section-box {

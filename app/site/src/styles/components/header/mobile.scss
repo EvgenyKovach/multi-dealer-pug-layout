@@ -20,7 +20,7 @@
   }
 
   &.active:before {
-    transform: translateY(-50%) rotate(120deg) scaleX(0);
+    transform: translateY(-50%) rotateY(90deg);
   }
 
   &__toggle {
@@ -38,6 +38,7 @@
       height: 4px;
 
       background: #333;
+      transition: .25s ease-in-out
     }
 
     &:after {
@@ -54,39 +55,14 @@
 
     &.active {
       &:before {
-        animation: btntoggleDown .25s ease-in;
-        animation-fill-mode: forwards;
+        transform: translateY(250%) rotate(-45deg);
       }
+
       &:after {
-        animation: btntoggleTop .25s ease-in;
-        animation-fill-mode: forwards;
+        transform: translateY(-250%) rotate(45deg);
       }
     }
 
-  }
-}
-
-@keyframes btntoggleTop {
-  0% {
-    transform: translateY(0%);
-  }
-  50% {
-    transform: translateY(-150%) rotate(-45deg);
-  }
-  100% {
-    transform: translateY(-250%) rotate(-45deg);
-  }
-}
-
-@keyframes btntoggleDown {
-  0% {
-    transform: translateY(0%);
-  }
-  50% {
-    transform: translateY(150%) rotate(45deg);
-  }
-  100% {
-    transform: translateY(250%) rotate(45deg);
   }
 }
 
@@ -102,11 +78,11 @@
   width: calc(100%);
   padding: 10px 0;
 
-  z-index: 6;
+  z-index: -1;
   border-bottom: 1px solid #f1f1f1;
   border-top: 1px solid #f1f1f1;
   transform-origin: 0 0;
-  transform: scaleY(.9) translate(0, 100%);
+  transform: translate(0, 90%);
   transition: .15s ease-in-out;
   opacity: 0;
   background: #FFFFFF;
@@ -115,8 +91,9 @@
   overflow-x: hidden;
 
   &.active {
-    transform: scaleY(1) translate(0, 100%);
+    transform: translate(0, 100%);
     opacity: 1;
+    z-index: 6;
     pointer-events: inherit;
   }
 
