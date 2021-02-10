@@ -1,3 +1,8 @@
+footer {
+  background: $darkGray;
+  color: #fff;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -15,15 +20,10 @@
     padding: 25px 0;
   }
 
-  &-box {
-    background: $darkGray;
-    color: #fff;
-  }
-
   &__top {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
 
     margin-left: -10px;
     padding-bottom: 40px;

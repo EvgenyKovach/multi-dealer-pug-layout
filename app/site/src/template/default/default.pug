@@ -5,17 +5,18 @@ include head
 include ../components/header
 
 -
-	const pageOptions = {
-		title: '',
-	}
+  const pageOptions = {
+    title: '',
+  }
 
 block vars
 
 doctype html
 html(lang='ru')
-	+head()
-	body
-		.wrapper
-			+header()
-			block content
-			+footer()
+  +head()
+  body
+    .wrapper
+      +header()
+      block content
+      +footer()
+    .js-overlay.overlay

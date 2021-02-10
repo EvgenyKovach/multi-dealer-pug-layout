@@ -1,5 +1,5 @@
 mixin footer()
-  .footer-box
+  footer
     .container
       +b.footer
         +e.top
@@ -104,21 +104,24 @@ mixin footer()
               +e.LI.list-item
                 A(href="#") Сервис
           +e.list
-            +e.LI.list-title Мы в социальных сетях
-            +e.list-social
+            +e.list-title Мы в социальных сетях
+            +e.UL.list-social
               +e.LI.social-link
                 A(href="#")
-                SVG
-                  USE(xlink:href="../img/spritemap.svg#vk-logo")
-              +e.A.social-link(href="#")
-                SVG
-                  USE(xlink:href="../img/spritemap.svg#telegram-logo")
-              +e.A.social-link(href="#")
-                SVG
-                  USE(xlink:href="../img/spritemap.svg#fb-logo")
-              +e.A.social-link(href="#")
-                SVG
-                  USE(xlink:href="../img/spritemap.svg#insta-logo")
+                  SVG
+                    USE(xlink:href="../img/spritemap.svg#vk-logo")
+              +e.LI.social-link
+                A(href="#")
+                  SVG
+                    USE(xlink:href="../img/spritemap.svg#telegram-logo")
+              +e.LI.social-link(href="#")
+                A(href="#")
+                  SVG
+                    USE(xlink:href="../img/spritemap.svg#fb-logo")
+              +e.LI.social-link
+                A(href="#")
+                  SVG
+                    USE(xlink:href="../img/spritemap.svg#insta-logo")
         +e.mid
           +e.contact
             +e.contact-name Телефон
