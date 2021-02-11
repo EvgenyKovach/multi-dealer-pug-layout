@@ -26,7 +26,7 @@ export default () => {
     },
   });
 
-  let popularModelsSlider = new Swiper('.js-slider-popularModels', {
+  let popularModelsSlider = new Swiper('.js-slider-popular-models', {
     breakpoints: {
       1224: {
         slidesPerView: 4,
@@ -49,7 +49,7 @@ export default () => {
     speed: 300,
   });
 
-  let searchAsTypeSlider = new Swiper('.js-searchAsType-slider', {
+  let searchAsTypeSlider = new Swiper('.js-search-as-type-slider', {
     breakpoints: {
       1224: {
         slidesPerView: 4,
@@ -62,8 +62,8 @@ export default () => {
       },
     },
     navigation: {
-      nextEl: '.searchAsType__button-next',
-      prevEl: '.searchAsType__button-prev',
+      nextEl: '.search-as-type__button-next',
+      prevEl: '.search-as-type__button-prev',
       clickable: true,
     },
     spaceBetween: 60,
@@ -73,7 +73,7 @@ export default () => {
     allowTouchMove: true
   });
 
-  let newArrivalsSlider = new Swiper('.js-newArrivals-slider', {
+  let newArrivalsSlider = new Swiper('.js-new-arrivals-slider', {
     spaceBetween: 60,
     slidesPerView: 1,
     loop: true,
@@ -81,8 +81,8 @@ export default () => {
     allowTouchMove: true,
     longSwipesRatio: 1,
     navigation: {
-      nextEl: '.newArrivals__button-next',
-      prevEl: '.newArrivals__button-prev',
+      nextEl: '.new-arrivals__button-next',
+      prevEl: '.new-arrivals__button-prev',
       clickable: true,
     },
     breakpoints: {

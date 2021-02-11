@@ -1,33 +1,32 @@
 mixin searchAsType()
-  .searchAsType-box
-    .container
-      +b.searchAsType(style='position: relative')
-        +e.title.page-title Поиск по типу автомобиля
-        .swiper-container.searchAsType-slider.js-searchAsType-slider
-          +e.list.swiper-wrapper
-            +e.item.swiper-slide
-              +e.A.slide-box(href="#")
-                +e.DIV.item-logo(style="background: url(../img/devImages/asType1.png) center/cover no-repeat")
-                +e.DIV.item-name Премиальные
-                +e.DIV.item-total 279 автомобилей
-            +e.item.swiper-slide
-              +e.A.slide-box(href="#")
-                +e.DIV.item-logo(style="background: url(../img/devImages/asType2.png) center/cover no-repeat")
-                +e.DIV.item-name Внедорожники и паркетники
-                +e.DIV.item-total 696 автомобилей
-            +e.item.swiper-slide
-              +e.A.slide-box(href="#")
-                +e.DIV.item-logo(style="background: url(../img/devImages/asType3.png) center/cover no-repeat")
-                +e.DIV.item-name Спортивные
-                +e.DIV.item-total 11 автомобилей
-            +e.item.swiper-slide
-              +e.A.slide-box(href="#")
-                +e.DIV.item-logo(style="background: url(../img/devImages/asType4.png) center/cover no-repeat")
-                +e.DIV.item-name Эксклюзивы
-                +e.DIV.item-total 4 автомобилей
-          +e.button-prev
-            SVG.arrowBtn
-              USE(xlink:href="../img/spritemap.svg#arrowleft")
-          +e.button-next
-            SVG.arrowBtn
-              USE(xlink:href="../img/spritemap.svg#arrowleft")
+  +b.search-as-type
+    +e.container.container
+      +e.title.page-title Поиск по типу автомобиля
+      .swiper-container.search-as-type-slider.js-search-as-type-slider
+        +e.list.swiper-wrapper
+          +e.item.swiper-slide
+            +e.A.slide-box(href="#")
+              +e.DIV.item-logo(style="background: url(../img/devImages/asType1.png) center/cover no-repeat")
+              +e.DIV.item-name Премиальные
+              +e.DIV.item-total 279 автомобилей
+          +e.item.swiper-slide
+            +e.A.slide-box(href="#")
+              +e.DIV.item-logo(style="background: url(../img/devImages/asType2.png) center/cover no-repeat")
+              +e.DIV.item-name Внедорожники и паркетники
+              +e.DIV.item-total 696 автомобилей
+          +e.item.swiper-slide
+            +e.A.slide-box(href="#")
+              +e.DIV.item-logo(style="background: url(../img/devImages/asType3.png) center/cover no-repeat")
+              +e.DIV.item-name Спортивные
+              +e.DIV.item-total 11 автомобилей
+          +e.item.swiper-slide
+            +e.A.slide-box(href="#")
+              +e.DIV.item-logo(style="background: url(../img/devImages/asType4.png) center/cover no-repeat")
+              +e.DIV.item-name Эксклюзивы
+              +e.DIV.item-total 4 автомобилей
+        +e.button-prev
+          SVG.arrow-img
+            USE(xlink:href="../img/spritemap.svg#arrowleft")
+        +e.button-next
+          SVG.arrow-img
+            USE(xlink:href="../img/spritemap.svg#arrowleft")

@@ -1,13 +1,12 @@
 mixin moreQestions()
-  .moreQuestions-box
-    .container
-      +b.moreQuestions
-        +e.item-left
-          +e.SVG.left-svg
-            USE(xlink:href="../img/spritemap.svg#supporter")
-        +e.item-right
-          +e.item-right-title.page-title Остались вопросы или не нашли нужной информации?
-          +e.item-right-subtitle Оставьте заявку и наш менеджер свяжется с вами.
-          +e.item-right-btn.btn.withArrow Оставить заявку
-            SVG.arrowBtn
-              USE(xlink:href="../img/spritemap.svg#arrow-right-solid")
+  +b.more-questions
+    +e.container.container
+      +e.item-left
+        +e.SVG.left-svg
+          USE(xlink:href="../img/spritemap.svg#supporter")
+      +e.item-right
+        +e.item-right-title.page-title Остались вопросы или не нашли нужной информации?
+        +e.item-right-subtitle Оставьте заявку и наш менеджер свяжется с вами.
+        +e.item-right-btn.btn.with-arrow Оставить заявку
+          SVG.arrow-img
+            USE(xlink:href="../img/spritemap.svg#arrow-right-solid")

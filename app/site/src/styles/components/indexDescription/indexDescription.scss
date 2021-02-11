@@ -1,19 +1,20 @@
-.indexDescription {
-  position: relative;
-  padding: 90px 0 60px 0;
+.index-description {
 
-  max-width: 1440px;
-  margin: 0 auto;
+  &__container {
+    position: relative;
+    padding: 90px 0 60px 0;
 
-  @include below($tablet) {
-    padding: 60px 0 45px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    @include below($tablet) {
+      padding: 60px 0 45px 0;
+    }
+
+    @include below($mobileL) {
+      padding: 30px 0 25px 0;
+    }
   }
-
-  @include below($mobileL) {
-    padding: 30px 0 25px 0;
-  }
-
-
 
   &__title {
     text-align: left;

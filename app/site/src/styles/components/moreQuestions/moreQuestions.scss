@@ -1,15 +1,15 @@
-.moreQuestions {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.more-questions {
+  background: #F2F4F6;
 
-  max-width: 1440px;
-  margin: 0 auto;
+  &__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  &-box {
-    background: #F2F4F6;
-  }
+    max-width: 1440px;
+    margin: 0 auto;
+    }
 
   &__item-left,
   &__item-right {

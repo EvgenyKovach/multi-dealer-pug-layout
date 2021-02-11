@@ -1,47 +1,46 @@
 mixin popularModels()
-  .popularModels-box
-    .container
-      +b.popularModels(style='position: relative')
-        +e.title.page-title Популярные модели автомобилей
-        +e.descr-text Несмотря на определенные кризисные явления в экономике, количество желающих приобрести легковые авто с пробегом среди наших граждан не уменьшается. Данное обстоятельство поясняется не столько тем, что цена на легковые автомобили бу порой в разы меньше, чем стоимость нового ТС, но и огромным выбором моделей, как зарубежного, так и отечественного автопрома.
-        .swiper-container.popularModels-slider.js-slider-popularModels
-          +e.list.swiper-wrapper
+  +b.popular-models
+    +e.container.container
+      +e.title.page-title Популярные модели автомобилей
+      +e.descr-text Несмотря на определенные кризисные явления в экономике, количество желающих приобрести легковые авто с пробегом среди наших граждан не уменьшается. Данное обстоятельство поясняется не столько тем, что цена на легковые автомобили бу порой в разы меньше, чем стоимость нового ТС, но и огромным выбором моделей, как зарубежного, так и отечественного автопрома.
+      .swiper-container.popular-models-slider.js-slider-popular-models
+        +e.list.swiper-wrapper
 
-            +e.A.item.swiper-slide(href="#")
-              +e.DIV.slide-box
-                +e.item-brand-logo
-                  IMG(src="../img/devImages/lexusLogo.png")
-                +e.item-img
-                  IMG(src="../img/devImages/lexusCar.png")
-                +e.item-name Audi A3
-                +e.item-cost от 1 516 111 ₽
-            +e.A.item.swiper-slide(href="#")
-              +e.DIV.slide-box
-                +e.item-brand-logo
-                  IMG(src="../img/devImages/lexusLogo.png")
-                +e.item-img
-                  IMG(src="../img/devImages/lexusCar.png")
-                +e.item-name Lexus NX
-                +e.item-cost от 2 494 000 ₽
-            +e.A.item.swiper-slide(href="#")
-              +e.DIV.slide-box
-                +e.item-brand-logo
-                  IMG(src="../img/devImages/mercLogo.png")
-                +e.item-img
-                  IMG(src="../img/devImages/mbCar.png")
-                +e.item-name Mercedes-Benz C-класс
-                +e.item-cost от 2 555 699 ₽
-            +e.A.item.swiper-slide(href="#")
-              +e.DIV.slide-box
-                +e.item-brand-logo
-                  IMG(src="../img/devImages/skodaLogo.png")
-                +e.item-img
-                  IMG(src="../img/devImages/skodaCar.png")
-                +e.item-name Обновленный SkodaSuperb
-                +e.item-cost от 1 999 299 ₽
-          +e.button-prev
-            SVG.arrowBtn
-              USE(xlink:href="../img/spritemap.svg#arrowleft")
-          +e.button-next
-            SVG.arrowBtn
-              USE(xlink:href="../img/spritemap.svg#arrowleft")
+          +e.A.item.swiper-slide(href="#")
+            +e.DIV.slide-box
+              +e.item-brand-logo
+                IMG(src="../img/devImages/lexusLogo.png")
+              +e.item-img
+                IMG(src="../img/devImages/lexusCar.png")
+              +e.item-name Audi A3
+              +e.item-cost от 1 516 111 ₽
+          +e.A.item.swiper-slide(href="#")
+            +e.DIV.slide-box
+              +e.item-brand-logo
+                IMG(src="../img/devImages/lexusLogo.png")
+              +e.item-img
+                IMG(src="../img/devImages/lexusCar.png")
+              +e.item-name Lexus NX
+              +e.item-cost от 2 494 000 ₽
+          +e.A.item.swiper-slide(href="#")
+            +e.DIV.slide-box
+              +e.item-brand-logo
+                IMG(src="../img/devImages/mercLogo.png")
+              +e.item-img
+                IMG(src="../img/devImages/mbCar.png")
+              +e.item-name Mercedes-Benz C-класс
+              +e.item-cost от 2 555 699 ₽
+          +e.A.item.swiper-slide(href="#")
+            +e.DIV.slide-box
+              +e.item-brand-logo
+                IMG(src="../img/devImages/skodaLogo.png")
+              +e.item-img
+                IMG(src="../img/devImages/skodaCar.png")
+              +e.item-name Обновленный SkodaSuperb
+              +e.item-cost от 1 999 299 ₽
+        +e.button-prev
+          SVG.arrow-img
+            USE(xlink:href="../img/spritemap.svg#arrowleft")
+        +e.button-next
+          SVG.arrow-img
+            USE(xlink:href="../img/spritemap.svg#arrowleft")

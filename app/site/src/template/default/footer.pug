@@ -1,141 +1,140 @@
 mixin footer()
-  footer
-    .container
-      +b.footer
-        +e.top
-          +e.list
-            +e.list-title Купить
-            +e.UL.list-box
-              +e.LI.list-item
-                A(href="#") Легковые автомобили
-              +e.LI.list-item
-                A(href="#") Коммерческий транспорт
-              +e.LI.list-item
-                A(href="#") Внедорожники и кроссоверы
-              +e.LI.list-item
-                A(href="#") Минивэны
-          +e.list
-            +e.list-title Бренды
-            +e.UL.list-box.js-brands-list
-              +e.LI.list-item
-                A(href="#") Mercedes-Benz
-              +e.LI.list-item
-                A(href="#") Opel
-              +e.LI.list-item
-                A(href="#") Lexus
-              +e.LI.list-item
-                A(href="#") Ford
-              +e.LI.list-item
-                A(href="#") Nissan
-              +e.LI.list-item
-                A(href="#") Mercedes-Benz
-              +e.LI.list-item
-                A(href="#") Opel
-              +e.LI.list-item
-                A(href="#") Lexus
-              +e.LI.list-item
-                A(href="#") Ford
-              +e.LI.list-item
-                A(href="#") Nissan
-              +e.LI.list-item
-                A(href="#") Mercedes-Benz
-              +e.LI.list-item
-                A(href="#") Opel
-              +e.LI.list-item
-                A(href="#") Lexus
-              +e.LI.list-item
-                A(href="#") Ford
-              +e.LI.list-item
-                A(href="#") Nissan
-              +e.LI.list-item
-                A(href="#") Mercedes-Benz
-              +e.LI.list-item
-                A(href="#") Opel
-              +e.LI.list-item
-                A(href="#") Lexus
-              +e.LI.list-item
-                A(href="#") Ford
-              +e.LI.list-item
-                A(href="#") Nissan
-              +e.LI.list-item
-                A(href="#") Mercedes-Benz
-              +e.LI.list-item
-                A(href="#") Opel
-              +e.LI.list-item
-                A(href="#") Lexus
-              +e.LI.list-item
-                A(href="#") Ford
-              +e.LI.list-item
-                A(href="#") Nissan
-              +e.LI.list-item
-                A(href="#") Mercedes-Benz
-              +e.LI.list-item
-                A(href="#") Opel
-              +e.LI.list-item
-                A(href="#") Lexus
-              +e.LI.list-item
-                A(href="#") Ford
-              +e.LI.list-item
-                A(href="#") Nissan
-          +e.list
-            +e.LI.list-title Услуги
-            +e.UL.list-box
-              +e.LI.list-item
-                A(href="#") Покупка онлайн
-              +e.LI.list-item
-                A(href="#") Оценка и выкуп онлайн
-              +e.LI.list-item
-                A(href="#") Обмен / trade-in онлайн
-              +e.LI.list-item
-                A(href="#") Корпоративным клиентам
-              +e.LI.list-item
-                A(href="#") Сервис
-          +e.list
-            +e.list-title Компания
-            +e.UL.list-box
-              +e.LI.list-item
-                A(href="#") О Компании
-              +e.LI.list-item
-                A(href="#") Оценка и выкуп онлайн
-              +e.LI.list-item
-                A(href="#") Обмен / trade-in онлайн
-              +e.LI.list-item
-                A(href="#") Корпоративным клиентам
-              +e.LI.list-item
-                A(href="#") Сервис
-          +e.list
-            +e.list-title Мы в социальных сетях
-            +e.UL.list-social
-              +e.LI.social-link
-                A(href="#")
-                  SVG
-                    USE(xlink:href="../img/spritemap.svg#vk-logo")
-              +e.LI.social-link
-                A(href="#")
-                  SVG
-                    USE(xlink:href="../img/spritemap.svg#telegram-logo")
-              +e.LI.social-link(href="#")
-                A(href="#")
-                  SVG
-                    USE(xlink:href="../img/spritemap.svg#fb-logo")
-              +e.LI.social-link
-                A(href="#")
-                  SVG
-                    USE(xlink:href="../img/spritemap.svg#insta-logo")
-        +e.mid
-          +e.contact
-            +e.contact-name Телефон
-            +e.A.contact-phone(href="#") +7 (495) 123-00-10
-          +e.contact
-            +e.contact-name Фактический адрес
-            +e.contact-address г. Москва, Новорижское ш., 7 км от МКАД<br>Ежедневно 8:30 - 22:00
-        +e.bottom
-          +e.left
-            +e.left-text Вся представленная на сайте информация, касающаяся автомобилей и сервисного обслуживания, носит информационный характер и не является публичной офертой, определяемой положениями ст. 437 (2) ГК РФ. Все цены указанные на данном сайте носят информационный характер и являются максимально рекомендуемыми розничными ценами по расчетам дистрибьютора (ООО «Хендэ Мотор СНГ»). Для получения подробной информации просьба обращаться к ближайшему официальному дилеру ООО «Хендэ Мотор СНГ». Опубликованная на данном сайте информация может быть изменена в любое время без предварительного уведомления.
-            +e.left-copyright 2020 © ООО “CarDealerName”
-          +e.A.right(href="mailto:info@lego-car.ru")
-            +e.right-company-name Разработано <br> info@lego-car.ru
-            +e.right-company-logo
-              SVG
-                USE(xlink:href="../img/spritemap.svg#legologo")
-      .js-scroll-top.notActive
+  +b.FOOTER.footer
+    +e.container.container
+      +e.top
+        +e.list
+          +e.list-title Купить
+          +e.UL.list-box
+            +e.LI.list-item
+              A(href="#") Легковые автомобили
+            +e.LI.list-item
+              A(href="#") Коммерческий транспорт
+            +e.LI.list-item
+              A(href="#") Внедорожники и кроссоверы
+            +e.LI.list-item
+              A(href="#") Минивэны
+        +e.list
+          +e.list-title Бренды
+          +e.UL.list-box.js-brands-list
+            +e.LI.list-item
+              A(href="#") Mercedes-Benz
+            +e.LI.list-item
+              A(href="#") Opel
+            +e.LI.list-item
+              A(href="#") Lexus
+            +e.LI.list-item
+              A(href="#") Ford
+            +e.LI.list-item
+              A(href="#") Nissan
+            +e.LI.list-item
+              A(href="#") Mercedes-Benz
+            +e.LI.list-item
+              A(href="#") Opel
+            +e.LI.list-item
+              A(href="#") Lexus
+            +e.LI.list-item
+              A(href="#") Ford
+            +e.LI.list-item
+              A(href="#") Nissan
+            +e.LI.list-item
+              A(href="#") Mercedes-Benz
+            +e.LI.list-item
+              A(href="#") Opel
+            +e.LI.list-item
+              A(href="#") Lexus
+            +e.LI.list-item
+              A(href="#") Ford
+            +e.LI.list-item
+              A(href="#") Nissan
+            +e.LI.list-item
+              A(href="#") Mercedes-Benz
+            +e.LI.list-item
+              A(href="#") Opel
+            +e.LI.list-item
+              A(href="#") Lexus
+            +e.LI.list-item
+              A(href="#") Ford
+            +e.LI.list-item
+              A(href="#") Nissan
+            +e.LI.list-item
+              A(href="#") Mercedes-Benz
+            +e.LI.list-item
+              A(href="#") Opel
+            +e.LI.list-item
+              A(href="#") Lexus
+            +e.LI.list-item
+              A(href="#") Ford
+            +e.LI.list-item
+              A(href="#") Nissan
+            +e.LI.list-item
+              A(href="#") Mercedes-Benz
+            +e.LI.list-item
+              A(href="#") Opel
+            +e.LI.list-item
+              A(href="#") Lexus
+            +e.LI.list-item
+              A(href="#") Ford
+            +e.LI.list-item
+              A(href="#") Nissan
+        +e.list
+          +e.LI.list-title Услуги
+          +e.UL.list-box
+            +e.LI.list-item
+              A(href="#") Покупка онлайн
+            +e.LI.list-item
+              A(href="#") Оценка и выкуп онлайн
+            +e.LI.list-item
+              A(href="#") Обмен / trade-in онлайн
+            +e.LI.list-item
+              A(href="#") Корпоративным клиентам
+            +e.LI.list-item
+              A(href="#") Сервис
+        +e.list
+          +e.list-title Компания
+          +e.UL.list-box
+            +e.LI.list-item
+              A(href="#") О Компании
+            +e.LI.list-item
+              A(href="#") Оценка и выкуп онлайн
+            +e.LI.list-item
+              A(href="#") Обмен / trade-in онлайн
+            +e.LI.list-item
+              A(href="#") Корпоративным клиентам
+            +e.LI.list-item
+              A(href="#") Сервис
+        +e.list
+          +e.list-title Мы в социальных сетях
+          +e.UL.list-social
+            +e.LI.social-link
+              A(href="#")
+                SVG
+                  USE(xlink:href="../img/spritemap.svg#vk-logo")
+            +e.LI.social-link
+              A(href="#")
+                SVG
+                  USE(xlink:href="../img/spritemap.svg#telegram-logo")
+            +e.LI.social-link(href="#")
+              A(href="#")
+                SVG
+                  USE(xlink:href="../img/spritemap.svg#fb-logo")
+            +e.LI.social-link
+              A(href="#")
+                SVG
+                  USE(xlink:href="../img/spritemap.svg#insta-logo")
+      +e.mid
+        +e.contact
+          +e.contact-name Телефон
+          +e.A.contact-phone(href="#") +7 (495) 123-00-10
+        +e.contact
+          +e.contact-name Фактический адрес
+          +e.contact-address г. Москва, Новорижское ш., 7 км от МКАД<br>Ежедневно 8:30 - 22:00
+      +e.bottom
+        +e.left
+          +e.left-text Вся представленная на сайте информация, касающаяся автомобилей и сервисного обслуживания, носит информационный характер и не является публичной офертой, определяемой положениями ст. 437 (2) ГК РФ. Все цены указанные на данном сайте носят информационный характер и являются максимально рекомендуемыми розничными ценами по расчетам дистрибьютора (ООО «Хендэ Мотор СНГ»). Для получения подробной информации просьба обращаться к ближайшему официальному дилеру ООО «Хендэ Мотор СНГ». Опубликованная на данном сайте информация может быть изменена в любое время без предварительного уведомления.
+          +e.left-copyright 2020 © ООО “CarDealerName”
+        +e.A.right(href="mailto:info@lego-car.ru")
+          +e.right-company-name Разработано <br> info@lego-car.ru
+          +e.right-company-logo
+            SVG
+              USE(xlink:href="../img/spritemap.svg#legologo")
+    .js-scroll-top.notActive

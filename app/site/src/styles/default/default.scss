@@ -196,12 +196,12 @@ ul, li {
     padding: 10px 15px;
   }
 
-  &.withArrow {
+  &.with-arrow {
     position: relative;
     padding-right: 45px;
   }
 
-  .arrowBtn {
+  .arrow-img {
     position: absolute;
     width: 13px;
     height: 13px;
@@ -213,7 +213,7 @@ ul, li {
 
   &:hover {
 
-    .arrowBtn {
+    .arrow-img {
       transform: translateY(-50%) translateX(2px);
     }
 

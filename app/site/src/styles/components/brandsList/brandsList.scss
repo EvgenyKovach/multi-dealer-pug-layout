@@ -1,4 +1,4 @@
-.brandsList {
+.brands {
   display: flex;
   flex-direction: column;
 
@@ -83,7 +83,7 @@
 
   }
 
-  &__itemImg {
+  &__item-img {
     width: 64px;
     height: 64px;
 
@@ -93,7 +93,7 @@
     }
   }
 
-  &__itemName {
+  &__item-name {
     margin-top: 15px;
     font-size: 18px;
     font-weight: bold;
@@ -104,7 +104,7 @@
     }
   }
 
-  &__itemCount {
+  &__item-count {
     margin-top: 5px;
 
     @include below($desktopM) {
@@ -112,7 +112,7 @@
     }
   }
 
-  &__btnSeeMore {
+  &__btn-see-more {
     margin-top: 25px;
   }
 

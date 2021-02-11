@@ -1,4 +1,4 @@
-.popularModels-box {
+.popular-models {
   background: #F2F4F6;
   padding: 70px 0;
 
@@ -13,9 +13,6 @@
   @include below($mobileL) {
     padding: 30px 0;
   }
-}
-
-.popularModels {
 
   &-slider {
     padding: 0 20px !important;

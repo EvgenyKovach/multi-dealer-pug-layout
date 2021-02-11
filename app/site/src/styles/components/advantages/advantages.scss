@@ -1,4 +1,4 @@
-.advantages-box {
+.advantages {
   padding: 90px 0;
 
   @include below($tablet) {
@@ -8,9 +8,6 @@
   @include below($mobileL) {
     padding:  45px 0;
   }
-}
-
-.advantages {
 
   &__title {
     max-width: 75%;

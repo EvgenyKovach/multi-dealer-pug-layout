@@ -1,65 +1,64 @@
 include ../elements/carCard
 
 mixin newArrivals()
-  .newArrivals-box
-    .container
-      +b.newArrivals
-        +e.title.page-title Новые поступления
-        +e.list.swiper-container.js-newArrivals-slider
-          .swiper-wrapper
-            +carCard(
-              '../img/devImages/car1/a3.png',
-              '../img/devImages/car1/a5.png',
-              '../img/devImages/car1/a1.png',
-              'в наличии',
-              'Mazda 2X',
-              'Комплектация UX 200 #discover',
-              '2011',
-              'Белый',
-              '2.5 л. / 2 л.с',
-              '2450 км.',
-              'Автоматическая',
-              '2 099 000 ₽',
-              '18 990',
-              '1 240 000 ₽')
+  +b.new-arrivals
+    +e.container.container
+      +e.title.page-title Новые поступления
+      +e.list.swiper-container.js-new-arrivals-slider
+        .swiper-wrapper
+          +carCard(
+            '../img/devImages/car1/a3.png',
+            '../img/devImages/car1/a5.png',
+            '../img/devImages/car1/a1.png',
+            'в наличии',
+            'Mazda 2X',
+            'Комплектация UX 200 #discover',
+            '2011',
+            'Белый',
+            '2.5 л. / 2 л.с',
+            '2450 км.',
+            'Автоматическая',
+            '2 099 000 ₽',
+            '18 990',
+            '1 240 000 ₽')
 
-            +carCard(
-              '../img/devImages/car2/b2.jpg',
-              '../img/devImages/car2/b3.jpg',
-              '../img/devImages/car2/b4.jpg',
-              'в наличии',
-              'UAZ 2101',
-              'Комплектация UX 200 #discover',
-              '2011',
-              'Белый',
-              '2.5 л. / 2 л.с',
-              '2450 км.',
-              'Автоматическая',
-              '2 099 000 ₽',
-              '18 990')
+          +carCard(
+            '../img/devImages/car2/b2.jpg',
+            '../img/devImages/car2/b3.jpg',
+            '../img/devImages/car2/b4.jpg',
+            'в наличии',
+            'UAZ 2101',
+            'Комплектация UX 200 #discover',
+            '2011',
+            'Белый',
+            '2.5 л. / 2 л.с',
+            '2450 км.',
+            'Автоматическая',
+            '2 099 000 ₽',
+            '18 990')
 
-            +carCard('../img/devImages/car3.png',
-              '../img/devImages/car2.png',
-              '../img/devImages/car1.png',
-              'в наличии',
-              'Lexus RX',
-              'Комплектация UX 200 #discover',
-              '2011',
-              'Белый',
-              '2.5 л. / 2 л.с',
-              '2450 км.',
-              'Автоматическая',
-              '2 099 000 ₽',
-              '18 990',
-              '1 240 000 ₽')
+          +carCard('../img/devImages/car3.png',
+            '../img/devImages/car2.png',
+            '../img/devImages/car1.png',
+            'в наличии',
+            'Lexus RX',
+            'Комплектация UX 200 #discover',
+            '2011',
+            'Белый',
+            '2.5 л. / 2 л.с',
+            '2450 км.',
+            'Автоматическая',
+            '2 099 000 ₽',
+            '18 990',
+            '1 240 000 ₽')
 
-          +e.button-prev
-            SVG.arrowBtn
-              USE(xlink:href="../img/spritemap.svg#arrowleft")
-          +e.button-next
-            SVG.arrowBtn
-              USE(xlink:href="../img/spritemap.svg#arrowleft")
+        +e.button-prev
+          SVG.arrow-img
+            USE(xlink:href="../img/spritemap.svg#arrowleft")
+        +e.button-next
+          SVG.arrow-img
+            USE(xlink:href="../img/spritemap.svg#arrowleft")
 
-        +e.A.see-more-btn.btn.withArrow(href="#") Перейти в каталог
-          SVG.arrowBtn
-            USE(xlink:href="../img/spritemap.svg#arrow-right-solid")
+      +e.A.see-more-btn.btn.with-arrow(href="#") Перейти в каталог
+        SVG.arrow-img
+          USE(xlink:href="../img/spritemap.svg#arrow-right-solid")

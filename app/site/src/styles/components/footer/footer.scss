@@ -1,23 +1,23 @@
-footer {
+.footer {
   background: $darkGray;
   color: #fff;
-}
 
-.footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-  padding: 60px 0;
+    padding: 60px 0;
 
-  overflow: hidden;
+    overflow: hidden;
 
-  @include below($tablet) {
-    padding: 45px 0;
-  }
+    @include below($tablet) {
+      padding: 45px 0;
+    }
 
-  @include below($mobileL) {
-    padding: 25px 0;
+    @include below($mobileL) {
+      padding: 25px 0;
+    }
   }
 
   &__top {
