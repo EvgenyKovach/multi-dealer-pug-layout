@@ -1,7 +1,8 @@
 .brandsListFull {
-  padding: 45px 0 90px 0;
   display: flex;
   flex-direction: column;
+
+  padding: 45px 0 90px 0;
 
   @include below($notebook) {
     padding: 70px 0;
@@ -20,6 +21,7 @@
     grid-template-columns: repeat(5, 155px);
     grid-gap: 10px 15px;
     justify-content: space-around;
+
     margin: 60px auto 20px auto;
     padding-left: 25px;
 
@@ -57,6 +59,7 @@
       width: 0;
       left: 0;
       bottom: 10px;
+
       transition: .15s ease-in-out;
       background: #000;
     }

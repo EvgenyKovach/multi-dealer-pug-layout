@@ -2,17 +2,23 @@
   padding: 15px 0 30px 0;
 
   &-box {
-    background: #F2F4F6;
     padding: 0 15px;
 
+    background: #F2F4F6;
+
+    @include below($notebook) {
+      padding: 0 10px;
+    }
+
     @include below($mobile) {
-      padding: 0px;
+      padding: 0px 5px;
     }
 
   }
 
   &__sort {
     display: flex;
+
     z-index: 999;
 
     &-element {
@@ -84,10 +90,6 @@
 
     &__car-tth {
       color: #262626;
-    }
-
-    &__button-credit:hover {
-      background: #F2F4F6 !important;
     }
 
   }

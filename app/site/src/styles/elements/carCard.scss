@@ -16,12 +16,13 @@
     margin: 5px auto;
 
     box-shadow: 0 0 9px #a2a2a266;
+    border: 1px solid #e2e1e1;
     background: #F2F4F6;
     border-radius: 2px;
     overflow: hidden;
 
     @include below($tablet) {
-      max-width: 315px;
+      min-width: 300px;
     }
 
     @include below($mobileL) {
@@ -38,7 +39,7 @@
     color: #fff;
     padding: 2px 5px;
     border-radius: 2px;
-    box-shadow: 2px 2px 2px #3b3b3b33;
+    box-shadow: 2px 2px 10px #818181;
     z-index: 2;
 
     font-size: 12px;
@@ -93,11 +94,20 @@
     display: flex;
     justify-content: space-between;
     margin: auto 0 0;
-    padding: 25px 0 16px 0;
+    padding: 10px 0 16px 0;
 
-    .css-price:nth-child(2) .car-card__price-count {
-      color: #8f8f8f;
-      text-decoration: line-through;
+    .css-price:nth-child(2) {
+      padding-top: 2px;
+
+      .car-card__price-count {
+        color: #8f8f8f;
+        text-decoration: line-through;
+        font-size: 12px;
+      }
+
+      .car-card__price-name {
+        font-size: 12px;
+      }
     }
 
     @include below($mobileL) {
@@ -162,11 +172,9 @@
       cursor: pointer;
 
       transition: .15s ease-in-out;
-      border: 2px solid $mainColor;
 
       &:hover {
         background: $mainColorHover;
-        border-color: $mainColorHover;
       }
 
       @include below($mobileL) {
@@ -179,8 +187,8 @@
 
   &__button-credit {
     position: relative;
-    color: $mainColor;
-    background: transparent;
+    color: #fff;
+    background: $darkGray;
 
     transition: .25s ease-in-out;
 
@@ -189,12 +197,8 @@
     }
 
     &:hover {
-      background: #fff !important;
+      background: $lightGray !important;
     }
-
-  }
-
-  &__button-offer {
 
   }
 
@@ -248,7 +252,7 @@
 
   &__car-tth {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     grid-gap: 5px 10px;
 
     margin-top: 10px;
@@ -273,8 +277,8 @@
   }
 
   &__tth-ico svg {
-    width: 25px;
-    height: 25px;
+    width: 16px;
+    height: 16px;
 
     margin-right: 10px;
 

@@ -24,12 +24,17 @@
   <component name="ChangeListManager">
     <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="fix locatiob ico&#10;fix stickysidebar&#10;fix togglemenu&#10;fix togglefilter&#10;&#10;more fixes style&#10;refactor brandList&#10;del brandListfull -&gt; brandList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/advantages/advantages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/advantages/advantages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/brandsList/brandsList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/brandsList/brandsList.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/brandsListFull/brandsListFull.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/brandsListFull/brandsListFull.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/autoList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/autoList.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filerResult.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filerResult.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filters.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filters.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/header/mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/header/mobile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/customStyles/choicesjs-custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/customStyles/choicesjs-custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/default/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/default/vars.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/elements/carCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/elements/carCard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/filterResult.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/filterResult.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/newArrivals.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/newArrivals.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/popularModels.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/popularModels.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/default/footer.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/default/footer.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +101,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/site/src/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CHEVROLET" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.import.notification.dismissed" value="true" />
@@ -167,7 +172,8 @@
       <workItem from="1612595510920" duration="4000" />
       <workItem from="1612757645549" duration="270000" />
       <workItem from="1612757955890" duration="775000" />
-      <workItem from="1612759289487" duration="53108000" />
+      <workItem from="1612759289487" duration="55142000" />
+      <workItem from="1613016570493" duration="13054000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace">
       <created>1608284195775</created>
@@ -365,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612946880500</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="fix card&#10;mobile filter toggle&#10;mobile menu toggle fix">
+      <created>1612961541998</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1612961541998</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +400,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init workspace" />
     <MESSAGE value="change gitignore" />
     <MESSAGE value="final config changes pug" />
     <MESSAGE value="add spritemaps&#10;add 2 mode" />
@@ -412,7 +424,8 @@
     <MESSAGE value="footer brands list create +fix&#10;fix filter mobile" />
     <MESSAGE value="init overlay&#10;init mobile filter" />
     <MESSAGE value="change fonts/ some fixes styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="change fonts/ some fixes styles" />
+    <MESSAGE value="fix card&#10;mobile filter toggle&#10;mobile menu toggle fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix card&#10;mobile filter toggle&#10;mobile menu toggle fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="340" key="#Notifications" timestamp="1611725260503">
@@ -431,10 +444,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612361253691" />
-    <state x="335" y="88" width="1372" height="713" key="FileChooserDialogImpl" timestamp="1612593172302">
+    <state x="335" y="88" width="1372" height="713" key="FileChooserDialogImpl" timestamp="1613017110815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="335" y="88" width="1372" height="713" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612593172302" />
+    <state x="335" y="88" width="1372" height="713" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613017110815" />
     <state x="2255" y="88" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611894425978" />
     <state x="740" y="157" key="RollbackChangesDialog" timestamp="1611558182541">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -444,18 +457,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="800" y="147" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611553389983" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1612936317020">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1612961557775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612936317020" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612961557775" />
     <state x="608" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1611728700966">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="608" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611728700966" />
-    <state x="668" y="237" width="583" height="624" key="find.popup" timestamp="1612959231206">
+    <state x="668" y="237" width="583" height="624" key="find.popup" timestamp="1613026997220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612959231206" />
+    <state x="668" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613026997220" />
     <state x="2588" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611904513877" />
     <state x="725" y="151" key="git4idea.branch.GitSmartOperationDialog" timestamp="1612865904841">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -470,10 +483,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612773686685" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612961169450">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613036995676">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612961169450" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613036995676" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611902527908" />
   </component>
 </project>

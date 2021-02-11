@@ -1,9 +1,11 @@
 .autoList {
-  min-height: 85vh;
   display: grid;
-  grid-template-columns: 310px 3fr ;
+  grid-template-columns: 310px 3fr;
+
+  min-height: 85vh;
 
   @include below($notebook) {
     grid-template-columns: 1fr;
   }
+
 }

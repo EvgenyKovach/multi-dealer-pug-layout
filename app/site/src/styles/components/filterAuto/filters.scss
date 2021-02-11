@@ -7,6 +7,7 @@
   flex-direction: column;
 
   top: 0;
+
   user-select: none;
   z-index: 2;
 
@@ -19,8 +20,10 @@
 
   &__section {
     padding: 5px 0 5px 15px;
+
     border-bottom: 1px solid #E8E9EA;
     background: #fff;
+
     overflow: hidden;
 
     &.closedList {
@@ -63,12 +66,14 @@
     right: 0;
     width: 100%;
     height: 100%;
+
     pointer-events: none;
   }
 
   .toggle-filter-counter {
     width: 100%;
     height: 100%;
+
     cursor: pointer;
     transition: .2s ease-in-out;
     pointer-events: none;
@@ -143,10 +148,13 @@
   }
 
   &__selectParent {
-    font-size: 12px;
     position: absolute;
+
     bottom: 0;
+
     color: #910303;
+
+    font-size: 12px;
 
     &.parentSelected {
       display: none;
@@ -155,6 +163,7 @@
 
   &__section-arrow svg {
     position: absolute;
+
     top: 50%;
     right: 25px;
     transform: translateY(-50%);
@@ -172,6 +181,7 @@
     &:before {
       content: "";
       position: absolute;
+
       height: 18px;
       width: 18px;
       top: 50%;
@@ -210,6 +220,7 @@
 
   &__checkbox-name {
     margin-left: 10px;
+
     user-select: none;
 
     transition: .1s ease;
@@ -217,17 +228,19 @@
 
   &__checkbox-count {
     padding-left: 5px;
-    font-size: 12px;
+
     color: #666666;
+
+    font-size: 12px;
   }
 
   .checkMark {
     position: absolute;
+
     width: 15px;
     height: 15px;
-
     top: 50%;
-    transform: translateY(-50%) scaleX(2.5);
+    transform: translateY(-50%) scaleX(1.5);
     left: 2px;
 
     opacity: 0;
@@ -238,6 +251,7 @@
 
     .checkMark {
       transform: translateY(-50%) scaleX(1);
+
       opacity: 1;
       fill: $mainColor;
     }
@@ -257,8 +271,9 @@
   }
 
   &__rangeValues {
-    width: 260px;
     display: flex;
+
+    width: 260px;
     margin-left: 12px;
 
     pointer-events: none;
@@ -266,6 +281,7 @@
     input {
       width: calc(100% / 2);
       padding: 12px 10px;
+
       border: 1px solid #e3e3e3;
       border-top-left-radius: 2px;
       border-bottom: 4px solid #d6d6d6;
@@ -297,16 +313,16 @@
     flex-direction: row;
     flex-wrap: wrap;
 
+    padding: 10px 0 0;
 
     overflow: visible;
-    padding: 10px 0 0;
   }
 
   .checkColor {
     position: absolute;
+
     width: 20px;
     height: 20px;
-
     top: 25%;
     transform: translateY(-100%) translateX(5px);
     right: -8px;
@@ -331,9 +347,9 @@
 
   &__colorLabel {
     position: relative;
+
     width: 30px;
     height: 30px;
-
     margin: 0 10px 10px 0;
 
     border-radius: 50%;
@@ -343,10 +359,12 @@
 
     input {
       position: absolute;
+
       width: 30px;
       height: 30px;
       left: -4px;
       top: -4px;
+
       opacity: 0;
     }
 
@@ -360,6 +378,7 @@
  &__clearFilter {
    display: flex;
    position: sticky;
+
    width: 100%;
    margin: 10px 0;
 

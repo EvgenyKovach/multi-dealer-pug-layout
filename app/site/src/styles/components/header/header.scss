@@ -78,11 +78,13 @@ header {
     margin-left: 90px;
 
     @include below($desktop) {
-      margin-left: 0px;
       order: -1;
       width: 100%;
-      border-bottom: 1px solid #F2F4F6;
+      margin-left: 0px;
+
       padding: 5px 0;
+
+      border-bottom: 1px solid #F2F4F6;
     }
 
     &:before {
@@ -106,7 +108,7 @@ header {
 
   &__menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 
     width: 100%;
   }
@@ -114,7 +116,7 @@ header {
   &__menu-item {
     font-weight: bold;
     font-size: 14px;
-    padding: 20px 5px;
+    padding: 20px 15px;
 
     &:hover {
       color: $mainColor;
