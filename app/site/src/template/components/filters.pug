@@ -1,53 +1,23 @@
+include ../elements/checkbox
+
 mixin filters()
   .filters-wrapper.mobile-filter.js-mobile-filter
-    +b.filters(id="filter").js-filterHeight-check
+    +b.filters(id="filter").js-filter-height-check
       +e.section
         +e.section-title.unToggled
           +e.name Бренд
           +e.closed-mobile-filter
         +e.section-list
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Mazda
-            +e.SPAN.checkbox-count (8)
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Hyundai
-            +e.SPAN.checkbox-count (11)
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Suzuki
-            +e.SPAN.checkbox-count (216)
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Mercedes-Benz
-            +e.SPAN.checkbox-count (164)
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name GAZ
-            +e.SPAN.checkbox-count (164)
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name UAZ
-            +e.SPAN.checkbox-count (164)
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name BMW
-            +e.SPAN.checkbox-count (164)
+          +checkbox('Mazda', '77')
+          +checkbox('Kia', '477')
+          +checkbox('BMW', '477')
+          +checkbox('Mercedes Benz', '477')
+          +checkbox('Hyundai', '12')
+          +checkbox('Chevrolet', '1')
+          +checkbox('UAZ', '45')
+          +checkbox('KAMAZ', '98')
+          +checkbox('Changan', '4')
+          +checkbox('Geely', '22')
       +e.section.closedList.js-filter-toggle
         +e.section-title.disabled
           +e.name-box
@@ -56,54 +26,21 @@ mixin filters()
           +e.toggle-section-box
             .toggle-filter-counter
         +e.section-list
-          +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name RV-6
-          +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name CX-78
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name MLG-PLAYER
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name WTF_Benz
+          +checkbox('GG-322')
       +e.section.closedList.js-filter-toggle
-        +e.section-title.disabled
+        +e.section-title
           +e.name-box
             +e.name Комплектация
-          +e.SPAN.selectParent  (выберите модель)
+          //+e.SPAN.selectParent  (выберите модель)
           +e.toggle-section-box
             .toggle-filter-counter
         +e.section-list
-          +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name SUBER-788
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name OMGx
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name VestCost
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Cold machine
+          +checkbox('Бум')
+          +checkbox('Тыц')
+          +checkbox('Тыщ')
+          +checkbox('Скидыщ')
+          +checkbox('Пау')
+          +checkbox('Пиу')
       +e.section.closedList.js-filter-toggle
         +e.section-title
           +e.name-box
@@ -111,269 +48,10 @@ mixin filters()
           +e.toggle-section-box
             .toggle-filter-counter
         +e.section-list
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Железный
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Пластмассовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Криптонитовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Выдуманный
-      +e.section.closedList.js-filter-toggle
-        +e.section-title
-          +e.name-box
-            +e.name Кузов
-          +e.toggle-section-box
-            .toggle-filter-counter
-        +e.section-list
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Железный
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Пластмассовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Криптонитовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Выдуманный
-      +e.section.closedList.js-filter-toggle
-        +e.section-title
-          +e.name-box
-            +e.name Кузов
-          +e.toggle-section-box
-            .toggle-filter-counter
-        +e.section-list
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Железный
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Пластмассовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Криптонитовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Выдуманный
-      +e.section.closedList.js-filter-toggle
-        +e.section-title
-          +e.name-box
-            +e.name Кузов
-          +e.toggle-section-box
-            .toggle-filter-counter
-        +e.section-list
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Железный
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Пластмассовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Криптонитовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Выдуманный
-      +e.section.closedList.js-filter-toggle
-        +e.section-title
-          +e.name-box
-            +e.name Кузов
-          +e.toggle-section-box
-            .toggle-filter-counter
-        +e.section-list
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Железный
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Пластмассовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Криптонитовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Выдуманный
-      +e.section.closedList.js-filter-toggle
-        +e.section-title
-          +e.name-box
-            +e.name Кузов
-          +e.toggle-section-box
-            .toggle-filter-counter
-        +e.section-list
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Железный
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Пластмассовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Криптонитовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Выдуманный
-      +e.section.closedList.js-filter-toggle
-        +e.section-title
-          +e.name-box
-            +e.name Кузов
-          +e.toggle-section-box
-            .toggle-filter-counter
-        +e.section-list
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Железный
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Пластмассовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Криптонитовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Выдуманный
-      +e.section.closedList.js-filter-toggle
-        +e.section-title
-          +e.name-box
-            +e.name Кузов
-          +e.toggle-section-box
-            .toggle-filter-counter
-        +e.section-list
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Железный
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Пластмассовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Криптонитовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Выдуманный
-      +e.section.closedList.js-filter-toggle
-        +e.section-title
-          +e.name-box
-            +e.name Кузов
-          +e.toggle-section-box
-            .toggle-filter-counter
-        +e.section-list
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Железный
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Пластмассовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Криптонитовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Выдуманный
-      +e.section.closedList.js-filter-toggle
-        +e.section-title
-          +e.name-box
-            +e.name Кузов
-          +e.toggle-section-box
-            .toggle-filter-counter
-        +e.section-list
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Железный
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Пластмассовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox.disabled
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Криптонитовый
-          +e.LABEL.checkbox-box.js-toggle-checkbox
-            INPUT.checkbox-input.js-input-toggle(type='checkbox')
-            SVG.checkMark
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-            +e.SPAN.checkbox-name Выдуманный
+          +checkbox('Пузов')
+          +checkbox('Энергетический')
+          +checkbox('Выдуманный')
+          +checkbox('Цельнометаллический')
       +e.section
         +e.section-title.unToggled
           +e.name Бюджет

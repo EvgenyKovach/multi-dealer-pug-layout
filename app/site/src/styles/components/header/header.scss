@@ -73,7 +73,7 @@ header {
 
   }
 
-  .contactsInfo {
+  .contacts-info {
     position: relative;
     margin-left: 90px;
 
@@ -129,7 +129,7 @@ header {
 
 }
 
-.headerInfo {
+.header-info {
   display: flex;
   justify-content: space-between;
 
@@ -189,7 +189,7 @@ header {
 
   }
 
-  &__addressIco {
+  &__address-ico {
     margin: 10px 15px auto 0;
 
     svg {
@@ -203,11 +203,11 @@ header {
     }
   }
 
-  &__dealerData {
+  &__dealer-data {
     font-size: 12px;
   }
 
-  &__dealerName {
+  &__dealer-name {
     font-weight: bold;
     color: $mainColor;
   }
@@ -223,7 +223,7 @@ header {
 
   }
 
-  &__phoneData {
+  &__phone-data {
     font-weight: bold;
     color: $mainColor;
 
@@ -234,14 +234,14 @@ header {
     }
   }
 
-  &__dealerOnline {
+  &__dealer-online {
     position: relative;
 
     cursor: default;
     font-size: 12px;
   }
 
-  .onlineCounter {
+  .online-counter {
     position: absolute;
     top: 50%;
     width: 6px;

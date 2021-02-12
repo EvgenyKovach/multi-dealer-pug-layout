@@ -1,0 +1,38 @@
+mixin brandsPreview(modClass)
+  +b.brands-preview(class=modClass)
+    +e.container.container
+      +e.title.page-title Поиск по маркам
+      +e.list
+        +e.A.item(href="#")
+          +e.DIV.item-img
+            IMG(src='../img/devImages/bmw128x12.png')
+          +e.DIV.item-name BmW
+          +e.DIV.item-count 2 811 автомобилей
+        +e.A.item(href="#")
+          +e.DIV.item-img
+            IMG(src='../img/devImages/chevrolet128x128.png')
+          +e.DIV.item-name Chevrolet
+          +e.DIV.item-count 691 автомобиль
+        +e.A.item(href="#")
+          +e.DIV.item-img
+            IMG(src='../img/devImages/ford128x128.png')
+          +e.DIV.item-name Ford
+          +e.DIV.item-count 2 811 автомобилей
+        +e.A.item(href="#")
+          +e.DIV.item-img
+            IMG(src='../img/devImages/honda128x128.png')
+          +e.DIV.item-name Honda
+          +e.DIV.item-count 2 811 автомобилей
+        +e.A.item(href="#")
+          +e.DIV.item-img
+            IMG(src='../img/devImages/hyundai128x128.png')
+          +e.DIV.item-name Hyundai
+          +e.DIV.item-count Нет в наличии
+        +e.A.item(href="#")
+          +e.DIV.item-img
+            IMG(src='../img/devImages/jaguar128x128.png')
+          +e.DIV.item-name Jaguar
+          +e.DIV.item-count 4 автомобиля
+      +e.A.btn-see-more.btn.with-arrow(href="#") Смотреть все авто
+        SVG.arrow-img
+          USE(xlink:href="../img/spritemap.svg#arrow-right-solid")

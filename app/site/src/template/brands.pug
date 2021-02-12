@@ -1,7 +1,7 @@
 extends default/default
 
 include components/slider
-include components/brandsListFull
+include components/brandsList
 include components/moreQuestions
 include components/indexDescription
 
@@ -11,6 +11,8 @@ block vars
   -pageOptions.title = 'Бренды'
 
 block content
-  +brandsListFull()
+  +breadcrumbs('текущая страница', 'предыдущая страница', )
+  +brandsPreview('full-list')
+  +brandsList()
   +moreQestions()
   +indexDescription()

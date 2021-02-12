@@ -9,7 +9,7 @@
 @import "components/header/mobile";
 @import "components/footer/footer";
 @import "components/slider/slider";
-@import "components/brandsList/brandsList";
+@import "components/brandsPreview/brandsPreview";
 @import "components/popularModels/popularModels";
 @import "components/searchAsType/searchAsType";
 @import "components/newArrivals/newArrivals";
@@ -17,7 +17,7 @@
 @import "components/advantages/advantages";
 @import "components/moreQuestions/moreQuestions";
 @import "components/indexDescription/indexDescription";
-@import "components/brandsListFull/brandsListFull";
+@import "components/brandsList/brandsList";
 @import "components/filterAuto/autoList";
 @import "components/filterAuto/filters";
 @import "components/filterAuto/filerResult";
@@ -29,6 +29,7 @@
 @import "elements/breadCrumbs";
 @import "elements/scrollTop";
 @import "elements/overlay";
+@import "elements/checkbox";
 
 // custom styles
 @import "customStyles/choicesjs-custom";

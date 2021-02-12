@@ -14,7 +14,7 @@ import swiper from './swiper';                                // инит сла
 import carCard from './carCard';                              // инит слайдера в карточке + переработка pagination
 import hiddenTextDescription from './hiddenTextDescription';  // скрытый текст на главной
 import scrollTop from './scrollTop';                          // кнопка "вверх"
-import checkbox from "./checkbox";                            // настройка чекбоксов в фильтре
+import checkbox from "./checkbox-l";                            // настройка чекбоксов в фильтре
 import toggleFilters from "./toggleFilters";                  // тагл разделов фильтра
 import rangeSlider from "./rangeSlider";                      // инит ползунка слайдера
 import colorPickFilter from "./colorPickFilter";              // настройка чекбокса выбора цвета фильтра

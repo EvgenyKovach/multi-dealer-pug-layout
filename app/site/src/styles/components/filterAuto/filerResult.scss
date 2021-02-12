@@ -1,7 +1,11 @@
-.filterResult {
+.filter-result {
   padding: 15px 0 30px 0;
 
-  &-box {
+  .breadcrumbs__container {
+    margin-left: 0
+  }
+
+  &__container {
     padding: 0 15px;
 
     background: #F2F4F6;

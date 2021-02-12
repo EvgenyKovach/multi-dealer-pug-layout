@@ -171,97 +171,6 @@
     height: 8px;
   }
 
-  &__checkbox-box {
-    position: relative;
-
-    padding: 5px 0;
-
-    cursor: pointer;
-
-    &:before {
-      content: "";
-      position: absolute;
-
-      height: 18px;
-      width: 18px;
-      top: 50%;
-      left: 0px;
-      transform: translateY(-50%);
-
-      transition: .1s ease-in-out;
-      border: 1px solid #999497;
-      border-radius: 2px;
-    }
-
-    &:hover::before {
-      border-color: $mainColor;
-    }
-
-    &:hover {
-      .filters__checkbox-name {
-        color: #7a7378
-      }
-
-    }
-
-    &.disabled {
-      pointer-events: none;
-      cursor: default;
-      &::before {
-        background: #cac9c9;
-        border-color: #999497;
-      }
-
-      .filters__checkbox-name {
-        color: #867f82;
-      }
-    }
-  }
-
-  &__checkbox-name {
-    margin-left: 10px;
-
-    user-select: none;
-
-    transition: .1s ease;
-  }
-
-  &__checkbox-count {
-    padding-left: 5px;
-
-    color: #666666;
-
-    font-size: 12px;
-  }
-
-  .checkMark {
-    position: absolute;
-
-    width: 15px;
-    height: 15px;
-    top: 50%;
-    transform: translateY(-50%) scaleX(1.5);
-    left: 2px;
-
-    opacity: 0;
-    transition: .1s ease-in-out;
-  }
-
-  &__checkbox-box.checked {
-
-    .checkMark {
-      transform: translateY(-50%) scaleX(1);
-
-      opacity: 1;
-      fill: $mainColor;
-    }
-
-    &::before {
-      border-color: $mainColor;
-    }
-
-  }
-
   &__rangeSlider {
     transform: translateY(-12px);
 
@@ -297,10 +206,6 @@
 
     }
 
-  }
-
-  .checkbox-input {
-    opacity: 0;
   }
 
   .css-slider-section-fix {
