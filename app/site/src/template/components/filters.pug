@@ -1,10 +1,11 @@
 include ../elements/checkbox
+include ../elements/checkboxColor
 
 mixin filters()
   .filters-wrapper.mobile-filter.js-mobile-filter
     +b.filters(id="filter").js-filter-height-check
       +e.section
-        +e.section-title.unToggled
+        +e.section-title.un-toggled
           +e.name Бренд
           +e.closed-mobile-filter
         +e.section-list
@@ -53,10 +54,10 @@ mixin filters()
           +checkbox('Выдуманный')
           +checkbox('Цельнометаллический')
       +e.section
-        +e.section-title.unToggled
+        +e.section-title.un-toggled
           +e.name Бюджет
         +e.section-list.css-slider-section-fix
-          +e.rangeValues.js-rangeData
+          +e.rangeValues.js-range-data
             INPUT.maxRange(name='price[max]'
               type='text'
               value='15000000'
@@ -77,33 +78,12 @@ mixin filters()
           +e.toggle-section-box
             .toggle-filter-counter
         +e.section-list.colors-list
-          +e.LABEL.colorLabel.js-color-toggle(style="background: red")
-            INPUT.color-checkbox(type='checkbox')
-            SVG.checkColor
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.LABEL.colorLabel.js-color-toggle(style="background: green")
-            INPUT.color-checkbox(type='checkbox')
-            SVG.checkColor
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.LABEL.colorLabel.js-color-toggle(style="background: blue")
-            INPUT.color-checkbox(type='checkbox')
-            SVG.checkColor
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.LABEL.colorLabel.js-color-toggle(style="background: aqua")
-            INPUT.color-checkbox(type='checkbox')
-            SVG.checkColor
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.LABEL.colorLabel.js-color-toggle(style="background: brown")
-            INPUT.color-checkbox(type='checkbox')
-            SVG.checkColor
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.LABEL.colorLabel.js-color-toggle(style="background: black")
-            INPUT.color-checkbox(type='checkbox')
-            SVG.checkColor
-              USE(xlink:href="../img/spritemap.svg#checksolid")
-          +e.LABEL.colorLabel.js-color-toggle(style="background: white")
-            INPUT.color-checkbox(type='checkbox')
-            SVG.checkColor
-              USE(xlink:href="../img/spritemap.svg#checksolid")
+          +checkboxColor('background: red')
+          +checkboxColor('background: blue')
+          +checkboxColor('background: green')
+          +checkboxColor('background: orange')
+          +checkboxColor('background: yellow')
+          +checkboxColor('background: black')
+          +checkboxColor('background: red')
       +e.clearFilter
         BUTTON.btn.small-btn.js-clear-filter Очистить фильтр

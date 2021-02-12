@@ -1,0 +1,16 @@
+extends default/default
+
+include elements/breadcrumbs
+include components/newArrivals
+include components/tradeIn
+include components/moreQuestions
+include components/indexDescription
+
+block vars
+  -pageOptions.title = 'Карточка авто'
+
+block content
+  +breadcrumbs('Карточка Авто', 'Фильтр авто')
+  +tradeIn()
+  +moreQestions()
+  +indexDescription()

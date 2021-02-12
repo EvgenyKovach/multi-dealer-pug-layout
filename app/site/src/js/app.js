@@ -17,7 +17,7 @@ import scrollTop from './scrollTop';                          // кнопка "�
 import checkbox from "./checkbox-l";                            // настройка чекбоксов в фильтре
 import toggleFilters from "./toggleFilters";                  // тагл разделов фильтра
 import rangeSlider from "./rangeSlider";                      // инит ползунка слайдера
-import colorPickFilter from "./colorPickFilter";              // настройка чекбокса выбора цвета фильтра
+import colorPickFilter from "./checkbox-color";              // настройка чекбокса выбора цвета фильтра
 import stickySidebar from "./stickySidebar";                  // инит плавающей настройки фильтра
 import select from './select';
 import mobileFilter from "./mobileFilter";                     // мобильный фильтр

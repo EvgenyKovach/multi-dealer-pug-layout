@@ -3,7 +3,7 @@ import noUiSlider from 'nouislider'
 export default () => {
 
   let rangeSlider    = document.querySelector('.js-rangeSlider');
-  const dataRange    = document.querySelector('.js-rangeData')
+  const dataRange    = document.querySelector('.js-range-data')
   const dataRangeObj = {
     min: dataRange.querySelector('.js-rangeMin'),
     max: dataRange.querySelector('.js-rangeMax')

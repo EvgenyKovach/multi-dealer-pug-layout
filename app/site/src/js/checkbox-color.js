@@ -3,9 +3,8 @@ export default () => {
 
   colorCheckboxes.forEach(item => {
 
-    item.onclick = () => {
+    item.onchange = () => {
       item.classList.toggle('checked');
-      item.querySelector('.checkColor').classList.toggle('checked')
     }
 
   })

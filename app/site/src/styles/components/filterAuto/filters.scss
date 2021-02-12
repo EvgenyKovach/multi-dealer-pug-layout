@@ -135,7 +135,7 @@
 
     }
 
-    &.unToggled:hover {
+    &.un-toggled:hover {
       cursor: default;
       color: #262626;
       
@@ -223,62 +223,6 @@
     overflow: visible;
   }
 
-  .checkColor {
-    position: absolute;
-
-    width: 20px;
-    height: 20px;
-    top: 25%;
-    transform: translateY(-100%) translateX(5px);
-    right: -8px;
-    padding: 4px;
-
-    opacity: 0;
-    transition: .1s ease-in-out;
-    z-index: 99;
-
-    fill: #fff;
-    background: $mainColor;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    cursor: pointer;
-    pointer-events: none;
-
-    &.checked {
-      opacity: 1;
-      transform: translateY(-50%) translateX(0);
-    }
-  }
-
-  &__colorLabel {
-    position: relative;
-
-    width: 30px;
-    height: 30px;
-    margin: 0 10px 10px 0;
-
-    border-radius: 50%;
-    box-shadow: 0 0 5px #565254;
-
-    transition: .15s ease-in-out;
-
-    input {
-      position: absolute;
-
-      width: 30px;
-      height: 30px;
-      left: -4px;
-      top: -4px;
-
-      opacity: 0;
-    }
-
-    &.checked {
-      box-shadow: 0 0 15px #565254;
-      transform: scale(.9);
-    }
-
-  }
 
  &__clearFilter {
    display: flex;

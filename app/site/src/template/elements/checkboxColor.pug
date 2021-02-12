@@ -1,5 +1,4 @@
-mixin checkboxColor()
-  +e.LABEL.colorLabel.js-color-toggle(style="background: red")
-    INPUT.color-checkbox(type='checkbox')
-    SVG.checkColor
-      USE(xlink:href="../img/spritemap.svg#checksolid")
+mixin checkboxColor(color)
+  +b.LABEL.color-checkbox.js-color-toggle(style= color)
+    +e.INPUT.color-input(type='checkbox')
+    +e.check-mark

@@ -61,7 +61,7 @@
     font-size: 12px;
   }
 
-  &__checkMark {
+  &__check-mark {
     position: absolute;
 
     width: 15px;
@@ -95,7 +95,7 @@
       width: 8px;
       height: 2px;
       top: calc(50% + 3px);
-      left: -1px;
+      left: 0px;
 
       background: $mainColor;
       border-radius: 2px;
@@ -107,7 +107,7 @@
 
   &.checked {
 
-    .checkbox-l__checkMark {
+    .checkbox-l__check-mark {
 
       &::before {
         transform: translateY(-50%) rotate(-50deg);

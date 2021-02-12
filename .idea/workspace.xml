@@ -23,36 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="fix locatiob ico&#10;fix stickysidebar&#10;fix togglemenu&#10;fix togglefilter&#10;&#10;more fixes style&#10;refactor brandList&#10;del brandListfull -&gt; brandList">
-      <change afterPath="$PROJECT_DIR$/app/site/src/styles/components/brandsPreview/brandsPreview.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/styles/elements/checkbox.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/template/components/brandsPreview.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/template/elements/checkbox.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/template/elements/checkboxColor.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/styles/elements/checkboxColor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/template/carPage.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/js/checkbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/checkbox-l.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/js/stickySidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/stickySidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/js/toggleMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/toggleMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/js/colorPickFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/checkbox-color.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/js/rangeSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/rangeSlider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/brandsList/brandsList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/brandsList/brandsList.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/brandsListFull/brandsListFull.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filerResult.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filerResult.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filters.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filters.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/header/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/header/mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/header/mobile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/elements/breadCrumbs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/elements/breadCrumbs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/elements/carCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/elements/carCard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/brands.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/brands.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/autosList.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/autosList.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/brandsList.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/brandsList.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/brandsListFull.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/filterResult.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/filterResult.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/elements/checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/elements/checkbox.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/template/components/filters.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/filters.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/header.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/elements/breadcrumbs.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/elements/breadcrumbs.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/elements/carCard.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/elements/carCard.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/filterAuto.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/filterAuto.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/elements/checkbox.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/elements/checkbox.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/elements/checkboxColor.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/elements/checkboxColor.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +47,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Pug File" />
         <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="Pug File" />
       </list>
     </option>
   </component>
@@ -191,7 +173,7 @@
       <workItem from="1612757645549" duration="270000" />
       <workItem from="1612757955890" duration="775000" />
       <workItem from="1612759289487" duration="55142000" />
-      <workItem from="1613016570493" duration="30182000" />
+      <workItem from="1613016570493" duration="36858000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace">
       <created>1608284195775</created>
@@ -410,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613048946179</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="refactor css/ bem/ --init&#10;refactor filter params/ init">
+      <created>1613113769368</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1613113769368</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +421,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add spritemaps&#10;add 2 mode" />
     <MESSAGE value="final configs changes&#10;add fonts/svg" />
     <MESSAGE value="layout init" />
     <MESSAGE value="layout 14%" />
@@ -457,7 +445,8 @@
     <MESSAGE value="fix card&#10;mobile filter toggle&#10;mobile menu toggle fix" />
     <MESSAGE value="refactor scss/ styles positions" />
     <MESSAGE value="refactor scss/ html" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor scss/ html" />
+    <MESSAGE value="refactor css/ bem/ --init&#10;refactor filter params/ init" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor css/ bem/ --init&#10;refactor filter params/ init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="340" key="#Notifications" timestamp="1611725260503">
@@ -497,10 +486,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="608" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611728700966" />
-    <state x="668" y="237" width="583" height="624" key="find.popup" timestamp="1613110467464">
+    <state x="668" y="237" width="583" height="624" key="find.popup" timestamp="1613123032635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613110467464" />
+    <state x="668" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613123032635" />
     <state x="2588" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611904513877" />
     <state x="725" y="151" key="git4idea.branch.GitSmartOperationDialog" timestamp="1612865904841">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -515,10 +504,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613111690678" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613109742483">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613119627848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613109742483" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613119627848" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611902527908" />
   </component>
 </project>
