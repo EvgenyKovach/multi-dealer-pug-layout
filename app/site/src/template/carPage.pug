@@ -1,6 +1,8 @@
 extends default/default
 
 include elements/breadcrumbs
+
+include components/carInfo
 include components/newArrivals
 include components/tradeIn
 include components/moreQuestions
@@ -11,6 +13,7 @@ block vars
 
 block content
   +breadcrumbs('Карточка Авто', 'Фильтр авто')
+  +carInfo()
   +tradeIn()
   +moreQestions()
   +indexDescription()

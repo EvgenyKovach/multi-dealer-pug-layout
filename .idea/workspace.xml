@@ -23,18 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="fix locatiob ico&#10;fix stickysidebar&#10;fix togglemenu&#10;fix togglefilter&#10;&#10;more fixes style&#10;refactor brandList&#10;del brandListfull -&gt; brandList">
-      <change afterPath="$PROJECT_DIR$/app/site/src/styles/elements/checkboxColor.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/template/carPage.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/js/thumbSlider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/styles/components/carInfo/carInfo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/styles/customStyles/thumbSlider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/template/components/carInfo.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/js/colorPickFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/checkbox-color.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/js/rangeSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/rangeSlider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filters.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filters.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/elements/checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/elements/checkbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/filters.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/filters.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/elements/checkbox.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/elements/checkbox.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/elements/checkboxColor.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/elements/checkboxColor.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filerResult.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filerResult.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/elements/carCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/elements/carCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/carPage.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/carPage.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/header.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +46,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="SCSS File" />
         <option value="Pug File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -107,23 +106,23 @@
     <property name="prettier.import.notification.dismissed" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Projects\project\node_modules\prettier" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\multiDC\app\site\src\styles\customStyles" />
+      <recent name="C:\Projects\multiDC\app\site\src\styles\elements" />
+      <recent name="C:\Projects\multiDC\app\site\src\styles\components\carInfo" />
+      <recent name="C:\Projects\multiDC\app\site\src\styles" />
+      <recent name="C:\Projects\project\app\site\src\styles\customStyles" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projects\multiDC\app\site\src\fonts" />
       <recent name="C:\Projects\project\app\site\src\img\sprites" />
       <recent name="C:\Projects\project\app\site\src\template\elements" />
       <recent name="C:\Projects\project" />
       <recent name="C:\Projects\project\app\site\src\img\tradein" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Projects\multiDC\app\site\src\styles" />
-      <recent name="C:\Projects\project\app\site\src\styles\customStyles" />
-      <recent name="C:\Projects\project\app\site\src\styles\elements" />
-      <recent name="C:\Projects\project\app\site\src\template\elements" />
-      <recent name="C:\Projects\project\app\site\src\styles\components\indexDescription" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -173,7 +172,7 @@
       <workItem from="1612757645549" duration="270000" />
       <workItem from="1612757955890" duration="775000" />
       <workItem from="1612759289487" duration="55142000" />
-      <workItem from="1613016570493" duration="36858000" />
+      <workItem from="1613016570493" duration="52152000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace">
       <created>1608284195775</created>
@@ -399,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613113769368</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="refactor css/ bem/ --init&#10;refactor filter params/ init&#10;refactor checkbox filter params">
+      <created>1613125102125</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1613125102125</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +427,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="final configs changes&#10;add fonts/svg" />
     <MESSAGE value="layout init" />
     <MESSAGE value="layout 14%" />
     <MESSAGE value="second clone block" />
@@ -446,21 +451,26 @@
     <MESSAGE value="refactor scss/ styles positions" />
     <MESSAGE value="refactor scss/ html" />
     <MESSAGE value="refactor css/ bem/ --init&#10;refactor filter params/ init" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor css/ bem/ --init&#10;refactor filter params/ init" />
+    <MESSAGE value="refactor css/ bem/ --init&#10;refactor filter params/ init&#10;refactor checkbox filter params" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor css/ bem/ --init&#10;refactor filter params/ init&#10;refactor checkbox filter params" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="340" key="#Notifications" timestamp="1611725260503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="706" y="340" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611725260503" />
-    <state x="710" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613108769134">
+    <state x="710" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613128113444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="710" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613108769134" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612946138165">
+    <state x="710" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613128113444" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613128647683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612946138165" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613128647683" />
+    <state x="1069" y="263" key="#com.intellij.tools.ToolEditorDialog" timestamp="1613362172445">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1069" y="263" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613362172445" />
     <state x="585" y="0" key="CommitChangelistDialog2" timestamp="1612361253691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -474,10 +484,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="157" key="RollbackChangesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611558182541" />
-    <state x="800" y="147" key="SettingsEditor" timestamp="1611553389983">
+    <state x="800" y="147" key="SettingsEditor" timestamp="1613362840867">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="800" y="147" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611553389983" />
+    <state x="800" y="147" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613362840867" />
     <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1613049150755">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -504,10 +514,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613111690678" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613119627848">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613134640096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613119627848" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613134640096" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611902527908" />
   </component>
 </project>

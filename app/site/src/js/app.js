@@ -22,6 +22,7 @@ import stickySidebar from "./stickySidebar";                  // инит пла
 import select from './select';
 import mobileFilter from "./mobileFilter";                     // мобильный фильтр
 import footerBrands from "./footerBrands";                     // размер списка бренда в футере, вынужденный костыль
+import thumbSlider from "./thumbSlider"
 
 
 // inits
@@ -33,6 +34,7 @@ hiddenTextDescription();
 scrollTop();
 select();
 footerBrands();
+thumbSlider();
 
 // filter scripts
 if (document.querySelector('.filters')) {
