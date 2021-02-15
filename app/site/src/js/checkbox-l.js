@@ -1,12 +1,12 @@
 export default () => {
 
-  const checkboxes = document.querySelectorAll('.js-input-toggle')
+  const checkboxes = document.querySelectorAll('.js-toggle-checkbox')
 
   checkboxes.forEach(item => {
 
-    item.onclick = () => {
-      if (item.checked) item.closest('.js-toggle-checkbox').classList.add('checked')
-      else item.closest('.js-toggle-checkbox').classList.remove('checked')
+    item.onchange = () => {
+      if (item.checked) item.closest('label').classList.add('checked')
+      else item.closest('label').classList.remove('checked')
     }
 
   })

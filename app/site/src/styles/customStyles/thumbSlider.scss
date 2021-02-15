@@ -1,7 +1,6 @@
-.car-slider {
+.car-info__car-slider {
   .swiper-container {
     width: 100%;
-    height: 300px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -12,20 +11,20 @@
   }
 
   .gallery-top {
-    max-height: 440px;
     width: 100%;
   }
 
   .gallery-thumbs {
     height: 20%;
     box-sizing: border-box;
-    padding: 10px 0;
   }
 
   .gallery-thumbs .swiper-slide {
+    position: relative;
     width: 25%;
     height: 100%;
     opacity: 0.4;
+    transition: .1s ease-in-out;
   }
 
   .gallery-thumbs .swiper-slide-thumb-active {

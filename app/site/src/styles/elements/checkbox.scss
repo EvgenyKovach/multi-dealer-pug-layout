@@ -17,7 +17,7 @@
 
     transition: .1s ease-in-out;
     border: 1px solid #999497;
-    border-radius: 2px;
+    border-radius: 4px;
   }
 
   &:hover::before {
@@ -82,7 +82,7 @@
       right: -3px;
 
       background: $mainColor;
-      border-radius: 2px;
+      border-radius: 4px;
 
       transform: translate(-10px, -50%) rotate(0deg) scale(0);
       transition: .2s ease-in-out;
@@ -98,7 +98,7 @@
       left: 0px;
 
       background: $mainColor;
-      border-radius: 2px;
+      border-radius: 4px;
 
       transform: translate(10px, -50%) rotate(0deg) scale(0);
       transition: .2s ease-in-out;
@@ -127,6 +127,21 @@
 
   &__checkbox-input {
     opacity: 0;
+  }
+
+  &--mod {
+    display: flex;
+    width: 100%;
+    .checkbox-l__checkbox-name {
+      max-width:  65%;
+    }
+
+    .checkbox-l__checkbox-price {
+      margin-left: auto;
+
+      font-weight: bold;
+    }
+
   }
 
 }

@@ -23,6 +23,7 @@ import select from './select';
 import mobileFilter from "./mobileFilter";                     // мобильный фильтр
 import footerBrands from "./footerBrands";                     // размер списка бренда в футере, вынужденный костыль
 import thumbSlider from "./thumbSlider"
+import toggleList from "./toggleList";
 
 
 // inits
@@ -35,10 +36,12 @@ scrollTop();
 select();
 footerBrands();
 thumbSlider();
+checkbox();
+toggleList();
+
 
 // filter scripts
 if (document.querySelector('.filters')) {
-  checkbox();
   toggleFilters();
   rangeSlider();
   colorPickFilter();

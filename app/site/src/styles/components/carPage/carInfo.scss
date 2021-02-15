@@ -1,0 +1,26 @@
+.car-info {
+  padding: 25px 0;
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-rows: max(700px)  auto;
+
+    margin-top: 30px;
+  }
+
+  &__info-side {
+    height: 100%;
+  }
+
+  &__car-name {
+    margin: 0 auto 10px;
+
+    text-align: left;
+  }
+
+  &__car-equip {
+    color: #565254;
+  }
+
+}

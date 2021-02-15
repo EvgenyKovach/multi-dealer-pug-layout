@@ -1,0 +1,126 @@
+.offer-side {
+  position: sticky;
+
+  height: max-content;
+  top: 25px;
+  padding: 20px 15px;
+  margin-left: 20px;
+
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+
+  &__diler-info {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E8E9EA;
+  }
+
+  &__diler-name {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 5px;
+  }
+
+  &__diler-address,
+  &__diler-telephone {
+    font-size: 14px;
+    color: #242629;
+  }
+
+  &__diler-telephone {
+    padding-top: 5px;
+  }
+
+  &__prices {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 16px 0;
+
+    border-bottom: 1px solid #E8E9EA;
+  }
+
+  &__price-name {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  &__price {
+    font-size: 28px;
+    font-weight: 700;
+    color: $mainColor;
+  }
+
+  &__prices-price-box:nth-child(2) {
+    .offer-side__price {
+      text-decoration: line-through;
+      color: $lightGray;
+      font-size: 16px;
+    }
+  }
+
+  &__mods {
+    padding: 16px 0;
+    border-bottom: 1px solid #E8E9EA;
+  }
+
+  &__mods-list {
+    padding: 12px 0 24px 0;
+  }
+
+  &__see-more-mods {
+    color: $mainColor;
+
+    cursor: pointer;
+
+    text-align: center;
+  }
+
+  &__total-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 0;
+
+    &-text {
+      font-weight: bold;
+    }
+
+    &-value {
+      font-weight: bold;
+      font-size: 30px;
+      color: $mainColor;
+    }
+
+  }
+
+
+  &__btns {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: -10px;
+
+    .btn {
+      max-width: 100%;
+      margin: 0 0 10px 0;
+
+      text-align: center;
+    }
+
+    &-second {
+      background: $darkGray;
+
+      &:hover {
+        background: $lightGray;
+      }
+    }
+  }
+
+  &__description-text {
+    margin-top: 16px;
+    font-size: 12px;
+    color: $lightGray;
+  }
+
+}

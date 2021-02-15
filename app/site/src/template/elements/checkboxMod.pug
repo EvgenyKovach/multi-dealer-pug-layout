@@ -1,7 +1,6 @@
-mixin checkbox(name, count)
-  +b.LABEL.checkbox-l
+mixin checkboxMod(name, price)
+  +b.LABEL.checkbox-l.checkbox-l--mod
     +e.INPUT.checkbox-input.js-toggle-checkbox(type='checkbox')
     +e.check-mark
     +e.SPAN.checkbox-name= name
-    if (count)
-      +e.SPAN.checkbox-count= count
+    +e.SPAN.checkbox-price= price
