@@ -23,15 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="fix locatiob ico&#10;fix stickysidebar&#10;fix togglemenu&#10;fix togglefilter&#10;&#10;more fixes style&#10;refactor brandList&#10;del brandListfull -&gt; brandList">
-      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/card-engine-v2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/card-speed-v2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/card-transmission-v2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/card-year-v2.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/img/spritemap.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/img/spritemap.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/elements/carCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/elements/carCard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/elements/carCard.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/elements/carCard.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +167,7 @@
       <workItem from="1613469902683" duration="7709000" />
       <workItem from="1613480619971" duration="311000" />
       <workItem from="1613481517465" duration="823000" />
-      <workItem from="1613484210659" duration="1131000" />
+      <workItem from="1613484210659" duration="1565000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace">
       <created>1608284195775</created>
@@ -421,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613393782005</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="rework card auto">
+      <created>1613536170427</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1613536170427</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +443,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="second clone block" />
     <MESSAGE value="block searchAsType" />
     <MESSAGE value="3 new blocks" />
     <MESSAGE value="add indexDescription.pug&#10;add moreQuestions.pug" />
@@ -468,7 +467,8 @@
     <MESSAGE value="refactor css/ bem/ --init&#10;refactor filter params/ init&#10;refactor checkbox filter params" />
     <MESSAGE value="init car thumb slider" />
     <MESSAGE value="carInfo page init/ desktop 90%/" />
-    <option name="LAST_COMMIT_MESSAGE" value="carInfo page init/ desktop 90%/" />
+    <MESSAGE value="rework card auto" />
+    <option name="LAST_COMMIT_MESSAGE" value="rework card auto" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="340" key="#Notifications" timestamp="1611725260503">
