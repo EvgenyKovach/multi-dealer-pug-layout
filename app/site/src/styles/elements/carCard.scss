@@ -118,10 +118,10 @@
 
   &__car-prices {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
     text-align: left;
-    margin: auto;
+    margin: auto 0;
+    padding: 10px 0;
 
     @include below($mobileL) {
       padding: 10px 0;
@@ -133,7 +133,6 @@
       .car-card__price-count {
         color: #8f8f8f;
         text-decoration: line-through;
-        font-size: 24px;
       }
 
       .car-card__price-name {
@@ -157,20 +156,16 @@
 
   &__price-count {
     font-family: $titleFont;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
 
     @include below($desktopL) {
-      font-size: 22px;
-    }
-
-    @include below($mobileL) {
       font-size: 20px;
     }
 
-  }
-
-  &__price-box {
+    @include below($mobileL) {
+      font-size: 18px;
+    }
 
   }
 

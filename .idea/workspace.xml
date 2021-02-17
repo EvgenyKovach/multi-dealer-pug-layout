@@ -24,6 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="fix locatiob ico&#10;fix stickysidebar&#10;fix togglemenu&#10;fix togglefilter&#10;&#10;more fixes style&#10;refactor brandList&#10;del brandListfull -&gt; brandList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/carPage/carInfo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/carPage/carInfo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/carPage/infoTables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/carPage/infoTables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/elements/carCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/elements/carCard.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +170,7 @@
       <workItem from="1613469902683" duration="7709000" />
       <workItem from="1613480619971" duration="311000" />
       <workItem from="1613481517465" duration="823000" />
-      <workItem from="1613484210659" duration="1565000" />
+      <workItem from="1613484210659" duration="2793000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace">
       <created>1608284195775</created>
@@ -421,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613536170427</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="rework card auto -- fix price">
+      <created>1613536649045</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1613536649045</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +453,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="block searchAsType" />
     <MESSAGE value="3 new blocks" />
     <MESSAGE value="add indexDescription.pug&#10;add moreQuestions.pug" />
     <MESSAGE value="final 2 page/ init filter" />
@@ -468,7 +477,8 @@
     <MESSAGE value="init car thumb slider" />
     <MESSAGE value="carInfo page init/ desktop 90%/" />
     <MESSAGE value="rework card auto" />
-    <option name="LAST_COMMIT_MESSAGE" value="rework card auto" />
+    <MESSAGE value="rework card auto -- fix price" />
+    <option name="LAST_COMMIT_MESSAGE" value="rework card auto -- fix price" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="340" key="#Notifications" timestamp="1611725260503">
@@ -531,12 +541,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613111690678" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613470490168">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613537164887">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613466419136" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611902527908" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613470490168" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613537164887" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -9,10 +9,11 @@ body {
   line-height: 1.5;
 
   color: #242629;
+  cursor: default;
 }
 
 div {
-  cursor: default;
+  cursor: inherit;
 }
 
 .row {
