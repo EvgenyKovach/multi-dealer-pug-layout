@@ -37,6 +37,7 @@ footerBrands();
 thumbSlider();
 checkbox();
 toggleList();
+stickySidebar();
 
 
 // filter scripts
@@ -44,6 +45,6 @@ if (document.querySelector('.filters')) {
   toggleFilters();
   rangeSlider();
   colorPickFilter();
-  stickySidebar();
+
   mobileFilter();
 }

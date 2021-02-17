@@ -24,10 +24,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="fix locatiob ico&#10;fix stickysidebar&#10;fix togglemenu&#10;fix togglefilter&#10;&#10;more fixes style&#10;refactor brandList&#10;del brandListfull -&gt; brandList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/carPage/carInfo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/carPage/carInfo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/carPage/infoTables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/carPage/infoTables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/elements/carCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/elements/carCard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/js/stickySidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/stickySidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/carPage/offerSide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/carPage/offerSide.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/carPage/tradeinForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/carPage/tradeinForm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/carInfo.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/carInfo.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +171,7 @@
       <workItem from="1613469902683" duration="7709000" />
       <workItem from="1613480619971" duration="311000" />
       <workItem from="1613481517465" duration="823000" />
-      <workItem from="1613484210659" duration="2793000" />
+      <workItem from="1613484210659" duration="11939000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace">
       <created>1608284195775</created>
@@ -431,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613536649045</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="rework card auto -- fix price">
+      <created>1613538301095</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1613538301095</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -515,19 +523,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="800" y="147" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613362840867" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1613393805936">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1613545201306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613393805936" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613545201306" />
     <state x="608" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1613368848095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="608" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613368848095" />
-    <state x="668" y="237" width="583" height="624" key="find.popup" timestamp="1613393413679">
+    <state x="668" y="237" width="583" height="624" key="find.popup" timestamp="1613538765004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="668" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613393413679" />
     <state x="2588" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611904513877" />
+    <state x="668" y="237" width="583" height="624" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613538765004" />
     <state x="725" y="151" key="git4idea.branch.GitSmartOperationDialog" timestamp="1612865904841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -541,22 +551,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613111690678" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613537164887">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613541726499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613466419136" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611902527908" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613537164887" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/app/site/src/js/app.js</url>
-          <line>36</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613541726499" />
   </component>
 </project>

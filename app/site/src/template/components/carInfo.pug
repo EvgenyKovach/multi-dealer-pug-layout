@@ -35,33 +35,34 @@ mixin carInfo()
                 +e.car-slide.swiper-slide
                   img(src="../img/devImages/car3/2sl.jpg")
         +b.offer-side
-          +e.diler-info
-            +e.diler-name Официальный дилер Hyundai "Каскад-М" в Оренбурге
-            +e.diler-address Оренбургская область, п. Пригородный, левая сторона дороги Оренбург-Орск 12.400км
-            +e.A.diler-telephone(href="tel:") +7 (3532) 37-33-79
-          +e.prices
-            +e.prices-price-box
-              +e.price-name Спецпредложение:
-              +e.price 3 399 000 ₽
-            +e.prices-price-box
-              +e.price-name Обычная цена:
-              +e.price 4 199 000 ₽
-          +e.mods
-            +e.mods-title Используйте дополнительные преимущества при покупке авто:
-            +e.mods-list
-              +e.mod-item
-                +checkboxMod('Выгода при покупке с учетом кредита', '- 41 711 ₽')
-                +checkboxMod('Выгода при покупке trade in', '- 80 711 ₽')
-                +checkboxMod('Выгода при покупке для новых клиентов', '- 11 711 ₽')
-            +e.see-more-mods Показать все преимущества
-              +e.SPAN.more-count (8)
-          +e.total-price
-            +e.total-price-text Итого:
-            +e.total-price-value 2 875 909 ₽
-          +e.btns
-            +e.btns-one.btn Получить предложение
-            +e.btns-second.btn Внести предоплату
-          +e.description-text *Вся представленная на сайте информация, касающаяся автомобилей и сервисного обслуживания, носит информационный характер и не является публичной офертой
+          +e.container(id='js-sticky-offer')
+            +e.diler-info
+              +e.diler-name Официальный дилер Hyundai "Каскад-М" в Оренбурге
+              +e.diler-address Оренбургская область, п. Пригородный, левая сторона дороги Оренбург-Орск 12.400км
+              +e.A.diler-telephone(href="tel:") +7 (3532) 37-33-79
+            +e.prices
+              +e.prices-price-box
+                +e.price-name Спецпредложение:
+                +e.price 3 399 000 ₽
+              +e.prices-price-box
+                +e.price-name Обычная цена:
+                +e.price 4 199 000 ₽
+            +e.mods
+              +e.mods-title Используйте дополнительные преимущества при покупке авто:
+              +e.mods-list
+                +e.mod-item
+                  +checkboxMod('Выгода при покупке с учетом кредита', '- 41 711 ₽')
+                  +checkboxMod('Выгода при покупке trade in', '- 80 711 ₽')
+                  +checkboxMod('Выгода при покупке для новых клиентов', '- 11 711 ₽')
+              +e.see-more-mods Показать все преимущества
+                +e.SPAN.more-count (8)
+            +e.total-price
+              +e.total-price-text Итого:
+              +e.total-price-value 2 875 909 ₽
+            +e.btns
+              +e.btns-one.btn Получить предложение
+              +e.btns-second.btn Внести предоплату
+            +e.description-text *Вся представленная на сайте информация, касающаяся автомобилей и сервисного обслуживания, носит информационный характер и не является публичной офертой
         +b.info-tables
           +e.forms
             +e.forms-element
@@ -163,10 +164,11 @@ mixin carInfo()
                   OPTION Mazda X-33
                   OPTION Mazda C3
                   OPTION Mazda C33
-              +e.LABEL.form-element-select
+              +e.LABEL.form-element-select_year
                 +e.form-element-name Год выпуска
                 +e.SELECT.form-element-select(name='brand').js-choice-select
                   OPTION Выберите год
                   OPTION Mazda X-33
                   OPTION Mazda C3
                   OPTION Mazda C33
+              +e.more-params дополнительные параметры

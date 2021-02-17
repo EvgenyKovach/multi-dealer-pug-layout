@@ -33,7 +33,16 @@
   }
 
   &__form-element-select {
-    width: calc(100% / 3 - 5px);
+    width: calc((100% / 5) * 2 - 15px);
+
+    &_year {
+      width: calc(100% / 5 - 15px);
+    }
+
+    .choices__inner {
+      min-width: auto;
+    }
+
   }
 
   &__info-titles {
