@@ -23,32 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="fix locatiob ico&#10;fix stickysidebar&#10;fix togglemenu&#10;fix togglefilter&#10;&#10;more fixes style&#10;refactor brandList&#10;del brandListfull -&gt; brandList">
-      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/creditForm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/testDriveForm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/tradeInForm.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/js/toggleList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/styles/components/carPage/infoTables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/styles/components/carPage/offerSide.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/styles/components/carPage/tradeinForm.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/site/src/template/elements/checkboxMod.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/card-engine-v2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/card-speed-v2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/card-transmission-v2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/img/sprites/card-year-v2.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/img/spritemap.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/img/spritemap.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/js/checkbox-l.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/checkbox-l.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/js/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/brandsPreview/brandsPreview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/brandsPreview/brandsPreview.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/carInfo/carInfo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/carPage/carInfo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filterMobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filterMobile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/searchAsType/searchAsType.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/searchAsType/searchAsType.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/customStyles/thumbSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/customStyles/thumbSlider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/elements/carCard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/elements/carCard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/elements/checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/elements/checkbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/elements/checkboxColor.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/elements/checkboxColor.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/carInfo.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/carInfo.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/filterResult.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/filterResult.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/elements/checkbox.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/elements/checkbox.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/elements/carCard.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/elements/carCard.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +98,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/site/src/img/sprites" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/tornadel-manicure-layout" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.import.notification.dismissed" value="true" />
@@ -125,19 +108,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Projects\multiDC\app\site\src\styles\customStyles" />
-      <recent name="C:\Projects\multiDC\app\site\src\styles\elements" />
-      <recent name="C:\Projects\multiDC\app\site\src\styles\components\carInfo" />
-      <recent name="C:\Projects\multiDC\app\site\src\styles" />
-      <recent name="C:\Projects\project\app\site\src\styles\customStyles" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projects\multiDC\app\site\src\img\sprites" />
       <recent name="C:\Projects\multiDC\app\site\src\fonts" />
       <recent name="C:\Projects\project\app\site\src\img\sprites" />
       <recent name="C:\Projects\project\app\site\src\template\elements" />
       <recent name="C:\Projects\project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\multiDC\app\site\src\styles\customStyles" />
+      <recent name="C:\Projects\multiDC\app\site\src\styles\elements" />
+      <recent name="C:\Projects\multiDC\app\site\src\styles\components\carInfo" />
+      <recent name="C:\Projects\multiDC\app\site\src\styles" />
+      <recent name="C:\Projects\project\app\site\src\styles\customStyles" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -187,7 +170,11 @@
       <workItem from="1612757645549" duration="270000" />
       <workItem from="1612757955890" duration="775000" />
       <workItem from="1612759289487" duration="55142000" />
-      <workItem from="1613016570493" duration="78090000" />
+      <workItem from="1613016570493" duration="84552000" />
+      <workItem from="1613469902683" duration="7709000" />
+      <workItem from="1613480619971" duration="311000" />
+      <workItem from="1613481517465" duration="823000" />
+      <workItem from="1613484210659" duration="1131000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace">
       <created>1608284195775</created>
@@ -427,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613363206824</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="carInfo page init/ desktop 90%/">
+      <created>1613393782005</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1613393782005</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +443,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="layout 14%" />
     <MESSAGE value="second clone block" />
     <MESSAGE value="block searchAsType" />
     <MESSAGE value="3 new blocks" />
@@ -474,7 +467,8 @@
     <MESSAGE value="refactor css/ bem/ --init&#10;refactor filter params/ init" />
     <MESSAGE value="refactor css/ bem/ --init&#10;refactor filter params/ init&#10;refactor checkbox filter params" />
     <MESSAGE value="init car thumb slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="init car thumb slider" />
+    <MESSAGE value="carInfo page init/ desktop 90%/" />
+    <option name="LAST_COMMIT_MESSAGE" value="carInfo page init/ desktop 90%/" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="340" key="#Notifications" timestamp="1611725260503">
@@ -497,11 +491,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="585" y="0" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1612361253691" />
-    <state x="335" y="88" width="1372" height="713" key="FileChooserDialogImpl" timestamp="1613017110815">
+    <state x="335" y="88" width="1372" height="713" key="FileChooserDialogImpl" timestamp="1613481744846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="335" y="88" width="1372" height="713" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613017110815" />
+    <state x="335" y="88" width="1372" height="713" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613399260640" />
     <state x="2255" y="88" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611894425978" />
+    <state x="335" y="88" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613481744846" />
     <state x="740" y="157" key="RollbackChangesDialog" timestamp="1611558182541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -510,10 +505,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="800" y="147" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613362840867" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1613049150755">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1613393805936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613049150755" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613393805936" />
     <state x="608" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1613368848095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -536,10 +531,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613111690678" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613392570850">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613470490168">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613392570850" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613466419136" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611902527908" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613470490168" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app/site/src/js/app.js</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

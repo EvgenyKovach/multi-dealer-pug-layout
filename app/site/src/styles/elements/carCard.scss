@@ -85,6 +85,30 @@
     color: #242629;
   }
 
+  &__car-year {
+    display: flex;
+    align-items: center;
+
+    &-ico svg {
+      width: 16px;
+      height: 16px;
+
+      margin-right: 5px;
+      margin-top: 5px;
+
+      fill: #5a5a64;
+
+      @include below($mobileL) {
+        width: 25px;
+        height: 25px;
+
+        padding-right: 0px;
+      }
+
+    }
+
+  }
+
   &__car-complectation {
     margin: 5px 0 0 0;
 
@@ -94,27 +118,27 @@
 
   &__car-prices {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    margin: auto 0 0;
-    padding: 10px 0 16px 0;
+    text-align: center;
+    margin: auto 0;
 
-    .css-price:nth-child(2) {
+    @include below($mobileL) {
+      padding: 10px 0;
+    }
+
+    .fix-price {
       padding-top: 2px;
 
       .car-card__price-count {
         color: #8f8f8f;
         text-decoration: line-through;
-        font-size: 12px;
+        font-size: 20px;
       }
 
       .car-card__price-name {
         font-size: 12px;
       }
-    }
-
-    @include below($mobileL) {
-      padding: 10px 0;
-      margin: auto 0 0;
     }
 
   }
@@ -132,22 +156,16 @@
   }
 
   &__price-count {
-    margin-top: 5px;
-
     font-family: $titleFont;
-    font-size: 22px;
+    font-size: 30px;
     font-weight: bold;
 
     @include below($desktopL) {
-      font-size: 20px;
-    }
-
-    @include below($desktop) {
-      font-size: 18px;
+      font-size: 26px;
     }
 
     @include below($mobileL) {
-      font-size: 16px;
+      font-size: 24px;
     }
 
   }
@@ -159,13 +177,12 @@
   &__btns {
     display: flex;
     flex-direction: column;
-    padding: 15px 0;
-    border-top: 1px solid rgba(179, 182, 184, 0.33);
+    padding: 0 0 15px 0;
 
     .btn {
       position: relative;
       width: 100%;
-      padding: 15px 0;
+      padding: 12px 0;
       max-width: 100%;
       margin-top: 10px;
 
@@ -181,6 +198,7 @@
 
       @include below($mobileL) {
         padding: 10px 0;
+        width: 100%;
       }
 
     }

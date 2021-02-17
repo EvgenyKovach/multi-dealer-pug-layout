@@ -14,13 +14,13 @@ mixin carCard(photo, photo2, photo3, location, name, complectation, year, color,
       +e.location= location
       +e.car-name= name
         +e.A.car-link(href="#")
+      +e.car-year
+        +e.car-year-ico
+          SVG
+            USE(xlink:href="../img/spritemap.svg#card-year-v2")
+        +e.tth-value= year
       +e.car-complectation= complectation
       +e.car-tth
-        +e.tth-element
-          +e.tth-ico
-            SVG
-              USE(xlink:href="../img/spritemap.svg#card_year")
-          +e.tth-value= year
         +e.tth-element
           +e.tth-ico
             SVG
@@ -29,29 +29,26 @@ mixin carCard(photo, photo2, photo3, location, name, complectation, year, color,
         +e.tth-element
           +e.tth-ico
             SVG
-              USE(xlink:href="../img/spritemap.svg#card_engin_volume")
+              USE(xlink:href="../img/spritemap.svg#card-engine-v2")
           +e.tth-value= engine
         +e.tth-element
           +e.tth-ico
             SVG
-              USE(xlink:href="../img/spritemap.svg#card_run")
+              USE(xlink:href="../img/spritemap.svg#card-speed-v2")
           +e.tth-value= run
         +e.tth-element
           +e.tth-ico
             SVG
-              USE(xlink:href="../img/spritemap.svg#card_transmission")
+              USE(xlink:href="../img/spritemap.svg#card-transmission-v2")
           +e.tth-value= transm
       +e.car-prices
         if special
-          +e.price-box
-            +e.price-name Спецпредложение:
-            +e.price-count= special
-          +e.just-price.css-price
-            +e.price-name Начальная цена:
+          +e.just-price.fix-price
             +e.price-count= price
+          +e.price-box
+            +e.price-count= special
         else
           +e.price-box.css-price
-            +e.price-name Цена:
             +e.price-count= price
       +e.btns
         +e.BUTTON.button-offer.btn Зарезервировать автомобиль
