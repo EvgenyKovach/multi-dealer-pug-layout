@@ -1,18 +1,20 @@
 export default () => {
     const btnScroll = document.querySelector('.js-scroll-top');
 
-    window.onscroll = () => {
+    if (btnScroll !== null) {
+      window.onscroll = () => {
         if (window.scrollY > 499) {
-            btnScroll.classList.remove('notActive');
+          btnScroll.classList.remove('notActive');
         } else {
-            btnScroll.classList.add('notActive');
+          btnScroll.classList.add('notActive');
         }
-    };
+      };
 
-    btnScroll.onclick = () => {
+      btnScroll.onclick = () => {
         window.scrollTo({
-            top: 0,
-            behavior: 'smooth',
+          top: 0,
+          behavior: 'smooth',
         });
-    };
+      };
+    }
 };

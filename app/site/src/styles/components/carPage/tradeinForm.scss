@@ -32,7 +32,7 @@
     justify-content: space-between;
   }
 
-  &__form-element-select {
+  &__form-select {
     width: calc((100% / 5) * 2 - 15px);
 
     &_year {
@@ -43,6 +43,10 @@
       min-width: auto;
     }
 
+  }
+
+  &__form-input {
+    width: calc()
   }
 
   &__info-titles {
@@ -59,7 +63,51 @@
   }
 
   &__more-params {
+    position: relative;
+    display: flex;
 
+    width: 100%;
+    margin: 25px auto;
+
+    cursor: pointer;
+
+    &-text {
+      position: relative;
+
+      margin: 0 auto;
+
+      &::before {
+        content: "";
+        position: absolute;
+
+        width: 12px;
+        height: 2px;
+        top: 50%;
+        right: -25px;
+
+        background: $mainColor;
+        border-radius: 4px;
+
+        transform: translateY(-50%) rotate(90deg);
+        transition: .2s ease-in-out;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+
+        width: 12px;
+        height: 2px;
+        top: 50%;
+        right: -25px;
+
+        background: $mainColor;
+        border-radius: 4px;
+
+        transform: translateY(-50%);
+        transition: .2s ease-in-out;
+      }
+    }
   }
 
 }

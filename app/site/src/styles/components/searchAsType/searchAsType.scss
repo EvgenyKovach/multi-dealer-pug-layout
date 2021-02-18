@@ -158,10 +158,10 @@
     cursor: pointer;
     border-radius: 4px;
     overflow: hidden;
+  }
 
-    div {
-      cursor: inherit;
-    }
+  &__item-logo {
+    border: 1px solid #bababa;
   }
 
   &__item-name {

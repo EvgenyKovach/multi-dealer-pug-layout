@@ -150,25 +150,26 @@ mixin carInfo()
                 +e.info-title Обменяйте свой автомобиль на новый Hyundai
                 +e.info-sub-title Выгода до 80 000 ₽
             +e.FORM.form
-              +e.LABEL.form-element-select
-                +e.form-element-name Марка
-                +e.SELECT.form-element-select(name='brand').js-choice-select
+              +e.LABEL.form-select
+                +e.form-name Марка
+                +e.SELECT.form-select(name='brand').js-choice-select
                   OPTION Выберите марку
                   OPTION Mazda X-33
                   OPTION Mazda C3
                   OPTION Mazda C33
-              +e.LABEL.form-element-select
+              +e.LABEL.form-select
                 +e.form-element-name Модель
                 +e.SELECT.form-element-select(name='brand').js-choice-select
                   OPTION Выберите модель
                   OPTION Mazda X-33
                   OPTION Mazda C3
                   OPTION Mazda C33
-              +e.LABEL.form-element-select_year
+              +e.LABEL.form-select_year
                 +e.form-element-name Год выпуска
                 +e.SELECT.form-element-select(name='brand').js-choice-select
                   OPTION Выберите год
                   OPTION Mazda X-33
                   OPTION Mazda C3
                   OPTION Mazda C33
-              +e.more-params дополнительные параметры
+              +e.more-params
+                +e.SPAN.more-params-text дополнительные параметры
