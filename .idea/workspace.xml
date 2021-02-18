@@ -23,14 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="fix locatiob ico&#10;fix stickysidebar&#10;fix togglemenu&#10;fix togglefilter&#10;&#10;more fixes style&#10;refactor brandList&#10;del brandListfull -&gt; brandList">
-      <change afterPath="$PROJECT_DIR$/app/site/src/js/toggleOptions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/js/footerBrands.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/footerBrands.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/carPage/tradeinForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/carPage/tradeinForm.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/customStyles/choicesjs-custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/customStyles/choicesjs-custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/carInfo.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/carInfo.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +166,7 @@
       <workItem from="1613469902683" duration="7709000" />
       <workItem from="1613480619971" duration="311000" />
       <workItem from="1613481517465" duration="823000" />
-      <workItem from="1613484210659" duration="32538000" />
+      <workItem from="1613484210659" duration="32716000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace">
       <created>1608284195775</created>
@@ -462,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613620996555</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="tradein form">
+      <created>1613631404438</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1613631404438</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,7 +484,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init filter" />
     <MESSAGE value="refacotor/ optimization" />
     <MESSAGE value="fixes styles/ rework some blocks" />
     <MESSAGE value="add stickysidebar / rework breadcrumbs" />
@@ -509,7 +508,8 @@
     <MESSAGE value="some fixes" />
     <MESSAGE value="add shadows/&#10;popular models fix boxes" />
     <MESSAGE value="init form fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="init form fixes" />
+    <MESSAGE value="tradein form" />
+    <option name="LAST_COMMIT_MESSAGE" value="tradein form" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="340" key="#Notifications" timestamp="1611725260503">
@@ -546,11 +546,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="800" y="147" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613362840867" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1613545201306">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1613631414816">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613393805936" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613545201306" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613631414816" />
     <state x="608" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1613368848095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
