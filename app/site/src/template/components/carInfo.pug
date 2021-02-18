@@ -171,9 +171,9 @@ mixin carInfo()
                   OPTION Mazda X-33
                   OPTION Mazda C3
                   OPTION Mazda C33
-              +e.more-options.js-toggle-option-btn.is-active
+              +e.more-options.js-toggle-option-btn
                 +e.SPAN.more-options-text дополнительные параметры
-              +e.add-options.js-toggle-option-list.is-active
+              +e.add-options.js-toggle-option-list
                 +e.LABEL.form-input
                   +e.SPAN.input-name VIN
                   INPUT.form-input
@@ -198,4 +198,25 @@ mixin carInfo()
               +e.LABEL.form-input
                 +e.SPAN.input-name Телефон
                 INPUT.form-input
-              +e.BUTTON.send-form.btn Отправить заявку
+              +e.BUTTON.send-form.btn(type='button') Отправить заявку
+          +b.credit-form
+            +e.description
+              +e.info-ico
+                SVG.forms-element-ico
+                  USE(xlink:href="../img/spritemap.svg#tradeinform")
+              +e.info-titles
+                +e.info-title Кредитные и лизинговые программы
+                +e.info-sub-title Срок рассмотрения 1 час
+            +e.credit-type
+              +e.credit-type-element.is-active Условия кредитования
+              +e.credit-type-element Условия лизинга
+            +e.FORM.form
+              +e.ranges
+                +e.range-input
+                  +e.name Срок кредита, месяцев
+                +e.section-list
+                  +e.rangeValues.js-range-data
+                    INPUT.maxRange(name='price[max]'
+                      type='text'
+                      value='15000000'
+                      class='js-range')

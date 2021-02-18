@@ -4,7 +4,7 @@ export default () => {
   filters.forEach(item => {
 
     item.querySelector('.filters__section-title').onclick = () => {
-      item.classList.toggle('closedList')
+      item.classList.toggle('closed-list')
     }
 
   })

@@ -26,6 +26,19 @@
 
   }
 
+  &__info-titles {
+    margin-left: 20px;
+  }
+
+  &__info-title {
+    font-weight: 500;
+    font-size: 28px;
+  }
+
+  &__info-sub-title {
+    font-size: 20px;
+  }
+
   &__form {
     display: flex;
     flex-wrap: wrap;
@@ -80,19 +93,6 @@
   &__send-form {
     min-width: calc(100% / 2 - 15px);
     margin: 25px auto 0 auto;
-  }
-
-  &__info-titles {
-    margin-left: 20px;
-  }
-
-  &__info-title {
-    font-weight: 500;
-    font-size: 28px;
-  }
-
-  &__info-sub-title {
-    font-size: 20px;
   }
 
   &__more-options {

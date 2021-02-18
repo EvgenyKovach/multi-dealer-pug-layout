@@ -1,3 +1,10 @@
-npm run dev - dev serve
+# multi dc layout
 
-npm rub prod - production
+## Project dev
+```
+npm run dev
+```
+
+### Compiles for prod
+```
+npm run prod

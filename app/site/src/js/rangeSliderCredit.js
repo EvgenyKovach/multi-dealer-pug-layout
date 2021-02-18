@@ -1,5 +1,3 @@
-import noUiSlider from 'nouislider'
-
 export default () => {
 
   let rangeSlider    = document.querySelector('.js-rangeSlider')

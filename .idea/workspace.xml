@@ -23,7 +23,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="fix locatiob ico&#10;fix stickysidebar&#10;fix togglemenu&#10;fix togglefilter&#10;&#10;more fixes style&#10;refactor brandList&#10;del brandListfull -&gt; brandList">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/js/rangeSliderCredit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/site/src/styles/components/carPage/creditForm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/js/rangeSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/rangeSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/js/toggleFilters.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/js/toggleFilters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/carPage/tradeinForm.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/carPage/tradeinForm.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filters.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filters.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/carInfo.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/carInfo.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/filters.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/filters.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +176,7 @@
       <workItem from="1613469902683" duration="7709000" />
       <workItem from="1613480619971" duration="311000" />
       <workItem from="1613481517465" duration="823000" />
-      <workItem from="1613484210659" duration="32716000" />
+      <workItem from="1613484210659" duration="37864000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace">
       <created>1608284195775</created>
@@ -462,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613631404438</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="tradein form">
+      <created>1613631506769</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1613631506769</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,10 +533,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="706" y="340" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1611725260503" />
-    <state x="710" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613128113444">
+    <state x="710" y="310" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613632215131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="710" y="310" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613128113444" />
+    <state x="710" y="310" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613632215131" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613128647683">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -546,21 +564,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="800" y="147" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613362840867" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1613631414816">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1613631515886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613393805936" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613631414816" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613631515886" />
     <state x="608" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1613368848095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="608" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613368848095" />
-    <state x="668" y="237" width="583" height="624" key="find.popup" timestamp="1613564056661">
+    <state x="668" y="237" width="583" height="624" key="find.popup" timestamp="1613640580038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="668" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613393413679" />
     <state x="2588" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611904513877" />
-    <state x="668" y="237" width="583" height="624" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613564056661" />
+    <state x="668" y="237" width="583" height="624" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613640580038" />
     <state x="725" y="151" key="git4idea.branch.GitSmartOperationDialog" timestamp="1612865904841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -574,11 +592,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613111690678" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613627689599">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613641555356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613466419136" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611902527908" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613627689599" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613641555356" />
   </component>
 </project>
