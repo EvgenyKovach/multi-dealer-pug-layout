@@ -90,11 +90,19 @@ input, textarea, button, select {
 }
 
 input, select {
-  border: none;
-  border-bottom: 1px solid #A8A9AD;
-  padding-bottom: 15px;
+  border: 1px solid #e2e1e1;
+  padding: 12px 20px;
   cursor: pointer;
   background: transparent;
+  border-radius: 4px;
+
+  transition: .2s ease;
+  box-shadow:  none;
+
+  &:focus {
+    box-shadow: 2px 2px 4px #949494, -2px -2px 4px #ffffff;
+  }
+
 }
 
 img {

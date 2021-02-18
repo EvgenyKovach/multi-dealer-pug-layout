@@ -23,10 +23,11 @@ import mobileFilter from "./mobileFilter";                     // мобильн
 import footerBrands from "./footerBrands";                     // размер списка бренда в футере, вынужденный костыль
 import thumbSlider from "./thumbSlider"
 import toggleList from "./toggleList";
+import toggleOptions from "./toggleOptions";
 
 
 // inits
-toggleMenu();
+
 swiper();
 carCard();
 lazyLoad();
@@ -36,8 +37,11 @@ select();
 footerBrands();
 thumbSlider();
 checkbox();
-toggleList();
 stickySidebar();
+
+toggleMenu();
+toggleList();
+toggleOptions();
 
 
 // filter scripts

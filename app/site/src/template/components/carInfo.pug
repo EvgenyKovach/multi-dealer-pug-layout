@@ -171,5 +171,31 @@ mixin carInfo()
                   OPTION Mazda X-33
                   OPTION Mazda C3
                   OPTION Mazda C33
-              +e.more-params
-                +e.SPAN.more-params-text дополнительные параметры
+              +e.more-options.js-toggle-option-btn.is-active
+                +e.SPAN.more-options-text дополнительные параметры
+              +e.add-options.js-toggle-option-list.is-active
+                +e.LABEL.form-input
+                  +e.SPAN.input-name VIN
+                  INPUT.form-input
+                +e.LABEL.form-input
+                  +e.SPAN.input-name Кузов
+                  INPUT.form-input
+                +e.LABEL.form-input
+                  +e.SPAN.input-name Количество владельцев ПТС
+                  INPUT.form-input
+                +e.LABEL.form-input
+                  +e.SPAN.input-name Комплектация
+                  INPUT.form-input
+                +e.LABEL.form-input
+                  +e.SPAN.input-name Трансмиссия
+                  INPUT.form-input
+                +e.LABEL.form-input
+                  +e.SPAN.input-name Пробег
+                  INPUT.form-input
+              +e.LABEL.form-input
+                +e.SPAN.input-name Имя
+                INPUT.form-input
+              +e.LABEL.form-input
+                +e.SPAN.input-name Телефон
+                INPUT.form-input
+              +e.BUTTON.send-form.btn Отправить заявку
