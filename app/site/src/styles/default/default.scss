@@ -104,7 +104,7 @@ input, select {
   box-shadow:  none;
 
   &:focus {
-    box-shadow: 2px 2px 4px #949494, -2px -2px 4px #ffffff;
+    border: 1px solid #8f8f8f;
   }
 
 }

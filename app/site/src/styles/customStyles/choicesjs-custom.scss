@@ -3,7 +3,7 @@
 
   &.is-open {
     .choices__inner {
-      box-shadow: -2px -2px 4px #d9d9d9;
+      border: 1px solid #8f8f8f;
     }
 
   }
@@ -22,16 +22,19 @@
 .choices__inner {
   min-height: auto;
   min-width: 265px;
-  border-radius: 4px !important;
-  border-color: transparent;
-  background: #fff;
   padding: 6px 15px !important;
 
+  background: #fff;
+  border: 1px solid #e2e1e1;
+
+  border-radius: 4px !important;
+  white-space: nowrap;
   transition: .2s ease-in-out;
 
   &:focus {
     border: 1px solid #9f9f9f;
   }
+
 }
 
 .choices__list--dropdown {

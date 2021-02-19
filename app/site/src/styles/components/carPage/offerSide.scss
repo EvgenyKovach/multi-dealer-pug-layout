@@ -9,6 +9,14 @@
   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
 
+  @include below($desktopM) {
+    position: relative;
+
+    top: 0;
+    max-width: 650px;
+    margin: 45px auto;
+  }
+
   &__diler-info {
     padding-bottom: 20px;
     border-bottom: 1px solid #E8E9EA;
@@ -27,7 +35,8 @@
   }
 
   &__diler-telephone {
-    padding-top: 5px;
+    display: block;
+    margin-top: 5px;
   }
 
   &__prices {

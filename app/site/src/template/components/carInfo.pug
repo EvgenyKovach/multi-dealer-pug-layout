@@ -34,7 +34,7 @@ mixin carInfo()
                   img(src="../img/devImages/car3/1sl.jpg")
                 +e.car-slide.swiper-slide
                   img(src="../img/devImages/car3/2sl.jpg")
-        +b.offer-side
+        +b.offer-side.car-info__offer-side
           +e.container(id='js-sticky-offer')
             +e.diler-info
               +e.diler-name Официальный дилер Hyundai "Каскад-М" в Оренбурге
@@ -51,9 +51,9 @@ mixin carInfo()
               +e.mods-title Используйте дополнительные преимущества при покупке авто:
               +e.mods-list
                 +e.mod-item
-                  +checkboxMod('Выгода при покупке с учетом кредита', '- 41 711 ₽')
-                  +checkboxMod('Выгода при покупке trade in', '- 80 711 ₽')
-                  +checkboxMod('Выгода при покупке для новых клиентов', '- 11 711 ₽')
+                  +checkboxMod('Выгода кредита', '- 41 711 ₽')
+                  +checkboxMod('Скидка за trade in', '- 80 711 ₽')
+                  +checkboxMod('Максимальная скидка', '- 11 711 ₽')
               +e.see-more-mods Показать все преимущества
                 +e.SPAN.more-count (8)
             +e.total-price

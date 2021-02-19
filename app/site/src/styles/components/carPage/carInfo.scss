@@ -4,9 +4,19 @@
   &__wrapper {
     display: grid;
     grid-template-columns: 65% 35%;
-    grid-template-rows: max(700px)  auto;
+    grid-template-rows: max(600px)  auto;
 
     margin-top: 30px;
+
+    @include below($desktopM) {
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+
+  &__car-slider {
+    max-height: 600px;
   }
 
   &__info-side {
