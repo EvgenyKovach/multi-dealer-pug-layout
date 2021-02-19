@@ -96,6 +96,10 @@ input, select {
   background: transparent;
   border-radius: 4px;
 
+  font-size: 16px;
+
+  color: #242629;
+
   transition: .2s ease;
   box-shadow:  none;
 
@@ -103,6 +107,10 @@ input, select {
     box-shadow: 2px 2px 4px #949494, -2px -2px 4px #ffffff;
   }
 
+}
+
+.form-label {
+  font-weight: 500;
 }
 
 img {
@@ -181,7 +189,6 @@ ul, li {
 
   color: #FFF;
   background: $mainColor;
-  box-shadow:  4px 4px 8px #949494;
   outline: none;
   border: none;
   border-radius: 4px;

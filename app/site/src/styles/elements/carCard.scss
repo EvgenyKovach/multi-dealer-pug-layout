@@ -17,8 +17,6 @@
     padding: 0px 12px 0 12px;
     margin: 5px auto;
 
-    box-shadow:  4px 4px 8px #949494,
-                -4px -4px 8px #ffffff;
     border: 1px solid #e2e1e1;
     background: #F2F4F6;
     border-radius: 4px;
@@ -189,8 +187,6 @@
       cursor: pointer;
 
       transition: .15s ease-in-out;
-      box-shadow:  5px 5px 11px #949494,
-                  -5px -5px 10px #ffffff;
 
       &:hover {
         background: $mainColorHover;

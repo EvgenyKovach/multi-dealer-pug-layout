@@ -151,21 +151,21 @@ mixin carInfo()
                 +e.info-sub-title Выгода до 80 000 ₽
             +e.FORM.form
               +e.LABEL.form-select
-                +e.form-name Марка
+                +e.form-name.form-label Марка
                 +e.SELECT.form-select(name='brand').js-choice-select
                   OPTION Выберите марку
                   OPTION Mazda X-33
                   OPTION Mazda C3
                   OPTION Mazda C33
               +e.LABEL.form-select
-                +e.form-element-name Модель
+                +e.form-element-name.form-label Модель
                 +e.SELECT.form-element-select(name='brand').js-choice-select
                   OPTION Выберите модель
                   OPTION Mazda X-33
                   OPTION Mazda C3
                   OPTION Mazda C33
               +e.LABEL.form-select_year
-                +e.form-element-name Год выпуска
+                +e.form-element-name.form-label Год выпуска
                 +e.SELECT.form-element-select(name='brand').js-choice-select
                   OPTION Выберите год
                   OPTION Mazda X-33
@@ -175,30 +175,32 @@ mixin carInfo()
                 +e.SPAN.more-options-text дополнительные параметры
               +e.add-options.js-toggle-option-list
                 +e.LABEL.form-input
-                  +e.SPAN.input-name VIN
+                  +e.SPAN.input-name.form-label VIN
                   INPUT.form-input
                 +e.LABEL.form-input
-                  +e.SPAN.input-name Кузов
+                  +e.SPAN.input-name.form-label Кузов
                   INPUT.form-input
                 +e.LABEL.form-input
-                  +e.SPAN.input-name Количество владельцев ПТС
+                  +e.SPAN.input-name.form-label Количество владельцев ПТС
                   INPUT.form-input
                 +e.LABEL.form-input
-                  +e.SPAN.input-name Комплектация
+                  +e.SPAN.input-name.form-label Комплектация
                   INPUT.form-input
                 +e.LABEL.form-input
-                  +e.SPAN.input-name Трансмиссия
+                  +e.SPAN.input-name.form-label Трансмиссия
                   INPUT.form-input
                 +e.LABEL.form-input
-                  +e.SPAN.input-name Пробег
+                  +e.SPAN.input-name.form-label Пробег
                   INPUT.form-input
               +e.LABEL.form-input
-                +e.SPAN.input-name Имя
+                +e.SPAN.input-name.form-label Имя
                 INPUT.form-input
               +e.LABEL.form-input
-                +e.SPAN.input-name Телефон
+                +e.SPAN.input-name.form-label Телефон
                 INPUT.form-input
               +e.BUTTON.send-form.btn(type='button') Отправить заявку
+              +e.form-policy Нажимая на кнопку «Отправить заявку» вы соглашаетесь с пользовательским соглашением, положением о конфиденциальности и офертой
+
           +b.credit-form
             +e.description
               +e.info-ico
@@ -212,11 +214,47 @@ mixin carInfo()
               +e.credit-type-element Условия лизинга
             +e.FORM.form
               +e.ranges
-                +e.range-input
-                  +e.name Срок кредита, месяцев
-                +e.section-list
-                  +e.rangeValues.js-range-data
-                    INPUT.maxRange(name='price[max]'
-                      type='text'
-                      value='15000000'
-                      class='js-range')
+                +e.ranges-element
+                  +e.range-input
+                    +e.name.form-label Срок кредита, мес
+                  +e.section-range
+                    +e.range-values
+                      INPUT.js-credit-data(name='ranges'
+                        type='text'
+                        data-min='1'
+                        data-max='12'
+                        data-from='6')
+                    +e.range-slider
+                      .range-slider-box.js-credit-range
+                +e.ranges-element
+                  +e.range-input
+                    +e.name.form-label Сумма кредита, ₽
+                  +e.section-range
+                    +e.range-values
+                      INPUT.js-credit-summ(name='ranges'
+                        type='text'
+                        data-min='100000'
+                        data-max='3000000'
+                        data-from='1500000')
+                    +e.range-slider
+                      .range-slider-box.js-summ-range
+              +e.info-labels
+                +e.info-label
+                  +e.info-label-text.form-label Первоначальный взнос
+                  +e.info-label-value от 200 000
+                +e.info-label
+                  +e.info-label-text.form-label Ежемесячный платеж
+                  +e.info-label-value от 68 900
+                +e.info-label
+                  +e.info-label-text.form-label Процентная ставка
+                  +e.info-label-value от 8,8%
+              +e.LABEL.form-input
+                +e.SPAN.input-name.form-label Имя
+                INPUT.form-input
+              +e.LABEL.form-input
+                +e.SPAN.input-name.form-label Телефон
+                INPUT.form-input
+            +e.BUTTON.send-form.btn(type='button') Отправить заявку
+            +e.form-policy Нажимая на кнопку «Отправить заявку» вы соглашаетесь с пользовательским соглашением, положением о конфиденциальности и офертой
+
+

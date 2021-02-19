@@ -1,4 +1,4 @@
-import noUiSlider from 'nouislider'
+import noUiSlider from 'nouislider';
 
 export default () => {
 

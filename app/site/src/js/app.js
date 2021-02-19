@@ -24,6 +24,7 @@ import footerBrands from "./footerBrands";                     // размер �
 import thumbSlider from "./thumbSlider"
 import toggleList from "./toggleList";
 import toggleOptions from "./toggleOptions";
+import rangeSliderCredit from "./rangeSliderCredit";
 
 
 // inits
@@ -42,13 +43,12 @@ stickySidebar();
 toggleMenu();
 toggleList();
 toggleOptions();
-
+rangeSliderCredit();
 
 // filter scripts
 if (document.querySelector('.filters')) {
   toggleFilters();
   rangeSlider();
   colorPickFilter();
-
   mobileFilter();
 }
