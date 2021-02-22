@@ -121,6 +121,7 @@
 
       @include below($mobileL) {
         grid-template-columns: auto;
+        padding: 10px;
       }
 
     }

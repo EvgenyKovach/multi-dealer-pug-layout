@@ -131,6 +131,10 @@
     cursor: pointer;
 
     text-align: center;
+
+    @include below($tablet) {
+      font-size: 14px;
+    }
   }
 
   &__total-price {
