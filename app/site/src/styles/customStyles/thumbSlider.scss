@@ -1,4 +1,7 @@
 .car-info__car-slider {
+  display: flex;
+
+  margin: 0 auto 0 0;
 
   .swiper-container {
     width: 100%;
@@ -15,10 +18,6 @@
     max-height: 520px;
   }
 
-  .swiper-slide {
-    max-height: 520px;
-  }
-
   img {
     max-height: 520px;
 
@@ -28,20 +27,84 @@
 
   .gallery-top {
     width: 100%;
+    min-width: 693px;
+
+    @include below($notebook) {
+      max-width: 85%;
+    }
+
+    @include below($tablet) {
+      min-width: 100%;
+      max-width: none;
+    }
+
+    .button-prev,
+    .button-next,
+    {
+      display: flex;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+
+      border-radius: 50%;
+      box-shadow: 0 0 35px #c2c0c0;
+      background: #ffffff44;
+
+      z-index: 10;
+
+      svg {
+        width: 35px;
+        height: 35px;
+        padding: 8px;
+
+        opacity: .55;
+        transition: .15s ease-in-out;
+
+        &:hover {
+          transform: scaleY(1.1);
+          opacity: 1;
+        }
+
+
+        @include below($tablet) {
+          width: 20px;
+          height: 20px;
+          padding: 4px;
+        }
+
+      }
+    }
+
+    .button-prev {
+      left: 5px;
+    }
+
+    .button-next {
+      right: 5px;
+      transform: translateY(-50%) rotate(180deg);
+    }
   }
 
   .gallery-thumbs {
-    margin-top: 5px;
-    height: 20%;
+    margin-left: 5px;
     box-sizing: border-box;
+
+    @include below($tablet) {
+      display: none;
+    }
   }
 
   .gallery-thumbs .swiper-slide {
     position: relative;
-    width: 25%;
+    width: auto;
     height: 100%;
     opacity: 0.4;
     transition: .1s ease-in-out;
+
+    img {
+      height: 100%;
+    }
   }
 
   .gallery-thumbs .swiper-slide-thumb-active {

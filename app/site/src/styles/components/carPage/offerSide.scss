@@ -9,12 +9,14 @@
   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
 
-  @include below($desktopM) {
+  @include below($notebook) {
     position: relative;
 
     top: 0;
-    max-width: 650px;
     margin: 45px auto;
+    padding: 0;
+
+    box-shadow: none;
   }
 
   &__diler-info {
@@ -111,11 +113,20 @@
 
     margin-top: -10px;
 
+    @include below($desktopM) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
     .btn {
       max-width: 100%;
       margin: 0 0 10px 0;
 
       text-align: center;
+
+      @include below($desktopM) {
+        width: calc(100% / 2 - 5px);
+      }
     }
 
     &-second {
