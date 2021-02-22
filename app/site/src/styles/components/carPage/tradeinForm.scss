@@ -8,11 +8,24 @@
   border: 1px solid #e2e1e1;
   border-radius: 4px;
 
+  @include below($tablet) {
+    padding: 20px 25px;
+  }
+
+  @include below($mobileL) {
+    padding: 15px 10px;
+  }
+
   &__description {
     display: flex;
     align-items: center;
 
     margin-bottom: 20px;
+
+    @include below($tablet) {
+      flex-direction: column;
+      padding: 0;
+    }
   }
 
   &__info-ico {
@@ -33,10 +46,23 @@
   &__info-title {
     font-weight: 500;
     font-size: 28px;
+
+    @include below($tablet) {
+      font-size: 24px;
+    }
+
+    @include below($mobileL) {
+      font-size: 22px;
+    }
   }
 
   &__info-sub-title {
     font-size: 20px;
+
+    @include below($mobileL) {
+      font-size: 16px;
+    }
+
   }
 
   &__form {
@@ -48,8 +74,18 @@
   &__form-select {
     width: calc((100% / 5) * 2 - 15px);
 
+    @include below($tablet) {
+      width: 100%;
+      padding: 5px 0;
+    }
+
     &_year {
       width: calc(100% / 5);
+
+      @include below($tablet) {
+        width: 100%;
+        padding: 5px 0;
+      }
     }
 
     .choices__inner {
@@ -66,6 +102,11 @@
 
     width: calc(100% / 2 - 15px);
     padding: 10px 0;
+
+    @include below($tablet) {
+      width: 100%;
+      padding: 5px 0;
+    }
   }
 
   &__add-options {
@@ -104,6 +145,10 @@
 
     cursor: pointer;
     user-select: none;
+
+    @include below($tablet) {
+      padding-right: 25px;
+    }
 
     &-text {
       position: relative;

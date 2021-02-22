@@ -17,9 +17,26 @@
     padding: 0;
 
     box-shadow: none;
+
+    @include below($mobileL) {
+      margin: 25px auto;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include below($notebook) {
+      flex-direction: row;
+    }
+
   }
 
   &__diler-info {
+    width: 100%;
     padding-bottom: 20px;
     border-bottom: 1px solid #E8E9EA;
   }
@@ -48,6 +65,22 @@
     padding: 16px 0;
 
     border-bottom: 1px solid #E8E9EA;
+
+    @include below($desktopM) {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+
+    @include below($notebook) {
+      width: calc(100% / 2);
+      border-right: 1px solid #E8E9EA;
+    }
+
+    @include below($tablet) {
+      width: calc(100%);
+      border-right: none;
+    }
+
   }
 
   &__price-name {
@@ -73,10 +106,23 @@
   &__mods {
     padding: 16px 0;
     border-bottom: 1px solid #E8E9EA;
+
+    @include below($notebook) {
+      width: calc(100% / 2 - 5px);
+    }
+
+    @include below($tablet) {
+      width: calc(100%);
+    }
+
   }
 
   &__mods-list {
     padding: 12px 0 24px 0;
+
+    @include below($mobileL) {
+      font-size: 14px;
+    }
   }
 
   &__see-more-mods {
@@ -93,6 +139,10 @@
     align-items: center;
 
     padding: 20px 0;
+
+    @include below($notebook) {
+      width: calc(100%);
+    }
 
     &-text {
       font-weight: bold;
@@ -113,9 +163,14 @@
 
     margin-top: -10px;
 
-    @include below($desktopM) {
+    @include below($notebook) {
+      width: 100%;
       flex-direction: row;
       justify-content: space-between;
+    }
+
+    @include below($mobileL) {
+      flex-direction: column;
     }
 
     .btn {
@@ -124,9 +179,14 @@
 
       text-align: center;
 
-      @include below($desktopM) {
+      @include below($notebook) {
         width: calc(100% / 2 - 5px);
       }
+
+      @include below($mobileL) {
+        width: 100%;
+      }
+
     }
 
     &-second {
