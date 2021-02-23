@@ -58,6 +58,10 @@
       width: 75%;
 
       cursor: pointer;
+
+      @include below($tablet) {
+        width: 100%;
+      }
     }
 
     &-name {
@@ -96,6 +100,11 @@
     &-title {
       font-size: 28px;
       font-weight: 500;
+
+      @include below($tablet) {
+        font-size: 22px;
+      }
+
     }
 
     &-description {
@@ -103,6 +112,13 @@
       font-weight: 500;
 
       margin-top: 25px;
+
+      @include below($tablet) {
+        font-size: 18px;
+
+        margin-top: 15px;
+      }
+
     }
 
     &-table {
@@ -128,9 +144,17 @@
 
     &-element-key {
       font-weight: 500;
+
+      @include below($tablet) {
+        font-size: 12px;
+      }
+
     }
 
     &-element-value {
+      @include below($tablet) {
+        font-size: 14px;
+      }
     }
 
   }
@@ -153,6 +177,11 @@
 
       font-size: 18px;
       font-weight: 500;
+
+      @include below($mobileL) {
+        font-size: 16px;
+      }
+
     }
 
     &-elements {

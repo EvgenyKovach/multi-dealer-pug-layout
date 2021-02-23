@@ -25,7 +25,12 @@
     <list default="true" id="4f5ab220-c04e-4a52-a1ff-4f4b14af1f53" name="Default Changelist" comment="fix locatiob ico&#10;fix stickysidebar&#10;fix togglemenu&#10;fix togglefilter&#10;&#10;more fixes style&#10;refactor brandList&#10;del brandListfull -&gt; brandList">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/carPage/infoTables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/carPage/infoTables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/carPage/offerSide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/carPage/offerSide.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filerResult.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/components/filterAuto/filerResult.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/customStyles/choicesjs-custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/customStyles/choicesjs-custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/styles/default/default.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/carInfo.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/carInfo.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/components/tradeIn.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/components/tradeIn.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/site/src/template/elements/carCard.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/site/src/template/elements/carCard.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +176,8 @@
       <workItem from="1613484210659" duration="50327000" />
       <workItem from="1613707742859" duration="19976000" />
       <workItem from="1613739685303" duration="596000" />
-      <workItem from="1613966717448" duration="20857000" />
+      <workItem from="1613966717448" duration="26453000" />
+      <workItem from="1614055712946" duration="2850000" />
     </task>
     <task id="LOCAL-00001" summary="init workspace">
       <created>1608284195775</created>
@@ -509,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613991095643</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="fix adaptive">
+      <created>1613992254963</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1613992254963</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +544,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix stickysidebar/ &#10;add total search items" />
     <MESSAGE value="some filter fixs/ rework mobile menu btn" />
     <MESSAGE value="fix locatiob ico&#10;fix stickysidebar&#10;fix togglemenu&#10;fix togglefilter&#10;&#10;more fixes style&#10;refactor brandList&#10;del brandListfull -&gt; brandList" />
     <MESSAGE value="init filter mobile" />
@@ -556,7 +568,8 @@
     <MESSAGE value="credit foorm/ btns fix/ styles fix/ init adaptive for car info page" />
     <MESSAGE value="carinfo slider adaptive" />
     <MESSAGE value="carinfo full adaptive" />
-    <option name="LAST_COMMIT_MESSAGE" value="carinfo full adaptive" />
+    <MESSAGE value="fix adaptive" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix adaptive" />
   </component>
   <component name="WindowStateProjectService">
     <state x="706" y="340" key="#Notifications" timestamp="1611725260503">
@@ -604,12 +617,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="608" y="134" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613368848095" />
-    <state x="668" y="237" width="583" height="624" key="find.popup" timestamp="1613988758659">
+    <state x="668" y="237" width="583" height="624" key="find.popup" timestamp="1613995400874">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="668" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613393413679" />
     <state x="2588" y="237" width="583" height="624" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611904513877" />
-    <state x="668" y="237" width="583" height="624" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613988758659" />
+    <state x="668" y="237" width="583" height="624" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613995400874" />
     <state x="725" y="151" key="git4idea.branch.GitSmartOperationDialog" timestamp="1612865904841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -623,11 +636,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613111690678" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1613991940961">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1614058706907">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1613466419136" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611902527908" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1613991940961" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614058706907" />
   </component>
 </project>

@@ -31,6 +31,12 @@
   white-space: nowrap;
   transition: .2s ease-in-out;
 
+  font-size: 16px;
+
+  @include below($tablet) {
+    font-size: 14px;
+  }
+
   &:focus {
     border: 1px solid #9f9f9f;
   }

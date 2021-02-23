@@ -63,10 +63,12 @@
 
     @include below(975px) {
       grid-template-columns: auto auto;
+      justify-content: center;
     }
 
     @include below(675px) {
       grid-template-columns: auto;
+      justify-content: center;
     }
 
   }

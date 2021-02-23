@@ -49,6 +49,8 @@ mixin carInfo()
                   USE(xlink:href="../img/spritemap.svg#arrowleft")
             .swiper-container.gallery-thumbs
               .swiper-wrapper
+                // судой фотки 200*200 (1X1), но в целом до пизды, они там пидарасятся как хотят
+                // от квадрата до прямоугольника главное не более 200 слать
                 +e.car-slide.swiper-slide
                   img(src="../img/devImages/car4/mb1.jpg")
                 +e.car-slide.swiper-slide

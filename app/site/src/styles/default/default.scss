@@ -103,6 +103,10 @@ input, select {
   transition: .2s ease;
   box-shadow:  none;
 
+  @include below($tablet) {
+    font-size: 14px;
+  }
+
   &:focus {
     border: 1px solid #8f8f8f;
   }
@@ -155,6 +159,15 @@ ul, li {
   padding: 0;
   margin: 0;
   list-style-type: none;
+}
+
+label {
+  font-size: 16px;
+
+  @include below($tablet) {
+    font-size: 12px;
+  }
+
 }
 
 .page-title {
