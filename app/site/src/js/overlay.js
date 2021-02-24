@@ -3,10 +3,13 @@ export default (toggle, callback) => {
 
   const show = () => {
     overlay.classList.add('isActive')
+    document.body.style.overflowY = 'hidden'
+    // document.body.style. = 'scroll'
   }
 
   const hide = () => {
     overlay.classList.remove('isActive')
+    document.body.style.overflowY = 'scroll'
   }
 
   if (toggle) {

@@ -25,6 +25,7 @@ import thumbSlider from "./thumbSlider"
 import toggleList from "./toggleList";
 import toggleOptions from "./toggleOptions";
 import rangeSliderCredit from "./rangeSliderCredit";
+import popup from "./popup";
 
 
 // inits
@@ -44,6 +45,7 @@ toggleMenu();
 toggleList();
 toggleOptions();
 rangeSliderCredit();
+popup();
 
 // filter scripts
 if (document.querySelector('.filters')) {

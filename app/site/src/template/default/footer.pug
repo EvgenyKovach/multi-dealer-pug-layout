@@ -113,7 +113,7 @@ mixin footer()
               A(href="#")
                 SVG
                   USE(xlink:href="../img/spritemap.svg#telegram-logo")
-            +e.LI.social-link(href="#")
+            +e.LI.social-link
               A(href="#")
                 SVG
                   USE(xlink:href="../img/spritemap.svg#fb-logo")
@@ -138,3 +138,18 @@ mixin footer()
             SVG
               USE(xlink:href="../img/spritemap.svg#legologo")
     .js-scroll-top.notActive
+    +b.popup.js-popup
+      +e.close-btn.js-close-popup
+      +e.info
+        +e.title Заказать обратный звонок
+        +e.description Можете прям щас
+      +e.FORM.form
+        +e.LABEL.form-label Ваше имя
+          INPUT.form-input
+        +e.LABEL.form-label Ваш номер телефона
+          INPUT.form-input
+        +e.LABEL.form-label Вкратце вопрос
+          INPUT.form-input
+        +e.BUTTON(type='button').submit.btn Скидыщь
+        +e.private-police Нажимая на кнопку "Отправить" вы соглашаетесь с
+          A(href='https://reseller.mgcom.ru/privacy_policy?gclid=Cj0KCQiAj9iBBhCJARIsAE9qRtA-aqbvieMS_mzWj_dNCiM0HoVOV1unA5_JY3ClE2VibF5nTXNvHm0aAhjAEALw_wcB') &nbsp; политикой конфедициальности
