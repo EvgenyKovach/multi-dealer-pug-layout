@@ -19,46 +19,8 @@
 
   &__button-prev,
   &__button-next, {
-    display: flex;
-    position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    cursor: pointer;
-
-    z-index: 10;
-
-    svg {
-      width: 25px;
-      height: 25px;
-      padding: 8px;
-
-      border-radius: 50%;
-      box-shadow: 0 0 5px #929292;
-      transition: .15s ease-in-out;
-      opacity: .75;
-
-      @include below($tablet) {
-        width: 19px;
-        height: 19px;
-        padding: 5px;
-      }
-
-      @include below($mobileL) {
-        box-shadow: none;
-        border: none;
-        background: none;
-      }
-
-      &:hover {
-        opacity: 1;
-        box-shadow: 0 0 10px #c2c0c0;
-      }
-
-    }
-
-    &:focus {
-      outline: none;
-    }
   }
 
   &__button-prev {

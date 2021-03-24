@@ -2,6 +2,7 @@ export default () => {
   const carSlider = document.querySelectorAll('.js-carCardSwiper');
 
   if (carSlider && carSlider.length) {
+
     let collectionsSwiper = new Swiper('.js-carCardSwiper', {
       slidesPerView: 1,
       spaceBetween: 0,
@@ -18,18 +19,22 @@ export default () => {
       scrollbar: {
         el:'.swiper-scrollbar'
       },
+
     });
 
     if (Array.isArray(collectionsSwiper)) {
+
       collectionsSwiper.forEach((item) => {
         item.el.addEventListener("mouseleave", () => {
           item.slideTo(0, 0);
         });
       });
+
     } else {
       collectionsSwiper.el.addEventListener("mouseleave", () => {
         collectionsSwiper.slideTo(0, 0);
       });
+
     }
 
     let swiperList = document.querySelectorAll('.js-carCardSwiper');
@@ -61,7 +66,11 @@ export default () => {
 
           });
         }
+
       });
+
     }
+
   }
+
 }

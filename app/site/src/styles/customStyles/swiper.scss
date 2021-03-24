@@ -1,0 +1,62 @@
+.swiper-arr-prev,
+.swiper-arr-next,
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 56%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 10;
+
+  svg {
+    width: 25px;
+    height: 25px;
+    padding: 8px;
+
+    background: #FFF;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #929292;
+    transition: .15s ease-in-out;
+    opacity: .45;
+
+    @include below($tablet) {
+      width: 25px;
+      height: 25px;
+      padding: 3px;
+    }
+
+    @include below($mobileL) {
+      box-shadow: none;
+      border: none;
+      background: none;
+    }
+
+    &:hover {
+      opacity: 1;
+      box-shadow: 0 0 10px #c2c0c0;
+    }
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.swiper-arr-prev {
+  left: 5px;
+
+  @include below($mobileL) {
+    left: -8px;
+  }
+}
+
+.swiper-arr-next {
+  right: 5px;
+  transform: translateY(-50%) rotate(180deg);
+
+  @include below($mobileL) {
+    right: -8px;
+  }
+}

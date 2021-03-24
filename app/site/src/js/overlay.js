@@ -2,26 +2,26 @@ export default (toggle, callback) => {
   const overlay = document.querySelector('.js-overlay')
 
   const show = () => {
-    overlay.classList.add('isActive')
-    document.body.style.overflowY = 'hidden'
-    // document.body.style. = 'scroll'
+    overlay.classList.add('is-active')
+    document.body.style.overflowY = 'scroll'
+    document.querySelector('html').style.overflowY = 'hidden'
   }
 
   const hide = () => {
-    overlay.classList.remove('isActive')
-    document.body.style.overflowY = 'scroll'
-  }
+    overlay.classList.remove('is-active')
+    document.body.style.overflowY = 'auto'
+    document.querySelector('html').style.overflowY = 'auto'
 
-  if (toggle) {
-    show()
-  } else {
-    hide()
-  }
-
-  overlay.onclick = () => {
-    hide()
     if (typeof callback === 'function') callback()
-    else console.log('overlay callback error type')
   }
+
+  if (toggle) show()
+  else hide()
+
+  overlay.onclick = () => hide()
+
+  window.addEventListener('keyup', function(event) {
+    if (event.keyCode === 27) hide()
+  });
 
 }

@@ -39,8 +39,8 @@ export default () => {
       },
     },
     navigation: {
-      nextEl: '.popularModels__button-next',
-      prevEl: '.popularModels__button-prev',
+      nextEl: '.popular-models__button-next',
+      prevEl: '.popular-models__button-prev',
       clickable: true,
     },
     spaceBetween: 60,

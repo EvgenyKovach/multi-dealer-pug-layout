@@ -10,7 +10,7 @@ import '../styles/app.scss';
 import lazyLoad from './lazyLoad';
 import toggleMenu from './toggleMenu';                        // скрипт тагла мобильного меню
 import swiper from './swiper';                                // инит слайдера(ов)
-import carCard from './carCard';                              // инит слайдера в карточке + переработка pagination
+import carCard from './carCardSlider';                              // инит слайдера в карточке + переработка pagination
 import hiddenTextDescription from './hiddenTextDescription';  // скрытый текст на главной
 import scrollTop from './scrollTop';                          // кнопка "вверх"
 import checkbox from "./checkbox-l";                          //  настройка чекбоксов в фильтре
@@ -26,6 +26,7 @@ import toggleList from "./toggleList";
 import toggleOptions from "./toggleOptions";
 import rangeSliderCredit from "./rangeSliderCredit";
 import popup from "./popup";
+import phoneMask from "./phoneMask";
 
 
 // inits
@@ -46,6 +47,7 @@ toggleList();
 toggleOptions();
 rangeSliderCredit();
 popup();
+phoneMask();
 
 // filter scripts
 if (document.querySelector('.filters')) {

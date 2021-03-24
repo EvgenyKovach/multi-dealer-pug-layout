@@ -44,7 +44,8 @@
 }
 
 .choices__list--dropdown {
-  border-radius: 4px !important;
+  border-bottom-left: 4px !important;
+  border-bottom-right: 4px !important;
 }
 
 .choices[data-type*=select-one]:after {

@@ -68,69 +68,6 @@
 
   }
 
-  &__button-prev,
-  &__button-next, {
-    position: absolute;
-    display: flex;
-    top: 56.4%;
-    transform: translateY(-50%);
-    cursor: pointer;
-
-    z-index: 10;
-
-    svg {
-      width: 25px;
-      height: 25px;
-      padding: 8px;
-      margin: auto 0;
-
-      background: #FFF;
-      border-radius: 50%;
-      box-shadow: 0 0 5px #929292;
-      transition: .15s ease-in-out;
-      opacity: .75;
-
-      &:hover {
-        opacity: 1;
-        box-shadow: 0 0 10px #c2c0c0;
-      }
-
-      @include below($tablet) {
-        width: 19px;
-        height: 19px;
-        padding: 5px;
-      }
-
-      @include below($mobileL) {
-        box-shadow: none;
-      }
-
-    }
-
-    &:focus {
-      outline: none;
-    }
-  }
-
-  &__button-prev {
-    left: 3px;
-
-    @include below($mobileL) {
-      left: -8px
-    }
-
-  }
-
-  &__button-next {
-    right: 3px;
-    transform: translateY(-50%) rotate(180deg);
-
-    @include below($mobileL) {
-      right: -8px
-    }
-
-  }
-
   &__slide-box {
     display: flex;
     flex-direction: column;

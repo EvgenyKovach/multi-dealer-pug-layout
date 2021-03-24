@@ -85,23 +85,24 @@ h3 {
   }
 }
 
-input, textarea, button, select {
-  outline: none;
-}
+textarea {
+  min-height: 100px;
 
-input, select {
-  border: 1px solid #e2e1e1;
   padding: 12px 20px;
-  cursor: pointer;
+
   background: transparent;
+  border: 1px solid #e2e1e1;
+  color: #242629;
+  box-shadow:  none;
+  outline: none;
+
+  cursor: pointer;
   border-radius: 4px;
+  transition: .2s ease;
+
+  resize: none;
 
   font-size: 16px;
-
-  color: #242629;
-
-  transition: .2s ease;
-  box-shadow:  none;
 
   @include below($tablet) {
     font-size: 14px;
@@ -112,6 +113,33 @@ input, select {
   }
 
 }
+
+input, select {
+  padding: 12px 20px;
+
+  border: 1px solid #e2e1e1;
+  color: #242629;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+
+  border-radius: 4px;
+  transition: .2s ease;
+  box-shadow:  none;
+
+  font-size: 16px;
+
+  @include below($tablet) {
+    font-size: 14px;
+  }
+
+  &:focus {
+    border: 1px solid #8f8f8f;
+  }
+
+}
+
+
 
 .form-label {
   font-weight: 500;
