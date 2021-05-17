@@ -161,7 +161,7 @@
 
   &__toggle-list {
     margin: 15px 0;
-    padding: 20px 30px;
+    padding: 20px 00px;
 
     border: 1px solid #E8E9EA;
     border-radius: 4px;
@@ -178,18 +178,23 @@
       font-size: 18px;
       font-weight: 500;
 
+      padding: 0 30px;
+
+      user-select: none;
+
       @include below($mobileL) {
         font-size: 16px;
+      }
+
+      &.active {
+        .toggle-counter::after {
+          transform: translateY(-50%) rotate(180deg);
+        }
       }
 
     }
 
     &-elements {
-      height: 0;
-      opacity: 0;
-      pointer-events: none;
-
-      transition: .2s ease-in-out;
     }
 
     &-sub-title {
@@ -201,7 +206,7 @@
 
     &-element {
       position: relative;
-      padding: 10px 0 10px 25px;
+      padding: 10px 30px 10px 55px;
 
       &:nth-child(even) {
         background: #F6F6F7;
@@ -219,7 +224,7 @@
         width: 16px;
         height: 2px;
         top: 50%;
-        left: 2px;
+        left: 32px;
 
         background: $mainColor;
         border-radius: 4px;
@@ -234,7 +239,7 @@
         width: 8px;
         height: 2px;
         top: calc(50% + 3px);
-        left: 0px;
+        left: 30px;
 
         background: $mainColor;
         border-radius: 4px;
@@ -278,7 +283,7 @@
 
       width: 12px;
       height: 2px;
-      right: 0px;
+      right: 25px;
       top: 50%;
       transform: translateY(-50%);
 

@@ -14,7 +14,7 @@ import carCard from './carCardSlider';                              // инит 
 import hiddenTextDescription from './hiddenTextDescription';  // скрытый текст на главной
 import scrollTop from './scrollTop';                          // кнопка "вверх"
 import checkbox from "./checkbox-l";                          //  настройка чекбоксов в фильтре
-import toggleFilters from "./toggleFilters";                   // тагл разделов фильтра
+import toggleFilters from "./toggle_inits";                   // тагл разделов фильтра
 import rangeSlider from "./rangeSlider";                       // инит ползунка слайдера
 import colorPickFilter from "./checkbox-color";                // настройка чекбокса выбора цвета фильтра
 import stickySidebar from "./stickySidebar";                   // инит плавающей настройки фильтра
@@ -22,11 +22,12 @@ import select from './select';
 import mobileFilter from "./mobileFilter";                     // мобильный фильтр
 import footerBrands from "./footerBrands";                     // размер списка бренда в футере, вынужденный костыль
 import thumbSlider from "./thumbSlider"
-import toggleList from "./toggleList";
 import toggleOptions from "./toggleOptions";
 import rangeSliderCredit from "./rangeSliderCredit";
 import popup from "./popup";
 import phoneMask from "./phoneMask";
+import ymaps from "./ymaps";
+import toggle_inits from "./toggle_inits";
 
 
 // inits
@@ -43,15 +44,15 @@ checkbox();
 stickySidebar();
 
 toggleMenu();
-toggleList();
 toggleOptions();
 rangeSliderCredit();
 popup();
 phoneMask();
+ymaps();
+toggle_inits();
 
 // filter scripts
 if (document.querySelector('.filters')) {
-  toggleFilters();
   rangeSlider();
   colorPickFilter();
   mobileFilter();

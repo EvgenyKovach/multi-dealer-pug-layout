@@ -7,6 +7,7 @@ include components/newArrivals
 include components/tradeIn
 include components/moreQuestions
 include components/indexDescription
+include components/nextStep
 
 block vars
   -pageOptions.title = 'Карточка авто'
@@ -14,6 +15,7 @@ block vars
 block content
   +breadcrumbs('Карточка Авто', 'Фильтр авто')
   +carInfo()
+  +nextStep()
   +tradeIn()
   +moreQestions()
   +indexDescription()

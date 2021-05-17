@@ -1,0 +1,34 @@
+mixin contactsCard()
+  +b.contacts-card
+    +e.container.container
+      +e.block
+        +e.block-inf
+          +e.block-inf-name Официальный дилер Toyota ТЦ Кунцево
+          +e.block-inf-photos.js-contacts-swiper-inf.swiper-container
+            .swiper-wrapper
+              +e.block-inf-photos-el.swiper-slide
+                img(src="../img/devImages/car4/mb1.jpg")
+              +e.block-inf-photos-el.swiper-slide
+                img(src="../img/devImages/car4/mb2.jpg")
+              +e.block-inf-photos-el.swiper-slide
+                img(src="../img/devImages/car4/mb3.jpg")
+              +e.block-inf-photos-el.swiper-slide
+                img(src="../img/devImages/car4/mb4.jpg")
+              +e.block-inf-photos-el.swiper-slide
+                img(src="../img/devImages/car4/mb5.jpg")
+          +e.block-inf-box
+            +e.SPAN.block-inf-box-title Адрес:
+            +e.SPAN.block-inf-box-value Оренбургская область, п. Пригородный, левая сторона дороги Оренбург-Орск 12.400км
+          +e.block-inf-box
+            +e.SPAN.block-inf-box-title Режим работы:
+            +e.SPAN.block-inf-box-value Пн - Сб <br> 9:00 - 19:30
+            +e.SPAN.block-inf-box-value Воскресенье <br> 9:00 - 19:30
+          +e.block-inf-box-phone
+            +e.SPAN.block-inf-box-title Телефон:
+            +e.A.phone(href="tel:") +7 (3532) 37-33-79
+          +e.block-inf-box-mail
+            +e.SPAN.block-inf-box-title E-mail:
+            +e.A.phone(href="mailto:") info@automobili.com
+
+      +e.block-map(class="js-ya-maps-init" data-x='-8.369326' data-y='115.166023')
+        +e.block-map-container

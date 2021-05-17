@@ -16,6 +16,19 @@ div {
   cursor: inherit;
 }
 
+main {
+  padding-top: 82px;
+
+  @include below($desktop) {
+    padding-top: 131px;
+  }
+
+  @include below($mobileL) {
+    padding-top: 184px;
+  }
+
+}
+
 .row {
   display: flex;
 }

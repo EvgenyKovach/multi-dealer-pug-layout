@@ -96,4 +96,13 @@ export default () => {
 
   });
 
+  let contactsSwiperInf = new Swiper('.js-contacts-swiper-inf', {
+    spaceBetween: 20,
+    slidesPerView: 3,
+    loop: true,
+    speed: 300,
+    allowTouchMove: true,
+    autoplay: true
+  });
+
 };

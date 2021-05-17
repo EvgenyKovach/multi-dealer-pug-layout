@@ -28,11 +28,6 @@
 
     &.closed-list {
       & .filters__section-list {
-        transform: translateY(-40%);
-        position: absolute;
-
-        opacity: 0;
-        z-index: -1;
       }
 
       .toggle-filter-counter {
@@ -50,14 +45,14 @@
   }
 
   &__section-list {
+  }
+
+  &__list-container {
     display: flex;
     flex-direction: column;
     overflow: hidden;
 
     padding: 10px 10px 10px 0px;
-
-    transform-origin: 0 0;
-    transition: .2s ease-in-out;
   }
 
   &__toggle-section-box {
@@ -141,6 +136,16 @@
       
       .filters__name {
         cursor: default;
+      }
+
+    }
+
+    &.active {
+      .toggle-filter-counter {
+        &::after {
+            transform: rotate(0deg);
+        }
+
       }
 
     }

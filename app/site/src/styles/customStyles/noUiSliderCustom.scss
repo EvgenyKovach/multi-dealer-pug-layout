@@ -19,10 +19,11 @@
   cursor: pointer;
 }
 
-.noUi-handle {
-  width: 20px !important;
-  height: 20px !important;
-  top: 1px;
+
+.noUi-horizontal .noUi-handle {
+  width: 20px ;
+  height: 20px;
+  top: -5px;
   background: $mainColor;
   box-shadow: none;
   border: 1px solid #ffffff;
@@ -64,4 +65,9 @@
 
 .filters__section .noUi-handle {
   top: 1px !important;
+}
+
+.credit-form__range-slider .range-slider-box {
+  top: -7px;
+  height: 8px;
 }

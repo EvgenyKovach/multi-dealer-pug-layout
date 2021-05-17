@@ -1,34 +1,45 @@
 mixin header()
-	HEADER
-		.container
-			+b.header
-				+e.item
-					+e.A(href='/').logo
-						SVG
-							USE(xlink:href="../img/spritemap.svg#logo")
-				+e.item
-					+e.menu
-						+e.A.menu-item(href="/templates/brands.html") Найти автомобиль
-						+e.A.menu-item(href="/templates/filterAuto.html") Фильтр авто
-						+e.A.menu-item(href="/templates/carPage.html") Карточка авто
-						+e.A.menu-item(href="#") Контакты
-				+e.item.contacts-info
-					+b.header-info
-						+e.address
-							+e.address-ico
-								SVG
-									USE(xlink:href="../img/spritemap.svg#location")
-							+e.address-info
-								+e.dealer-name Мульти Авто
-								+e.dealer-data Волгоград, ул. Жукова, д. 94
-						+e.phone
-							+e.A.phone-data(href="tel:900") +7 8442 20 06 37
-							+e.dealer-online Сейчас открыто
-								SPAN.online-counter
-				+b.mobile-menu-btn
-					+e.toggle
-				+b.mobile-menu
-					+e.A.item(href="/templates/brands.html") Найти автомобиль
-					+e.A.item(href="/templates/filterAuto.html") Фильтр авто
-					+e.A.item(href="/templates/carPage.html") Карточка авто
-					+e.A.item(href="#") Контакты
+  HEADER
+    .container
+      +b.header
+        +e.item
+          +e.A(href='/').logo
+            SVG
+              USE(xlink:href="../img/spritemap.svg#logo")
+        +e.item
+          +e.menu
+            +e.A.menu-item(href="/templates/brands.html") Найти автомобиль
+            +e.A.menu-item(href="/templates/filter_auto.html") Фильтр авто
+            +e.A.menu-item(href="/templates/car_page.html") Карточка авто
+            +e.A.menu-item(href="/templates/contacts.html") Контакты
+        +e.item.contacts-info
+          +b.header-info
+            +e.address
+              +e.address-ico
+                SVG
+                  USE(xlink:href="../img/spritemap.svg#location")
+              +e.address-info
+                +e.dealer-name Мульти Авто
+                +e.dealer-data Волгоград, ул. Жукова, д. 94
+            +e.phone
+              +e.A.phone-data(href="tel:900") +7 8442 20 06 37
+              +e.dealer-online Сейчас открыто
+                SPAN.online-counter
+        +b.mobile-menu-btn
+          +e.toggle
+        +b.mobile-menu
+          +e.A.item(href="/templates/brands.html") Найти автомобиль
+          +e.A.item(href="/templates/filter_auto.html") Фильтр авто
+          +e.A.item(href="/templates/car_page.html") Карточка авто
+          +e.A.item(href="/templates/contacts.html") Контакты
+          +e.address
+            +e.address-ico
+              SVG
+                USE(xlink:href="../img/spritemap.svg#location")
+            +e.address-info
+              +e.dealer-name Мульти Авто
+              +e.dealer-data Волгоград, ул. Жукова, д. 94
+          +e.phone
+            +e.A.phone-data(href="tel:900") +7 8442 20 06 37
+            +e.dealer-online Сейчас открыто
+              SPAN.online-counter

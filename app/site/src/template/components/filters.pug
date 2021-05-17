@@ -9,16 +9,17 @@ mixin filters()
           +e.name Бренд
           +e.closed-mobile-filter
         +e.section-list
-          +checkbox('Mazda', '77')
-          +checkbox('Kia', '477')
-          +checkbox('BMW', '477')
-          +checkbox('Mercedes Benz', '477')
-          +checkbox('Hyundai', '12')
-          +checkbox('Chevrolet', '1')
-          +checkbox('UAZ', '45')
-          +checkbox('KAMAZ', '98')
-          +checkbox('Changan', '4')
-          +checkbox('Geely', '22')
+          +e.list-container
+            +checkbox('Mazda', '77')
+            +checkbox('Kia', '477')
+            +checkbox('BMW', '477')
+            +checkbox('Mercedes Benz', '477')
+            +checkbox('Hyundai', '12')
+            +checkbox('Chevrolet', '1')
+            +checkbox('UAZ', '45')
+            +checkbox('KAMAZ', '98')
+            +checkbox('Changan', '4')
+            +checkbox('Geely', '22')
       +e.section.closed-list.js-filter-toggle
         +e.section-title.disabled
           +e.name-box
@@ -27,7 +28,8 @@ mixin filters()
           +e.toggle-section-box
             .toggle-filter-counter
         +e.section-list
-          +checkbox('GG-322')
+          +e.list-container
+            +checkbox('GG-322')
       +e.section.closed-list.js-filter-toggle
         +e.section-title
           +e.name-box
@@ -36,12 +38,13 @@ mixin filters()
           +e.toggle-section-box
             .toggle-filter-counter
         +e.section-list
-          +checkbox('Бум')
-          +checkbox('Тыц')
-          +checkbox('Тыщ')
-          +checkbox('Скидыщ')
-          +checkbox('Пау')
-          +checkbox('Пиу')
+          +e.list-container
+            +checkbox('Бум')
+            +checkbox('Тыц')
+            +checkbox('Тыщ')
+            +checkbox('Скидыщ')
+            +checkbox('Пау')
+            +checkbox('Пиу')
       +e.section.closed-list.js-filter-toggle
         +e.section-title
           +e.name-box
@@ -49,41 +52,44 @@ mixin filters()
           +e.toggle-section-box
             .toggle-filter-counter
         +e.section-list
-          +checkbox('Пузов')
-          +checkbox('Энергетический')
-          +checkbox('Выдуманный')
-          +checkbox('Цельнометаллический')
+          +e.list-container
+            +checkbox('Пузов')
+            +checkbox('Энергетический')
+            +checkbox('Выдуманный')
+            +checkbox('Цельнометаллический')
       +e.section
         +e.section-title.un-toggled
           +e.name Бюджет
         +e.section-list.css-slider-section-fix
-          +e.rangeValues.js-range-data
-            INPUT.maxRange(name='price[max]'
-              type='text'
-              value='15000000'
-              class='js-rangeMax')
-            INPUT.minRange(name='price[min]'
-                           type='text'
-                           value='1000'
-                           class='js-rangeMin')
+          +e.list-container
+            +e.rangeValues.js-range-data
+              INPUT.maxRange(name='price[max]'
+                type='text'
+                value='15000000'
+                class='js-rangeMax')
+              INPUT.minRange(name='price[min]'
+                             type='text'
+                             value='1000'
+                             class='js-rangeMin')
 
-          +e.rangeSlider
-            .rangeSlider-box.js-rangeSlider(data-min=''
-                                            data-max=''
-                                            data-from=''
-                                            data-to='')
+            +e.rangeSlider
+              .rangeSlider-box.js-rangeSlider(data-min=''
+                                              data-max=''
+                                              data-from=''
+                                              data-to='')
       +e.section.closed-list.js-filter-toggle
         +e.section-title
           +e.name Цвет кузова
           +e.toggle-section-box
             .toggle-filter-counter
-        +e.section-list.colors-list
-          +checkboxColor('background: red')
-          +checkboxColor('background: blue')
-          +checkboxColor('background: green')
-          +checkboxColor('background: orange')
-          +checkboxColor('background: yellow')
-          +checkboxColor('background: black')
-          +checkboxColor('background: red')
+        +e.section-list
+          +e.list-container.colors-list
+            +checkboxColor('background: red')
+            +checkboxColor('background: blue')
+            +checkboxColor('background: green')
+            +checkboxColor('background: orange')
+            +checkboxColor('background: yellow')
+            +checkboxColor('background: black')
+            +checkboxColor('background: red')
       +e.clearFilter
         BUTTON.btn.small-btn.js-clear-filter Очистить фильтр

@@ -1,0 +1,26 @@
+mixin nextStep()
+  +b.next-step
+    +e.container.container
+      +e.title.page-title Ваш следующий шаг
+      +e.list
+        +e.list-el
+          +e.SPAN.list-el-svg
+            SVG.step-img
+              USE(xlink:href="../img/spritemap.svg#time-speed")
+          +e.list-el-titl Быстрая заявка
+          +e.list-el-text Оформите быструю заявку на Lexus RX
+          +e.list-el-btn.btn.js-open-popup Оставить заявку
+        +e.list-el
+          +e.SPAN.list-el-svg
+            SVG.step-img
+              USE(xlink:href="../img/spritemap.svg#calculation")
+          +e.list-el-titl Кредитный калькулятор
+          +e.list-el-text Рассчитайте свои индивидуальные условия на покупку Lexus RX в кредит от 6 000 ₽/мес.
+          +e.list-el-btn.btn.js-open-popup Рассчитать кредит
+        +e.list-el
+          +e.SPAN.list-el-svg
+            SVG.step-img
+              USE(xlink:href="../img/spritemap.svg#steering-wheelv2")
+          +e.list-el-titl Тест-драйв
+          +e.list-el-text Оцените преимущества Lexus RX на дороге
+          +e.list-el-btn.btn.js-open-popup Оставить заявку

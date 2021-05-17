@@ -1,6 +1,16 @@
 extends default/default
 
+include elements/breadcrumbs
+
+include components/contactsInfo
+include components/contactsCard
+include components/moreQuestions
+
 block vars
   -pageOptions.title = 'Контакты'
 
 block content
+  +breadcrumbs('Контакты')
+  +contactsInfo()
+  +contactsCard()
+  +moreQestions()
